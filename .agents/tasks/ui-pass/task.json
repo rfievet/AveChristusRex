@@ -1,7 +1,7 @@
 {
   "task_id": "task-ui-pass",
   "task_description": "UI/UX feature pass on the existing 'Ave Christus Rex' Vite+React+TS+Tailwind Catholic apologetics site (shown on the user's phone during live debates). Five capabilities: (1) in-topic category jump + strength filter bar on TopicPage; (2) per-argument Copy/Link (deep-link) actions; (3) Open Graph + Twitter Card SEO meta; (4) PWA installability + offline caching via vite-plugin-pwa@0.21.1 with a web app manifest and generated icons; (5) light/parchment reading mode with a dark/ink default and an accessible NavBar theme toggle (Tailwind darkMode:'class'). Must stay data-driven, keep TS strict with zero errors, preserve the ink/parchment/gold + Cormorant/Inter aesthetic, not touch src/data/content/** or .agents/research/**, not change vite server/preview 0.0.0.0:5317 strictPort, and not start/kill the running dev server. Verified via npm run build + npm run typecheck (both exit 0) + static dist/ inspection. README updated.",
-  "status": "pending",
+  "status": "completed",
   "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003", "FEAT-004"],
   "blocked_reason": null
 }
