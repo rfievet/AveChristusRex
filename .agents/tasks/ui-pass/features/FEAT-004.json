@@ -11,7 +11,7 @@
     "Ensure the service worker + SPA fallback do not interfere with React Router: navigateFallback '/index.html' is set; confirm no route is denied. (BrowserRouter routes /, /topic/:id, * are served from index.html.)",
     "Update README.md: add an 'Install on your phone (PWA / offline)' section documenting Add-to-Home-Screen installability and offline caching, and note the SEO/social preview meta. Keep the existing phone-access/run sections accurate."
   ],
-  "status": "pending",
+  "status": "completed",
   "acceptance_criteria": [
     "package.json devDependencies pins vite-plugin-pwa at exactly 0.21.1 and the install succeeded.",
     "scripts/generate-icons.mjs exists and public/pwa-192.png (192x192) and public/pwa-512.png (512x512) exist with correct dimensions.",
@@ -30,5 +30,5 @@
     "Grep vite.config.ts to confirm `host: '0.0.0.0'`, `port: 5317`, `strictPort: true` are intact in both server and preview. Do NOT start a dev server or run preview (port 5317 in use)."
   ],
   "blocked_reason": null,
-  "findings": ""
+  "findings": "Implemented as specified. vite-plugin-pwa installed and pinned EXACTLY to 0.21.1 (removed the caret npm added; package-lock resolved to 0.21.1, confirmed via node_modules/vite-plugin-pwa/package.json). scripts/generate-icons.mjs renders public/favicon.svg over a solid #0e1526 background into public/pwa-192.png (192x192) and public/pwa-512.png (512x512) — dimensions verified with sharp metadata. public/manifest.webmanifest created with the exact name/short_name/theme_color/background_color/display/start_url/icons shape. index.html: FEAT-001's no-flash script + <html class=\"dark\"> and existing favicon/theme-color/description tags were left untouched; added the manifest <link> plus OG (title/description/type/image) and Twitter Card (card/title/description) meta, reusing the existing description content verbatim and omitting og:url (no real domain yet). vite.config.ts: added VitePWA (registerType autoUpdate, injectRegister auto, manifest:false, workbox navigateFallback '/index.html' + globPatterns, devOptions.enabled:false) AFTER react(); server/preview host 0.0.0.0 + port 5317 + strictPort blocks unchanged. README gained an 'Install on your phone (PWA / offline)' section. Verification: `npm run typecheck` and `npm run build` both exit 0; build emitted dist/sw.js + dist/workbox-9c191d2f.js (PWA v0.21.1, generateSW, 11 precache entries) and dist/registerSW.js; `ls dist` shows manifest.webmanifest, sw.js, workbox-*.js, pwa-192.png, pwa-512.png; dist/index.html retains the manifest link and all OG/Twitter meta. Dev server on 5317 was never started or killed; preview was not run."
 }

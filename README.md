@@ -148,6 +148,28 @@ live address to type on the phone, for example:
   ➜  Network: http://192.168.x.x:5317/
 ```
 
+## Install on your phone (PWA / offline)
+
+The site is a Progressive Web App. From the production build (`npm run build` + `npm run
+preview`, or any static host) you can **Add to Home Screen** on a phone — iOS Safari (Share →
+Add to Home Screen) or Android Chrome (install prompt) — and it launches standalone, without
+browser chrome, using the app icon and the ink theme color.
+
+A service worker precaches the built assets, so once the app has loaded it keeps working
+**offline** — handy for a debate on spotty signal. Client-side routes (`/`, `/topic/:id`, and
+the 404) fall back to the app shell, so deep links and refreshes resolve offline too. The
+worker uses `autoUpdate`, so a new build is picked up automatically on the next visit.
+
+The service worker is generated at build time by
+[`vite-plugin-pwa`](https://vite-pwa-org.netlify.app/) and only ships in the production build —
+it is disabled in dev, so the running dev server is unaffected. The install metadata lives in
+[`public/manifest.webmanifest`](public/manifest.webmanifest); the app icons
+(`pwa-192.png`, `pwa-512.png`) are generated from `public/favicon.svg` with
+`node scripts/generate-icons.mjs` (re-run that after editing the SVG).
+
+The `<head>` also carries Open Graph and Twitter Card meta, so a pasted link renders a tidy
+preview (title, description, and the app icon) in chat apps and social feeds.
+
 ## Project structure
 
 ```
