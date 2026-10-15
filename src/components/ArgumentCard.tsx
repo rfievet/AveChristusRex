@@ -56,7 +56,7 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
   return (
     <article
       id={id}
-      className="scroll-mt-24 rounded-xl border border-ink-200/70 bg-parchment-50 p-5 shadow-sm dark:border-ink-600/50 dark:bg-ink-800/40 sm:p-6"
+      className="scroll-mt-48 rounded-xl border border-ink-200/70 bg-parchment-50 p-5 shadow-sm dark:border-ink-600/50 dark:bg-ink-800/40 sm:p-6"
     >
       <header className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
         <h3 className="font-serif text-xl font-semibold leading-snug text-ink-900 dark:text-parchment-50 sm:text-2xl">

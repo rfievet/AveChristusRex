@@ -1,4 +1,4 @@
-// Shared data model for the Ave Jesus Rex content site.
+// Shared data model for the Ave Christus Rex content site.
 // The research JSON files in src/data/content are the single source of truth;
 // these interfaces describe their shape so the app can render them with type safety.
 

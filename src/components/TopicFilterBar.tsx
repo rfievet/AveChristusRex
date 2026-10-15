@@ -60,7 +60,7 @@ function scrollToSection(id: string) {
 
 export default function TopicFilterBar({ sections, activeStrength, onStrengthChange }: TopicFilterBarProps) {
   return (
-    <div className="sticky top-[56px] z-30 -mx-4 mb-10 border-b border-gold-500/30 bg-parchment-50/90 px-4 py-2.5 backdrop-blur dark:border-gold-500/20 dark:bg-ink-900/90 sm:-mx-6 sm:px-6">
+    <div className="sticky top-[69px] z-30 -mx-4 mb-10 border-b border-gold-500/30 bg-parchment-50/90 px-4 py-2.5 backdrop-blur dark:border-gold-500/20 dark:bg-ink-900/90 sm:-mx-6 sm:px-6">
       {/* Category jump chips — horizontally scrollable on mobile, wrapping on wider screens */}
       {sections.length ? (
         <nav aria-label="Jump to section" className="flex gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-x-visible sm:pb-0">
