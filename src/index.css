@@ -95,3 +95,17 @@
     box-shadow: 0 0 0 2px rgba(198, 161, 91, 0.5);
   }
 }
+
+/* Gentle appearance for the transient "Copied" confirmation on argument cards.
+   Only applied via Tailwind's motion-safe: variant, so reduced-motion users get
+   the label with no animation. */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

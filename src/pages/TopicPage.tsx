@@ -186,7 +186,7 @@ export default function TopicPage() {
             <SectionHeader id={id} title={label} count={args.length} />
             <div className="space-y-6">
               {args.map((arg) => (
-                <ArgumentCard key={arg.id} argument={arg} />
+                <ArgumentCard key={arg.id} argument={arg} topicId={topicId} />
               ))}
             </div>
           </section>

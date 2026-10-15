@@ -2,7 +2,7 @@
   "id": "FEAT-003",
   "type": "feat",
   "description": "Copy / Share per argument. Add two small, unobtrusive, on-theme, keyboard-accessible actions to each ArgumentCard: 'Copy' (clean plain-text block of the argument + references) and 'Link' (absolute deep link to that argument). Requires threading an optional topicId prop from TopicPage down to ArgumentCard. Ordered after FEAT-001 (theme) and FEAT-002 so it edits the already-themed ArgumentCard; independent of FEAT-004.",
-  "status": "pending",
+  "status": "completed",
   "steps": [
     "In src/components/ArgumentCard.tsx add an optional prop `topicId?: string` to ArgumentCardProps (do NOT change the data model types in src/data/types.ts — this is a component prop).",
     "In src/pages/TopicPage.tsx, pass topicId to every ArgumentCard: `<ArgumentCard key={arg.id} argument={arg} topicId={topicId} />` (topicId comes from useParams; it is `string | undefined` — ArgumentCard must handle undefined gracefully, disabling/hiding the Link button or falling back to the current pathname).",
@@ -28,5 +28,5 @@
     "Confirm the generated link format matches resultHref() in src/search/searchIndex-driven SearchModal (/topic/<topicId>#<argumentId>) so deep links resolve. Do NOT start a dev server/preview (port 5317 in use)."
   ],
   "blocked_reason": null,
-  "findings": ""
+  "findings": "Added src/hooks/useCopy.ts (Clipboard API + <textarea>/execCommand('copy') fallback, auto-clearing `copied` flag ~1.5s). ArgumentCard: added optional `topicId?: string` prop (component prop only; src/data/types.ts untouched) and two unobtrusive, theme-aware icon buttons (Copy, Link) in the header beside StrengthBadge, each min-h-[44px] min-w-[44px], native <button> with aria-labels. Copy builds `title`\\n\\n`<citation> (<translationUsed>) — <text>` per primaryReferences entry \\n\\n`shortClaim`. Link copies `${origin}/topic/${topicId}#${id}` with `${origin}${pathname}#${id}` fallback when topicId is undefined — matches resultHref() in SearchModal (/topic/<topicId>#<argumentId>), so deep links resolve to the hash-scroll+flash effect. Transient 'Copied' confirmation: visually-hidden aria-live=polite role=status span + a visible gold pill (aria-hidden) that only appears when copied, using motion-safe:animate-[fade-in_150ms]. Added a `fade-in` @keyframes to src/index.css (motion-safe variant means reduced-motion users get no animation). TopicPage threads topicId={topicId} (string|undefined from useParams) to every ArgumentCard. README: new 'Copy & share arguments' section. Verified: `npm run typecheck` and `npm run build` both exit 0; fade-in + sr-only present in dist CSS."
 }

@@ -93,6 +93,24 @@ categories or arguments appear in the bar automatically with no code change. Dee
 search (`/topic/<id>#<argumentId>`) reset the filter to `All` so the target card is always
 reachable, keeping the jump-and-flash highlight intact.
 
+## Copy & share arguments
+
+Every argument card carries two small, keyboard-accessible icon buttons in its header, next
+to the strength badge:
+
+- **Copy** — places a clean, plain-text block on the clipboard: the argument title, each
+  primary reference formatted as `<citation> (<translationUsed>) — <text>`, then the short
+  claim. Ready to paste into a message mid-debate.
+- **Link** — copies an absolute deep link to that exact argument,
+  `${origin}/topic/<topicId>#<argumentId>` (the same route pattern search results use, so a
+  pasted link lands on — and flashes — the right card). When `topicId` is unavailable it
+  falls back to the current pathname.
+
+Both buttons use the async Clipboard API with a `<textarea>` + `execCommand('copy')` fallback
+for insecure contexts and older browsers. A brief, `aria-live` "Copied" confirmation appears
+after a successful copy and clears itself after ~1.5s (animation respects
+`prefers-reduced-motion`).
+
 ## Run it locally
 
 Requirements: Node 20+ and npm.
