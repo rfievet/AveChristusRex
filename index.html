@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- No-flash theme init: must run synchronously before React mounts so the
+         page never paints the wrong theme. Reads the saved preference, falling
+         back to the OS color-scheme on first visit. Default is dark (ink). -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme')
+          var root = document.documentElement
+          if (saved === 'light') {
+            root.classList.remove('dark')
+          } else if (saved === 'dark') {
+            root.classList.add('dark')
+          } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            root.classList.add('dark')
+          } else {
+            root.classList.remove('dark')
+          }
+        } catch (e) {
+          /* localStorage unavailable (private mode): keep the dark default */
+        }
+      })()
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ave Christus Rex</title>
+    <meta
+      name="description"
+      content="Ave Christus Rex — a source-cited case for the divinity of Jesus Christ and the truth of the Catholic Christian faith."
+    />
+
+    <!-- Favicon / app icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#0e1526" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

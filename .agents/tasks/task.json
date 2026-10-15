@@ -1,0 +1,7 @@
+{
+  "task_id": "task-ave-jesus-rex-site",
+  "task_description": "Build a brand-new, future-proof Vite + React + TypeScript + Tailwind CSS Catholic apologetics website 'Ave Jesus Rex'. It renders two sourced, debate-ready topics from pre-existing structured research JSON (jesus-is-god: 22 arguments proving Christ's divinity; jw-critique: 22 entries on the Jehovah's Witnesses organization), plus four coming-soon topic placeholders (Trinity, Eucharist, Papacy, Marian). Data-driven and typed so the user extends the site by editing data under src/data/ only. Mobile-first (primary use is the user's phone), professional and aesthetically pleasing, served on port 5317 bound to 0.0.0.0 for phone access at http://192.168.12.101:5317.",
+  "status": "completed",
+  "feature_order": ["FEAT-001", "FEAT-002", "FEAT-003"],
+  "blocked_reason": null
+}

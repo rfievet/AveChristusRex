@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ave Christus Rex">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#1c2740"/>
+      <stop offset="100%" stop-color="#0e1526"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4d27a"/>
+      <stop offset="45%" stop-color="#d9af52"/>
+      <stop offset="100%" stop-color="#b8862f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep ink field with rounded corners -->
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Thin parchment/gold ring -->
+  <rect x="3.5" y="3.5" width="57" height="57" rx="11.5" fill="none" stroke="#d9af52" stroke-opacity="0.55" stroke-width="1.5"/>
+
+  <g fill="url(#gold)">
+    <!-- Cross surmounting the crown -->
+    <rect x="29.6" y="7" width="4.8" height="16" rx="1.4"/>
+    <rect x="25" y="11.4" width="14" height="4.4" rx="1.4"/>
+
+    <!-- Crown of Christ the King -->
+    <!-- Band -->
+    <rect x="16" y="46" width="32" height="7" rx="2.2"/>
+    <!-- Crown body: five points rising to the center -->
+    <path d="M16 47 L16 30 L24 38 L32 25 L40 38 L48 30 L48 47 Z"/>
+  </g>
+
+  <!-- Jewels on the crown band -->
+  <circle cx="24" cy="49.5" r="1.7" fill="#1c2740"/>
+  <circle cx="32" cy="49.5" r="1.9" fill="#1c2740"/>
+  <circle cx="40" cy="49.5" r="1.7" fill="#1c2740"/>
+
+  <!-- Point tips -->
+  <circle cx="16" cy="30" r="2.1" fill="url(#gold)"/>
+  <circle cx="32" cy="25" r="2.3" fill="url(#gold)"/>
+  <circle cx="48" cy="30" r="2.1" fill="url(#gold)"/>
+</svg>

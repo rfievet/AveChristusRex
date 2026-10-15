@@ -1,0 +1,56 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: 'class',
+  content: ['./index.html', './src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        ink: {
+          DEFAULT: '#0f1724',
+          50: '#f3f5f8',
+          100: '#e2e7ee',
+          200: '#c3ccd9',
+          300: '#9aa8bd',
+          400: '#6c7e99',
+          500: '#4e6080',
+          600: '#3b4a63',
+          700: '#2b374d',
+          800: '#1a2335',
+          900: '#0f1724',
+          950: '#080d16',
+        },
+        parchment: {
+          DEFAULT: '#f5efe1',
+          50: '#fdfbf6',
+          100: '#f9f5ec',
+          200: '#f5efe1',
+          300: '#eadfc8',
+          400: '#dccaa6',
+          500: '#cbb282',
+          600: '#b4976a',
+          700: '#8f7652',
+          800: '#6b5940',
+          900: '#4a3e2e',
+        },
+        gold: {
+          DEFAULT: '#c6a15b',
+          50: '#faf6ec',
+          100: '#f3e9cf',
+          200: '#e8d29f',
+          300: '#dbb96e',
+          400: '#c6a15b',
+          500: '#b78a42',
+          600: '#9c7036',
+          700: '#7c552e',
+          800: '#67472b',
+          900: '#593e28',
+        },
+      },
+      fontFamily: {
+        serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+}

@@ -1,0 +1,392 @@
+{
+  "topic": "Why the Jehovah's Witnesses organization's claim to be the restored true religion is historically and doctrinally problematic",
+  "disclaimer": "This research critiques the doctrines and institutional claims of the Watch Tower Bible and Tract Society and the Jehovah's Witnesses organization, not individuals. It is intended for civil, evidence-based debate. Facts flagged as uncertain are marked in each entry's 'uncertain' field and summarized in jw-critique.md.",
+  "subCategories": [
+    "Historical gap problem",
+    "Failed/revised predictions",
+    "New World Translation issues",
+    "Doctrinal novelties",
+    "Authority problem"
+  ],
+  "arguments": [
+    {
+      "id": "jw-gap-origin-1870s",
+      "title": "The movement did not exist before the 1870s-1880s",
+      "shortClaim": "Jehovah's Witnesses trace to Charles Taze Russell in the 1870s-1880s, not to the apostolic church.",
+      "category": "Historical gap problem",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Zion's Watch Tower and Herald of Christ's Presence, first issue, July 1879 (C. T. Russell)",
+          "translationUsed": "N/A — publication history",
+          "text": "Russell began publishing his magazine in July 1879; thirty congregations of 'Bible Students' formed in 1879-1880."
+        },
+        {
+          "citation": "Zion's Watch Tower Tract Society, formed Pittsburgh, Pennsylvania, 1881; incorporated December 15, 1884",
+          "translationUsed": "N/A — corporate history",
+          "text": "The legal society was formed in 1881 and incorporated in Pennsylvania on December 15, 1884, with Russell as president."
+        }
+      ],
+      "explanation": "The organization's own publication history dates its origin to Russell's work beginning in July 1879, with the corporate society formed in 1881 and incorporated in 1884. There is no documented continuous institutional lineage back to the first century. This is the factual foundation for the user's 'gap' argument: the group is a nineteenth-century American Restorationist movement, not a surviving branch of the apostolic church."
+    },
+    {
+      "id": "jw-gap-name-1931",
+      "title": "The name 'Jehovah's Witnesses' was adopted only in 1931",
+      "shortClaim": "The distinctive name dates to a 1931 convention under J. F. Rutherford, not to antiquity.",
+      "category": "Historical gap problem",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Resolution adopted at the convention in Columbus, Ohio, July 26, 1931 (J. F. Rutherford presiding), based on Isaiah 43:10",
+          "translationUsed": "N/A — organizational history",
+          "text": "On July 26, 1931, Rutherford introduced the new name 'Jehovah's witnesses.' Previously adherents were called 'Bible Students.'"
+        }
+      ],
+      "explanation": "The group's identity and name are modern. Many of its distinctive practices (door-to-door preaching, rejection of holidays, abolition of locally elected elders in 1932, central appointment of leaders from 1938) were introduced by Rutherford after Russell's death in 1916. A religion whose name and defining practices are twentieth-century innovations cannot plausibly be presented as the unaltered continuation of the first-century church."
+    },
+    {
+      "id": "jw-gap-18-centuries",
+      "title": "The 18-century vanishing problem vs Christ's promise to his church",
+      "shortClaim": "If the true church vanished for ~1,800 years until the 1870s, that contradicts Jesus' promise that it never would.",
+      "category": "Historical gap problem",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Matthew 16:18",
+          "translationUsed": "RSV-CE",
+          "text": "And I tell you, you are Peter, and on this rock I will build my church, and the powers of death shall not prevail against it."
+        },
+        {
+          "citation": "Matthew 28:20",
+          "translationUsed": "RSV-CE",
+          "text": "...teaching them to observe all that I have commanded you; and lo, I am with you always, to the close of the age."
+        }
+      ],
+      "nwtRebuttal": "The NWT renders Matthew 16:18 '...the gates of the Grave will not overpower it' and Matthew 28:20 '...I am with you all the days until the conclusion of the system of things,' which does not remove the force of the argument: Jesus promises continuous presence and indefeasibility of his church.",
+      "explanation": "Jesus promised that his church would never be overcome and that he would be with it 'always, to the close of the age.' The JW position effectively requires that genuine Christianity disappeared from the earth for roughly eighteen centuries and was recovered only in the 1870s by one small American group. Pressed in debate: by what authority, from which surviving source, and by what unbroken teaching did this one group alone 'recover' the faith when, on their own account, no faithful church existed to recover it from? The claim is self-undermining — it asserts both that the true faith was lost and that one modern group reliably restored it, with no mechanism connecting the two."
+    },
+    {
+      "id": "jw-pred-1914",
+      "title": "The 1914 prediction and its repeated revision",
+      "shortClaim": "1914 was first predicted as the visible end of worldly rule, then reinterpreted after the fact.",
+      "category": "Failed/revised predictions",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "C. T. Russell, Studies in the Scriptures (identifying October 1914 as the 'full end of the times of the Gentiles')",
+          "translationUsed": "N/A — publication record",
+          "text": "Russell's writings explicitly identified October 1914 as the farthest limit of human rulership and the establishment of Christ's reign; he wrote the figures were 'God's dates, not ours.'"
+        }
+      ],
+      "explanation": "The 1914 expectation of a visible end did not occur as taught. The event was afterward reinterpreted as an 'invisible' heavenly enthronement of Christ in 1914 — a doctrine still central to the organization. The pattern (a confident date, a non-event, then a reinterpretation that preserves the organization's authority) recurs across 1914, 1918, 1925, and 1975."
+    },
+    {
+      "id": "jw-pred-1925",
+      "title": "1925: 'Millions Now Living Will Never Die'",
+      "shortClaim": "Rutherford taught the Old Testament patriarchs would be resurrected in 1925; it failed.",
+      "category": "Failed/revised predictions",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "J. F. Rutherford, Millions Now Living Will Never Die (booklet, published 1920), teaching the return of the patriarchs in 1925",
+          "translationUsed": "N/A — publication record",
+          "text": "Rutherford expected 'the faithful ones of old' (Abraham, Isaac, Jacob, etc.) to be resurrected in 1925. The slogan 'Millions now living will never die' was built on this chronology."
+        }
+      ],
+      "explanation": "The 1925 prediction was specific and empirical — the bodily return of named patriarchs — and could not be spiritualized away like 1914. When it failed, Rutherford later conceded (per researcher George Chryssides' account) that 1925 had been 'merely an expressed opinion.' Note for debate: the slogan booklet was published in 1920 and targeted the year 1925."
+    },
+    {
+      "id": "jw-pred-1975",
+      "title": "1975: the end of 6,000 years of human history",
+      "shortClaim": "From 1966 the Watch Tower raised strong expectations that the millennium might begin in 1975; it did not.",
+      "category": "Failed/revised predictions",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Life Everlasting—in Freedom of the Sons of God (Watch Tower Bible and Tract Society, 1966) and subsequent Watchtower/Awake! articles 1966-1968",
+          "translationUsed": "N/A — publication record",
+          "text": "The 1966 book stated that 6,000 years of human existence would end in the fall of 1975; publications described a 1975 beginning of Christ's reign as 'feasible' and 'appropriate,' and baptisms rose sharply (about 59,000 in 1966 to over 297,000 in 1974)."
+        }
+      ],
+      "explanation": "After 1975 passed, the organization blamed rank-and-file members for 'misreading' its interpretations (The Watchtower, 1976), despite the publications themselves having fueled the expectation. Membership growth collapsed in many countries afterward. This is the most recent and best-documented failed-date episode and is especially useful in debate because the organization's own later admissions acknowledge the expectation it had created."
+    },
+    {
+      "id": "jw-pred-deut-test",
+      "title": "The biblical test for a prophet (Deuteronomy 18) applied to the Watch Tower",
+      "shortClaim": "Scripture gives a test — a prediction that fails did not come from God.",
+      "category": "Failed/revised predictions",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Deuteronomy 18:21-22",
+          "translationUsed": "RSV-CE",
+          "text": "And if you say in your heart, 'How may we know the word which the LORD has not spoken?' — when a prophet speaks in the name of the LORD, if the word does not come to pass or come true, that is a word which the LORD has not spoken; the prophet has spoken it presumptuously, you need not be afraid of him."
+        }
+      ],
+      "explanation": "The organization has at various times described itself as a prophetic voice and 'God's channel.' Deuteronomy 18:21-22 supplies the scriptural standard: predictions made in God's name that fail did not come from God. The repeated failed dates (1914 as originally taught, 1925, 1975) place the organization's prophetic credibility under exactly the test Scripture provides. (Note: modern JW literature now says the group never claimed to be an inspired prophet; the debate point is that it nonetheless set dates in God's name that failed.)"
+    },
+    {
+      "id": "jw-nwt-anonymous",
+      "title": "The New World Translation was produced by an anonymous committee",
+      "shortClaim": "The NWT's translators were never named, so their qualifications cannot be assessed.",
+      "category": "New World Translation issues",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "New World Translation of the Holy Scriptures (Watch Tower Bible and Tract Society); translation committee kept anonymous at the organization's request",
+          "translationUsed": "N/A — translation history",
+          "text": "The identities and credentials of the New World Bible Translation Committee were not published; the organization said this was to give glory to God rather than the translators."
+        }
+      ],
+      "explanation": "Mainstream translations list their scholars and qualifications so the work can be scrutinized. The NWT's committee was anonymous, so independent assessment of the translators' competence in Hebrew, Aramaic, and Koine Greek is impossible. This is a supplementary point: anonymity alone is not proof of error, but combined with the specific disputed renderings below it is significant."
+    },
+    {
+      "id": "jw-nwt-john1-1",
+      "title": "John 1:1 — 'the Word was a god'",
+      "shortClaim": "The NWT renders John 1:1 'a god,' which scholars across traditions call a mistranslation.",
+      "category": "New World Translation issues",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "John 1:1 (New World Translation)",
+          "translationUsed": "NWT",
+          "text": "In the beginning was the Word, and the Word was with God, and the Word was a god."
+        },
+        {
+          "citation": "John 1:1 (RSV-CE)",
+          "translationUsed": "RSV-CE",
+          "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+        }
+      ],
+      "originalLanguage": "Greek: Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος. The predicate 'theos' is anarthrous (no article) and fronted before the verb — a well-known construction (cf. Colwell's rule and Harner's study of qualitative predicate nouns) that normally conveys the Word's divine nature, not that he is 'a god.'",
+      "nwtRebuttal": "The NWT inserts the indefinite article 'a,' treating anarthrous 'theos' as 'a god.' Multiple scholars rejected this: Bruce M. Metzger (1953) called the NWT's distinctive renderings erroneous; William Barclay (1953) called 'the Word was a god' a translation that is 'grammatically impossible'; Julius R. Mantey (co-author of a standard Greek grammar) called it 'a shocking mistranslation.' The anarthrous predicate before the verb is standard Greek for a qualitative/predicate nominative, not an indefinite 'a god.'",
+      "explanation": "This is the single most contested verse. The grammar does not require, and the overwhelming weight of scholarship rejects, the 'a god' rendering. In debate, cite that named scholars from outside Catholicism — Metzger, Barclay, Mantey — specifically criticized this verse, and that the NWT's choice aligns conveniently with its prior doctrine that Jesus is a created lesser 'god.'"
+    },
+    {
+      "id": "jw-nwt-col1-16-17",
+      "title": "Colossians 1:16-17 — the inserted word 'other'",
+      "shortClaim": "The NWT inserts 'other' four times so that Christ is made part of creation.",
+      "category": "New World Translation issues",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Colossians 1:16-17 (New World Translation)",
+          "translationUsed": "NWT",
+          "text": "...by means of him all [other] things were created... All [other] things have been created through him and for him. Also, he is before all [other] things..."
+        },
+        {
+          "citation": "Colossians 1:16-17 (RSV-CE)",
+          "translationUsed": "RSV-CE",
+          "text": "...for in him all things were created, in heaven and on earth... all things were created through him and for him. He is before all things, and in him all things hold together."
+        }
+      ],
+      "originalLanguage": "Greek 'ta panta' = 'all things,' with no word for 'other' (allos/heteros) in the text. The NWT's brackets acknowledge the word is not in the Greek.",
+      "nwtRebuttal": "The Greek contains no word meaning 'other.' Inserting 'other' changes the meaning from 'Christ created all things' (hence not himself a creature) to 'Christ created all other things' (hence himself the first creature). Metzger (1953) listed Colossians 1:15-17 among the NWT's erroneous renderings.",
+      "explanation": "Paul's point is that all things were created in, through, and for Christ, which places him on the Creator side of the Creator/creature divide. The inserted 'other' quietly demotes him to a created being. Even the NWT's own brackets concede the word is not in the original — a strong, concrete debate point."
+    },
+    {
+      "id": "jw-nwt-john8-58",
+      "title": "John 8:58 — 'I have been' vs 'I AM'",
+      "shortClaim": "The NWT renders Jesus' 'ego eimi' as 'I have been,' obscuring the link to Exodus 3:14.",
+      "category": "New World Translation issues",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "John 8:58 (New World Translation)",
+          "translationUsed": "NWT",
+          "text": "Jesus said to them: 'Most truly I say to you, before Abraham came into existence, I have been.'"
+        },
+        {
+          "citation": "John 8:58 (RSV-CE)",
+          "translationUsed": "RSV-CE",
+          "text": "Jesus said to them, 'Truly, truly, I say to you, before Abraham was, I am.'"
+        },
+        {
+          "citation": "Exodus 3:14 (RSV-CE)",
+          "translationUsed": "RSV-CE",
+          "text": "God said to Moses, 'I AM WHO I AM.' And he said, 'Say this to the people of Israel, I AM has sent me to you.'"
+        }
+      ],
+      "originalLanguage": "Greek 'ego eimi' = 'I am' (present tense). The NWT renders it as a past 'I have been.' The Jews' immediate reaction (they picked up stones, John 8:59) indicates they understood a divine self-identification.",
+      "nwtRebuttal": "The NWT's 'I have been' converts a present-tense statement into a perfect/past construction, severing the deliberate echo of the divine name 'I AM' from Exodus 3:14. The crowd's attempt to stone him for blasphemy is strong internal evidence that a divine claim was understood.",
+      "explanation": "Jesus contrasts Abraham's coming-into-being (aorist) with his own timeless 'I am' (present), evoking God's self-revelation in Exodus 3:14. The reaction — immediate stoning for blasphemy — confirms the hearers took it as a claim to deity. The NWT's past-tense rendering removes that force."
+    },
+    {
+      "id": "jw-nwt-jehovah-nt-237",
+      "title": "Inserting 'Jehovah' into the New Testament 237 times",
+      "shortClaim": "The NWT puts 'Jehovah' into the NT 237 times where the Greek manuscripts read Kyrios (Lord) or Theos (God).",
+      "category": "New World Translation issues",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "New World Translation; figure of 237 occurrences of 'Jehovah' in the Christian Greek Scriptures acknowledged by the Watch Tower Society",
+          "translationUsed": "NWT",
+          "text": "The NWT uses 'Jehovah' 237 times in the New Testament in places where the extant Greek texts read only 'kyrios' (Lord) or 'theos' (God)."
+        }
+      ],
+      "originalLanguage": "No extant Greek New Testament manuscript contains the Tetragrammaton (יהוה / YHWH) in the New Testament text; the words that appear are 'kyrios' and 'theos.'",
+      "nwtRebuttal": "The organization argues the apostles would have used the divine name and that later copyists removed it, so it 'restores' it. The hard fact for debate: there is no manuscript evidence — not one critical Greek NT manuscript contains the Tetragrammaton. The insertions are conjectural restorations, not translations of the text that exists.",
+      "explanation": "This is a strong, concrete point. The 237 figure is the organization's own count (and is corroborated in secondary literature, which also notes the practice is 'not unique' to the NWT). The decisive argument is textual: because the Greek says 'kyrios,' many NT passages that call Jesus 'Lord' in words echoing Old Testament texts about YHWH are doctrinally significant — and the NWT's selective substitution of 'Jehovah' can obscure places where the NT applies YHWH-language to Christ. Flag: the 237 count is the Watch Tower's own; confirm the exact number if an interlocutor disputes it."
+    },
+    {
+      "id": "jw-doc-trinity",
+      "title": "Denial of the Trinity",
+      "shortClaim": "JWs reject the Trinity, a doctrine held across Catholic, Orthodox, and mainstream Protestant Christianity.",
+      "category": "Doctrinal novelties",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Should You Believe in the Trinity? (Watch Tower Bible and Tract Society, 1989) and consistent Watchtower teaching",
+          "translationUsed": "N/A — doctrinal publication",
+          "text": "Jehovah's Witnesses reject the Trinity, holding that God the Father ('Jehovah') alone is Almighty God, that Jesus is a separate created being, and that the Holy Spirit is not a person."
+        }
+      ],
+      "explanation": "The Trinity (one God in three co-equal, co-eternal persons) was articulated and defended at the ecumenical councils of Nicaea (325) and Constantinople (381) and is the shared confession of the historic Christian churches East and West. The JW rejection is a doctrinal novelty relative to that two-millennia consensus, formulated by a nineteenth/twentieth-century organization."
+    },
+    {
+      "id": "jw-doc-arianism",
+      "title": "Revived Arianism: Christ as a created being",
+      "shortClaim": "JW Christology repeats the error of Arius, condemned at the Council of Nicaea in 325.",
+      "category": "Doctrinal novelties",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "First Council of Nicaea, A.D. 325 (convened by Emperor Constantine I); the Nicene Creed's 'homoousios' (consubstantial/of one being with the Father)",
+          "translationUsed": "N/A — conciliar history",
+          "text": "Arianism held that the Son was not co-eternal with the Father but was created by the Father before all else. The Council of Nicaea (325) rejected this and confessed the Son as 'of one being' (homoousios) with the Father."
+        }
+      ],
+      "explanation": "The JW teaching that Jesus is God's first and highest creation — a being who began to exist and is subordinate in nature — is the substance of the position associated with Arius, which the whole church condemned at Nicaea in 325. In debate this reframes the JW view not as a fresh recovery of apostolic truth but as a sixteen-centuries-old error the church already examined and rejected. (Scholarly nuance: historians note Arius was not literally the sole founder of 'Arianism,' but the Christological content is the same.)"
+    },
+    {
+      "id": "jw-doc-holy-spirit",
+      "title": "Denial of the Holy Spirit's personhood",
+      "shortClaim": "JWs teach the Holy Spirit is an impersonal 'active force,' not a divine person.",
+      "category": "Doctrinal novelties",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower Bible and Tract Society teaching that the holy spirit is God's 'active force'",
+          "translationUsed": "N/A — doctrinal publication",
+          "text": "Jehovah's Witnesses teach the holy spirit is Jehovah's impersonal active force, not a person."
+        },
+        {
+          "citation": "Acts 5:3-4; John 14:26; Ephesians 4:30 (RSV-CE)",
+          "translationUsed": "RSV-CE",
+          "text": "Scripture ascribes personal acts to the Spirit — being lied to (Acts 5:3-4), teaching and reminding (John 14:26), and being grieved (Ephesians 4:30) — which fit a person, not an impersonal force."
+        }
+      ],
+      "explanation": "The 'active force' doctrine conflicts with New Testament passages that attribute personal attributes and actions to the Holy Spirit (speaking, teaching, being grieved, being lied to as to God). This is a further novelty flowing from the rejection of the Trinity."
+    },
+    {
+      "id": "jw-doc-michael",
+      "title": "Jesus identified as Michael the archangel",
+      "shortClaim": "JWs teach that Jesus is Michael the archangel.",
+      "category": "Doctrinal novelties",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower Bible and Tract Society doctrine identifying Jesus with Michael the archangel (taught consistently in Watchtower literature)",
+          "translationUsed": "N/A — doctrinal publication",
+          "text": "Jehovah's Witnesses teach that 'Michael the archangel' is a title/name of Jesus in his pre-human and heavenly existence."
+        },
+        {
+          "citation": "Hebrews 1:5-6, 13 (RSV-CE)",
+          "translationUsed": "RSV-CE",
+          "text": "To what angel did God ever say, 'Thou art my Son...'? And again, 'Let all God's angels worship him.'... But to what angel has he ever said, 'Sit at my right hand...'?"
+        }
+      ],
+      "explanation": "Identifying Jesus with a created archangel is required by the broader JW view that Christ is a creature. Hebrews 1 argues at length that the Son is superior to the angels and is worshiped by them — the opposite of classifying him as one of them. Flag: I was unable in this environment to verify the exact Watchtower issue/page that most explicitly states the Michael identification; present the doctrine as consistent JW teaching and cite a specific issue only after confirming it."
+    },
+    {
+      "id": "jw-doc-144000",
+      "title": "The 144,000 limited heavenly class",
+      "shortClaim": "JWs teach that only 144,000 go to heaven; the rest live forever on a paradise earth.",
+      "category": "Doctrinal novelties",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower doctrine based on a literal reading of Revelation 7:4 and 14:1-4",
+          "translationUsed": "N/A — doctrinal publication",
+          "text": "Jehovah's Witnesses teach that exactly 144,000 'anointed' Christians go to heaven to rule with Christ, while the 'great crowd' lives forever on earth."
+        }
+      ],
+      "explanation": "Revelation 7 and 14 describe the 144,000 symbolically (12,000 from each of twelve tribes), and Revelation 7:9 immediately describes 'a great multitude which no man could number' also before the throne in heaven. Reading 144,000 as a literal cap on heavenly salvation is a distinctive JW construction not found in historic Christian interpretation, and it creates a two-tier membership (anointed vs great crowd) with practical consequences for who may partake of communion."
+    },
+    {
+      "id": "jw-doc-blood",
+      "title": "Prohibition of blood transfusions",
+      "shortClaim": "JWs forbid blood transfusions, applying Old Testament dietary blood laws to modern medicine.",
+      "category": "Doctrinal novelties",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower Bible and Tract Society teaching prohibiting blood transfusions (position commonly dated to a 1945 Watchtower article)",
+          "translationUsed": "N/A — doctrinal publication",
+          "text": "Jehovah's Witnesses refuse blood transfusions, citing Genesis 9:4, Leviticus 17:10-14, and Acts 15:28-29 ('abstain from blood')."
+        }
+      ],
+      "explanation": "The cited texts concern eating blood and Old Testament sacrificial/dietary law, not intravenous medical transfusion, which did not exist in the biblical world. Applying 'abstain from blood' (a first-century dietary/ritual directive) to transfusion medicine is a modern interpretive move with grave real-world consequences. The policy has also shifted over time (certain blood fractions and procedures have been permitted at different points), illustrating the 'new light' pattern. Flag: the specific year 1945 is commonly cited for the transfusion ban; I was unable to re-verify the exact article in this environment — confirm before asserting the date in debate."
+    },
+    {
+      "id": "jw-doc-cross",
+      "title": "Rejection of the cross ('torture stake')",
+      "shortClaim": "Since the 1930s JWs teach Jesus died on an upright stake, not a cross.",
+      "category": "Doctrinal novelties",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower Bible and Tract Society: used the 'Cross and Crown' symbol on its publications until 1931; from 1936 taught that Jesus died on a single upright stake, not a cross",
+          "translationUsed": "N/A — doctrinal history",
+          "text": "The organization used the Cross and Crown symbol until 1931 and from 1936 rejected the cross, teaching a 'torture stake' (Greek 'stauros')."
+        }
+      ],
+      "explanation": "This is a strong internal-consistency point: the organization itself used the cross symbol until 1931 and only reversed course from 1936 — a documented doctrinal reversal, not an unchanging apostolic teaching. The 'stake' claim rests on a narrow lexical argument about 'stauros' that the broad weight of historical and lexical scholarship does not support, and in any case the shape of the execution device is not the basis of the deity question."
+    },
+    {
+      "id": "jw-doc-shunning",
+      "title": "Disfellowshipping and shunning",
+      "shortClaim": "JWs practice strict shunning of former members, including family.",
+      "category": "Doctrinal novelties",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower Bible and Tract Society teaching on disfellowshipping and avoidance of expelled or disassociated members",
+          "translationUsed": "N/A — doctrinal publication",
+          "text": "Jehovah's Witnesses are directed to avoid normal social and family contact with those who are disfellowshipped or who formally leave the organization."
+        }
+      ],
+      "explanation": "The organization defends shunning as protecting congregational purity, but the comprehensive avoidance of family members for leaving or disagreeing is a severe practice that functions to insulate the organization's authority from scrutiny. In debate it is relevant to the 'authority problem': a system that penalizes questioning by social and familial exclusion discourages the very examination that would test its doctrinal claims."
+    },
+    {
+      "id": "jw-auth-new-light",
+      "title": "Changing doctrine via 'new light'",
+      "shortClaim": "The organization repeatedly reverses teachings and calls the changes 'new light.'",
+      "category": "Authority problem",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower teaching that doctrinal 'adjustments' are 'new light,' based on Proverbs 4:18",
+          "translationUsed": "N/A — doctrinal publication",
+          "text": "Members are directed to welcome doctrinal changes as 'new light' or 'new understanding,' citing Proverbs 4:18 ('the path of the righteous is like the light of dawn, which shines brighter and brighter')."
+        }
+      ],
+      "explanation": "Documented reversals include the cross symbol (used until 1931, rejected from 1936), the dates (1914 reinterpreted, 1925, 1975), the definition of 'this generation,' and various blood/organ-transplant positions over the decades. Proverbs 4:18 describes growth in righteousness, not a license to reverse teachings that were previously presented as God's own truth. The 'new light' framework lets the organization retain authority after each failed or reversed teaching, which is precisely the mechanism a true-prophet test (Deuteronomy 18) is meant to expose."
+    },
+    {
+      "id": "jw-auth-sole-channel",
+      "title": "The sole-channel claim: 'the faithful and discreet slave'",
+      "shortClaim": "The Governing Body claims to be God's sole channel of truth on earth.",
+      "category": "Authority problem",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower / Governing Body of Jehovah's Witnesses: the 'faithful and discreet slave' (Matthew 24:45-47); Governing Body formally established 1971",
+          "translationUsed": "N/A — organizational doctrine",
+          "text": "Until late 2012 the Governing Body described itself as the representative and spokesman for the 'faithful and discreet slave class'; since 2012 it has identified the 'faithful and discreet slave' with the Governing Body itself. The Governing Body was formally established in 1971."
+        }
+      ],
+      "explanation": "The organization claims to be the single divinely appointed channel through which God teaches humanity, which makes dissent equivalent to opposing God. Combined with the shunning policy and the 'new light' mechanism, this creates a closed authority loop: the organization defines truth, penalizes those who question it, and reinterprets its own failed claims while retaining its authority. The sole-channel claim is itself a modern assertion — the Governing Body as the authoritative body was only formally established in 1971, and its self-identification as the 'faithful and discreet slave' was reformulated as recently as 2012. For debate, this is the keystone: nearly every other problem (failed dates, mistranslation, novel doctrines) is shielded by the claim that one must trust this one organization absolutely."
+    }
+  ]
+}

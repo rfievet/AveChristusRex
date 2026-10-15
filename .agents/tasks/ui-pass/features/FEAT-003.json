@@ -1,0 +1,32 @@
+{
+  "id": "FEAT-003",
+  "type": "feat",
+  "description": "Copy / Share per argument. Add two small, unobtrusive, on-theme, keyboard-accessible actions to each ArgumentCard: 'Copy' (clean plain-text block of the argument + references) and 'Link' (absolute deep link to that argument). Requires threading an optional topicId prop from TopicPage down to ArgumentCard. Ordered after FEAT-001 (theme) and FEAT-002 so it edits the already-themed ArgumentCard; independent of FEAT-004.",
+  "status": "pending",
+  "steps": [
+    "In src/components/ArgumentCard.tsx add an optional prop `topicId?: string` to ArgumentCardProps (do NOT change the data model types in src/data/types.ts — this is a component prop).",
+    "In src/pages/TopicPage.tsx, pass topicId to every ArgumentCard: `<ArgumentCard key={arg.id} argument={arg} topicId={topicId} />` (topicId comes from useParams; it is `string | undefined` — ArgumentCard must handle undefined gracefully, disabling/hiding the Link button or falling back to the current pathname).",
+    "In ArgumentCard add a small action area (icon buttons) near the StrengthBadge in the header OR in a footer row — unobtrusive and on-theme (gold/ink, theme-aware). Add a 'Copy' button and a 'Link' button, each >=44px tap target, with aria-labels and keyboard focusability (native <button>).",
+    "Implement Copy: build a clean plain-text block = argument `title`, then each primaryReferences entry formatted as `<citation> (<translationUsed>) — <text>`, then the `shortClaim` (include it). Copy via `navigator.clipboard.writeText(text)` wrapped in try/catch with a graceful fallback (create a temporary textarea, select, document.execCommand('copy'), remove) for insecure contexts/older browsers.",
+    "Implement Link: copy `${window.location.origin}/topic/${topicId}#${id}` using the same clipboard helper. If topicId is undefined, fall back to `${window.location.origin}${window.location.pathname}#${id}`.",
+    "Add a brief, accessible 'Copied' confirmation: a small transient label/toast with `aria-live=\"polite\"` (or role=status) that appears for ~1.5s after a successful copy of either button, then clears. Must not shift layout jarringly. Respect prefers-reduced-motion if animated.",
+    "Factor the clipboard write + fallback + 'copied' state into a tiny local helper or a src/hooks/useCopy.ts hook if it keeps ArgumentCard clean. Keep it self-contained.",
+    "Update README.md: add a 'Copy & share arguments' section documenting the per-argument Copy (plain-text citation block) and Link (deep link to /topic/<id>#<argumentId>) buttons."
+  ],
+  "acceptance_criteria": [
+    "Each ArgumentCard shows unobtrusive, on-theme, keyboard-accessible Copy and Link buttons (>=44px tap targets, aria-labels) that work in both light and dark themes.",
+    "Copy places on the clipboard a plain-text block containing the title, each reference as `<citation> (<translationUsed>) — <text>`, and the shortClaim; a fallback path exists when navigator.clipboard is unavailable.",
+    "Link places on the clipboard an absolute URL `${origin}/topic/${topicId}#${argumentId}` (with a pathname fallback when topicId is undefined).",
+    "An aria-live 'Copied' confirmation appears briefly after a successful copy.",
+    "topicId is threaded from TopicPage to ArgumentCard via an optional prop; src/data/types.ts data shapes are unchanged.",
+    "npm run build and npm run typecheck both exit 0.",
+    "The deep link, when pasted, lands on the correct argument (same route pattern the search modal already uses)."
+  ],
+  "verification": [
+    "Run `npm run build` and `npm run typecheck` from repo root — both must exit 0 (confirms the optional topicId prop and clipboard code typecheck under strict).",
+    "Read ArgumentCard.tsx + TopicPage.tsx to confirm the prop is threaded and the Copy/Link text formats match the spec.",
+    "Confirm the generated link format matches resultHref() in src/search/searchIndex-driven SearchModal (/topic/<topicId>#<argumentId>) so deep links resolve. Do NOT start a dev server/preview (port 5317 in use)."
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}

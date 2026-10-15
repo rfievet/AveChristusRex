@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* Light (parchment) is the base; the .dark override restores the ink theme.
+     The no-flash script in index.html sets .dark before paint, so the dark
+     default never flashes the light base. */
+  body {
+    @apply bg-parchment-100 text-ink-900 font-sans antialiased;
+    min-height: 100vh;
+    /* Guard against any single child forcing a wider-than-viewport layout
+       on very narrow phones (e.g. a long citation or original-language line). */
+    overflow-x: hidden;
+  }
+
+  .dark body {
+    @apply bg-ink-900 text-parchment-100;
+  }
+
+  /* Visible focus rings for every keyboard-focusable element. Mouse clicks
+     stay clean (focus-visible only), but Tab navigation always shows a clear
+     gold ring with an offset that reads against both themes. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-gold-500 ring-offset-2 ring-offset-parchment-100;
+    border-radius: 0.25rem;
+  }
+
+  .dark :focus-visible {
+    @apply ring-gold-300 ring-offset-ink-900;
+  }
+
+  /* Long, unbreakable strings (Greek/Hebrew text, citations) must wrap rather
+     than push the layout wider than a 360px phone. */
+  p,
+  blockquote,
+  cite,
+  summary,
+  li {
+    overflow-wrap: break-word;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-ink-900;
+    text-wrap: balance;
+  }
+
+  .dark h1,
+  .dark h2,
+  .dark h3,
+  .dark h4,
+  .dark h5,
+  .dark h6 {
+    @apply text-parchment-50;
+  }
+
+  ::selection {
+    @apply bg-gold-400 text-ink-900;
+  }
+}
+
+/* Brief gold flash on the argument a search result jumped to. Respects users
+   who prefer reduced motion by skipping the animation (the ring still shows). */
+.search-flash {
+  animation: search-flash 1.6s ease-out;
+}
+
+@keyframes search-flash {
+  0% {
+    box-shadow: 0 0 0 0 rgba(198, 161, 91, 0);
+    border-color: rgba(198, 161, 91, 0.9);
+  }
+  15% {
+    box-shadow: 0 0 0 3px rgba(198, 161, 91, 0.55);
+    border-color: rgba(198, 161, 91, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(198, 161, 91, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-flash {
+    animation: none;
+    box-shadow: 0 0 0 2px rgba(198, 161, 91, 0.5);
+  }
+}

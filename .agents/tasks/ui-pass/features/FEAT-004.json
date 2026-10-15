@@ -1,0 +1,34 @@
+{
+  "id": "FEAT-004",
+  "type": "feat",
+  "description": "Social/SEO meta + PWA installability & offline. Add Open Graph + Twitter Card meta to index.html; generate PWA PNG icons from the SVG with a dev-only sharp script; add a web app manifest; and wire vite-plugin-pwa (pinned 0.21.1) for offline precaching with an SPA fallback — without disturbing the dev/preview server on 5317. Independent of FEAT-001/002/003; ordered last because it is the most build-system-heavy and benefits from a stable UI underneath. It also adds the theme-color-consistent manifest after the theme feature exists.",
+  "steps": [
+    "Install the PWA plugin pinned exactly: run `npm install -D vite-plugin-pwa@0.21.1` from repo root (its peer range includes vite ^5.0.0 and it brings workbox-build/workbox-window ^7.3.0). Confirm package.json/package-lock.json updated. Do not change any other dependency versions.",
+    "Generate PWA icons: create scripts/generate-icons.mjs that imports sharp (already devDependency 0.33.5) and renders public/favicon.svg into public/pwa-192.png (192x192) and public/pwa-512.png (512x512) with a solid #0e1526 background (so maskable icons look right). Run `node scripts/generate-icons.mjs` once and commit the two PNGs to public/. apple-touch-icon.png (180x180) already exists and is reused as-is.",
+    "Create public/manifest.webmanifest: { name: 'Ave Christus Rex', short_name: 'Christus Rex', theme_color: '#0e1526', background_color: '#0e1526', display: 'standalone', start_url: '/', icons: [ {src:'/apple-touch-icon.png', sizes:'180x180', type:'image/png'}, {src:'/pwa-192.png', sizes:'192x192', type:'image/png', purpose:'any'}, {src:'/pwa-512.png', sizes:'512x512', type:'image/png', purpose:'any'}, {src:'/pwa-512.png', sizes:'512x512', type:'image/png', purpose:'maskable'} ] }.",
+    "In index.html <head>: add `<link rel=\"manifest\" href=\"/manifest.webmanifest\" />`. Add Open Graph meta: og:title 'Ave Christus Rex', og:description (reuse the existing meta description content verbatim), og:type 'website', og:image '/apple-touch-icon.png'. Add Twitter Card meta: twitter:card 'summary', twitter:title 'Ave Christus Rex', twitter:description (same description). KEEP the existing favicon/apple-touch-icon/theme-color/description tags. No real domain yet so omit og:url (root-relative image is fine). (If FEAT-001 already added the no-flash script + class=\"dark\", do not disturb it.)",
+    "In vite.config.ts: import { VitePWA } from 'vite-plugin-pwa' and add VitePWA({ registerType: 'autoUpdate', injectRegister: 'auto', manifest: false, workbox: { navigateFallback: '/index.html', globPatterns: ['**/*.{js,css,html,svg,png,webmanifest}'] }, devOptions: { enabled: false } }) to the plugins array AFTER react(). manifest:false means our static public/manifest.webmanifest is the single source of truth and the plugin only emits the service worker. devOptions.enabled:false keeps the running dev server on 5317 untouched. DO NOT modify the server or preview blocks (host 0.0.0.0, port 5317, strictPort:true must remain exactly).",
+    "Ensure the service worker + SPA fallback do not interfere with React Router: navigateFallback '/index.html' is set; confirm no route is denied. (BrowserRouter routes /, /topic/:id, * are served from index.html.)",
+    "Update README.md: add an 'Install on your phone (PWA / offline)' section documenting Add-to-Home-Screen installability and offline caching, and note the SEO/social preview meta. Keep the existing phone-access/run sections accurate."
+  ],
+  "status": "pending",
+  "acceptance_criteria": [
+    "package.json devDependencies pins vite-plugin-pwa at exactly 0.21.1 and the install succeeded.",
+    "scripts/generate-icons.mjs exists and public/pwa-192.png (192x192) and public/pwa-512.png (512x512) exist with correct dimensions.",
+    "public/manifest.webmanifest exists with the specified name/short_name/theme_color/background_color/display/start_url/icons and is linked from index.html.",
+    "index.html contains og:title/og:description/og:type/og:image and twitter:card/twitter:title/twitter:description, with the existing favicon/theme-color/description tags preserved.",
+    "vite.config.ts registers VitePWA (autoUpdate, SPA navigateFallback, devOptions disabled) and the server/preview host 0.0.0.0 + port 5317 + strictPort blocks are unchanged.",
+    "After build, dist/ contains manifest.webmanifest, a service worker (sw.js) + workbox runtime, and the PWA PNG icons; dist/index.html keeps the manifest link and OG/Twitter meta.",
+    "npm run build and npm run typecheck both exit 0; the dev server on 5317 was never started or killed."
+  ],
+  "verification": [
+    "Run `npm run build` from repo root — must exit 0.",
+    "Run `npm run typecheck` — must exit 0.",
+    "`ls dist` and confirm manifest.webmanifest, sw.js (and workbox-*.js), pwa-192.png, pwa-512.png are present.",
+    "Read dist/index.html and confirm the manifest <link> and all OG/Twitter meta are present.",
+    "Verify sizes: `node -e \"import('sharp').then(s=>s.default('public/pwa-512.png').metadata().then(m=>console.log(m.width,m.height)))\"` (or `file public/pwa-192.png`) shows 512x512 / 192x192.",
+    "Grep vite.config.ts to confirm `host: '0.0.0.0'`, `port: 5317`, `strictPort: true` are intact in both server and preview. Do NOT start a dev server or run preview (port 5317 in use)."
+  ],
+  "blocked_reason": null,
+  "findings": ""
+}
