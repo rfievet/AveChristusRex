@@ -4,27 +4,28 @@
   "theme_color": "#0e1526",
   "background_color": "#0e1526",
   "display": "standalone",
-  "start_url": "/",
+  "scope": "/AveChristusRex/",
+  "start_url": "/AveChristusRex/",
   "icons": [
     {
-      "src": "/apple-touch-icon.png",
+      "src": "/AveChristusRex/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/pwa-192.png",
+      "src": "/AveChristusRex/pwa-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/pwa-512.png",
+      "src": "/AveChristusRex/pwa-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/pwa-512.png",
+      "src": "/AveChristusRex/pwa-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

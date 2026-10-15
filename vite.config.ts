@@ -4,7 +4,11 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // Host 0.0.0.0 so phones on the same wifi can reach the dev/preview server.
 // Port 5317 is strict so it fails loudly instead of silently moving.
+//
+// GitHub Pages serves this project from a subpath (https://rfievet.github.io/AveChristusRex/),
+// so `base` must match the repo name. Keep the leading & trailing slash.
 export default defineConfig({
+  base: '/AveChristusRex/',
   plugins: [
     react(),
     // Emits a service worker that precaches the built app for offline use.
@@ -17,7 +21,8 @@ export default defineConfig({
       injectRegister: 'auto',
       manifest: false,
       workbox: {
-        navigateFallback: '/index.html',
+        // Resolved against the base, so this becomes /AveChristusRex/index.html on Pages.
+        navigateFallback: 'index.html',
         globPatterns: ['**/*.{js,css,html,svg,png,webmanifest}'],
       },
       devOptions: { enabled: false },

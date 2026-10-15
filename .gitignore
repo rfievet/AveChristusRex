@@ -7,3 +7,6 @@ logs
 *.log
 npm-debug.log*
 .vite
+
+# Workflow scratch (plans, research notes, reviews) — not part of the shipped site
+.agents

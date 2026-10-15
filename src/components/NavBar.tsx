@@ -11,6 +11,7 @@ export default function NavBar({ onOpenSearch }: NavBarProps) {
   const [open, setOpen] = useState(false)
   const { isDark, toggleTheme } = useTheme()
   const topics = listTopics()
+  const liveTopics = topics.filter((t) => t.status === 'live')
 
   const close = () => setOpen(false)
   const openSearch = () => {
@@ -74,36 +75,25 @@ export default function NavBar({ onOpenSearch }: NavBarProps) {
         </Link>
 
         <div className="flex items-center gap-1.5">
-          {/* Desktop links */}
-          <ul className="hidden items-center gap-1 lg:flex">
-          {topics.map((topic) =>
-            topic.status === 'live' ? (
-              <li key={topic.id}>
-                <NavLink
-                  to={`/topic/${topic.id}`}
-                  className={({ isActive }) =>
-                    `rounded-md px-3 py-2 text-sm font-medium transition-colors ${
-                      isActive
-                        ? 'bg-gold-900/15 text-gold-700 dark:bg-gold-900/30 dark:text-gold-200'
-                        : 'text-ink-700 hover:bg-gold-900/10 hover:text-gold-700 dark:text-parchment-200 dark:hover:bg-ink-700/50 dark:hover:text-gold-200'
-                    }`
-                  }
-                >
-                  {topic.navLabel}
-                </NavLink>
-              </li>
-            ) : (
-              <li key={topic.id}>
-                <span
-                  className="cursor-default rounded-md px-3 py-2 text-sm font-medium text-ink-400 dark:text-parchment-500"
-                  title="Coming soon"
-                  aria-disabled="true"
-                >
-                  {topic.navLabel}
-                </span>
-              </li>
-            ),
-          )}
+          {/* Desktop links — only live topics belong in the always-visible bar.
+              Coming-soon topics live in the menu so the header stays uncrowded. */}
+          <ul className="hidden items-center gap-0.5 lg:flex">
+          {liveTopics.map((topic) => (
+            <li key={topic.id}>
+              <NavLink
+                to={`/topic/${topic.id}`}
+                className={({ isActive }) =>
+                  `whitespace-nowrap rounded-md px-2.5 py-2 text-sm font-medium transition-colors ${
+                    isActive
+                      ? 'bg-gold-900/15 text-gold-700 dark:bg-gold-900/30 dark:text-gold-200'
+                      : 'text-ink-700 hover:bg-gold-900/10 hover:text-gold-700 dark:text-parchment-200 dark:hover:bg-ink-700/50 dark:hover:text-gold-200'
+                  }`
+                }
+              >
+                {topic.navLabel}
+              </NavLink>
+            </li>
+          ))}
           </ul>
 
           {/* Desktop search box (opens the command palette) */}

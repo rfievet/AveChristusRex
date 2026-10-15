@@ -2,6 +2,25 @@
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
+    <!-- SPA redirect restore (pairs with public/404.html for GitHub Pages deep
+         links). Must run before the router boots: it turns the /?/path query the
+         404 page produced back into a real path in the address bar.
+         Technique: https://github.com/rafgraph/spa-github-pages (MIT). -->
+    <script>
+      (function () {
+        var l = window.location
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&')
+            })
+            .join('?')
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash)
+        }
+      })()
+    </script>
     <!-- No-flash theme init: must run synchronously before React mounts so the
          page never paints the wrong theme. Reads the saved preference, falling
          back to the OS color-scheme on first visit. Default is dark (ink). -->
@@ -38,7 +57,11 @@
       content="Ave Christus Rex — a source-cited case for the divinity of Jesus Christ and the truth of the Catholic Christian faith."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/apple-touch-icon.png" />
+    <meta property="og:url" content="https://rfievet.github.io/AveChristusRex/" />
+    <meta
+      property="og:image"
+      content="https://rfievet.github.io/AveChristusRex/apple-touch-icon.png"
+    />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />

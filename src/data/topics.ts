@@ -1,6 +1,8 @@
 import type { TopicMeta } from './types'
 import jesusIsGod from './content/jesus-is-god'
+import objections from './content/objections'
 import jwCritique from './content/jw-critique'
+import sources from './content/sources'
 
 // Ordered topic registry. This is the single place the site is extended:
 // - add a new argument -> edit the matching JSON in src/data/content/
@@ -18,6 +20,16 @@ export const topics: TopicMeta[] = [
     loadContent: () => jesusIsGod,
   },
   {
+    id: 'objections',
+    navLabel: 'Objections & Rebuttals',
+    title: "Answering the Watch Tower's Verses",
+    blurb:
+      "The verses a Jehovah's Witness raises to deny Christ's divinity — each with the orthodox, debate-ready answer.",
+    status: 'live',
+    accent: 'gold',
+    loadContent: () => objections,
+  },
+  {
     id: 'jw-critique',
     navLabel: "Jehovah's Witnesses",
     title: 'Examining the Watch Tower',
@@ -26,6 +38,16 @@ export const topics: TopicMeta[] = [
     status: 'live',
     accent: 'ink',
     loadContent: () => jwCritique,
+  },
+  {
+    id: 'sources',
+    navLabel: 'Sources & Method',
+    title: 'Sources & Method',
+    blurb:
+      'The translations, manuscripts, and grammar rules behind the arguments — and an honest look at the New World Translation.',
+    status: 'live',
+    accent: 'ink',
+    loadContent: () => sources,
   },
   {
     id: 'trinity',

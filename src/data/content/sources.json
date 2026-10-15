@@ -1,0 +1,177 @@
+{
+  "title": "Sources & Method",
+  "subtitle": "How this site handles Scripture: the translation shown, the original languages, the manuscripts behind the flagship verses, the two Greek-grammar rules that recur, and an honest look at the New World Translation's method.",
+  "displayTranslation": "Douay-Rheims American Edition (DRA, 1899)",
+  "displayTranslationNote": "Displayed English Scripture throughout the site is the Douay-Rheims (DRA, Challoner revision), verified against drbo.org. It is a Catholic, public-domain translation, which keeps the displayed text neutral and checkable; where the Greek or Hebrew decides a dispute, the original language is given with transliteration rather than relying on any one English version.",
+  "divineNameNote": "The divine name is the Tetragrammaton, four Hebrew consonants \u05d9\u05d4\u05d5\u05d4 (YHWH), vocalized 'Yahweh' (rendered 'Jehovah' by the Watch Tower Society), revealed in Exodus 3:14-15 ('I AM WHO AM'). It is the backdrop to the 'I AM' (John 8:58) and 'First and the Last' (Revelation / Isaiah) arguments elsewhere on the site.",
+  "methodologyNote": "This page is the apparatus behind the arguments, not a set of proof-texts, so every item is marked 'supplementary.' It states which translation is displayed and why, the original-language basis, the oldest manuscript witnesses and what they do (and do not) prove, the two recurring Greek-grammar rules, and the documented facts about the New World Translation's committee and its 237 insertions of 'Jehovah' into the New Testament. Points that are easy to overstate in debate (Colwell's rule; what a manuscript 'proves'; the 'J' sources) are flagged under 'Honest caveats' so they are used accurately.",
+  "categories": [
+    "Translations used",
+    "Manuscript evidence",
+    "Greek grammar tools",
+    "About the New World Translation"
+  ],
+  "arguments": [
+    {
+      "id": "src-display-translation",
+      "title": "Why the Douay-Rheims (DRA) for displayed verses",
+      "shortClaim": "The site shows the Douay-Rheims because it is Catholic, public-domain, and checkable \u2014 and defers to the original languages where they decide a dispute.",
+      "category": "Translations used",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Douay-Rheims American Edition (DRA, 1899), Challoner revision",
+          "translationUsed": "N/A \u2014 reference work",
+          "text": "Public-domain Catholic English translation of the Latin Vulgate (Challoner revision), verified here against drbo.org."
+        }
+      ],
+      "explanation": "Every English verse quoted on this site is the Douay-Rheims (DRA). Three reasons: it is a recognized Catholic translation; it is in the public domain, so it can be quoted freely and checked by anyone; and using one consistent translation keeps the display text neutral rather than importing a disputed modern wording into the argument itself. Where the real weight of a point rests on the Greek or Hebrew, the site gives the original language with a transliteration instead of leaning on any single English rendering \u2014 so the case does not stand or fall on a translation choice."
+    },
+    {
+      "id": "src-original-languages",
+      "title": "The original-language basis: Greek NT, Hebrew OT, and the Septuagint",
+      "shortClaim": "Disputes are settled in the languages the Scriptures were written in: Koine Greek for the New Testament, Hebrew (Masoretic) for the Old, with the ancient Greek Septuagint where it bears on a text.",
+      "category": "Translations used",
+      "strength": "supplementary",
+      "explanation": "The New Testament was written in Koine (common) Greek; the Old Testament in Hebrew, with small Aramaic portions, preserved in the Masoretic Text. The Septuagint (LXX) \u2014 the ancient Greek translation of the Old Testament used by many New Testament writers \u2014 matters at specific verses, for example Proverbs 8:22 (where the LXX reads 'created') and the wording the Gospel writers quote. When this site cites a Greek or Hebrew word, it is pointing to the layer where the dispute is actually decided, beneath any English translation."
+    },
+    {
+      "id": "src-manuscripts",
+      "title": "The oldest manuscripts behind John 1:1 and John 8:58",
+      "shortClaim": "The earliest Greek witnesses attest the text of the flagship verses; none support an indefinite 'a god.'",
+      "category": "Manuscript evidence",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "John 1:1",
+          "translationUsed": "DRA",
+          "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+        },
+        {
+          "citation": "John 8:58",
+          "translationUsed": "DRA",
+          "text": "Jesus said to them: Amen, amen I say to you, before Abraham was made, I am."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Greek",
+        "text": "P66 \u00b7 P75 \u00b7 \u2135 (01) \u00b7 B (03)",
+        "translit": "Papyrus 66, Papyrus 75, Codex Sinaiticus, Codex Vaticanus",
+        "note": "Papyrus 66 (P66, c. 200) and Papyrus 75 (P75, early 3rd century) are among the earliest witnesses to the text of John; Codex Sinaiticus (\u2135 / 01) and Codex Vaticanus (B / 03) are 4th-century whole-Bible codices. They secure the WORDING of John 1:1 and John 8:58; ancient versions (Latin, Syriac Peshitta) render John 1:1 'God,' not 'a god.' Note the honest limit: manuscripts fix the text, not its interpretation \u2014 the Greek of John 1:1 is anarthrous in these witnesses either way, so the meaning is carried by grammar and context, not by the papyri alone."
+      },
+      "explanation": "When a Jehovah's Witness says the deity of Christ is a late invention, the manuscript record is a useful corrective: the text that calls the Word 'God' (John 1:1) and has Jesus say 'I AM' (John 8:58) is present in our earliest copies of John \u2014 Papyrus 66 around AD 200, Papyrus 75 soon after, and the great 4th-century codices Sinaiticus and Vaticanus. Early translations into Latin and Syriac read 'God,' not 'a god.' Be precise, though: manuscripts establish what the text SAYS, not how to interpret it. They remove any claim that 'the Word was God' was inserted later; the meaning of the Greek is then settled by the grammar points below."
+    },
+    {
+      "id": "src-granville-sharp",
+      "title": "Granville Sharp's rule",
+      "shortClaim": "A fixed rule of Greek grammar binds 'God' and 'Savior' to one person \u2014 Jesus \u2014 in Titus 2:13 and 2 Peter 1:1.",
+      "category": "Greek grammar tools",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Titus 2:13",
+          "translationUsed": "DRA",
+          "text": "Looking for the blessed hope and coming of the glory of the great God and our Savior Jesus Christ,"
+        },
+        {
+          "citation": "2 Peter 1:1",
+          "translationUsed": "DRA",
+          "text": "...in the justice of our God and Saviour Jesus Christ."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Greek",
+        "text": "\u03c4\u03bf\u1fe6 \u03bc\u03b5\u03b3\u03ac\u03bb\u03bf\u03c5 \u03b8\u03b5\u03bf\u1fe6 \u03ba\u03b1\u1f76 \u03c3\u03c9\u03c4\u1fc6\u03c1\u03bf\u03c2 \u1f21\u03bc\u1ff6\u03bd",
+        "translit": "tou megalou theou kai sōtēros hēmōn",
+        "note": "Granville Sharp's rule: when ONE article governs two singular, personal, non-proper nouns joined by 'kai' (and), the two nouns denote the SAME person. In Titus 2:13 and 2 Peter 1:1 a single article governs 'God' and 'Savior,' so both titles land on one subject, Jesus Christ. The NWT breaks the construction by inserting a second 'of'/'the' before 'Savior' to split it into two persons \u2014 a move the Greek does not license."
+      },
+      "explanation": "This rule shows up on the site at Titus 2:13 and 2 Peter 1:1. It is simple and well established: in Greek, when one article covers two personal singular nouns joined by 'and,' they refer to one and the same person. So 'our great God and Savior Jesus Christ' is one subject, Jesus \u2014 called both God and Savior. The New World Translation avoids this by inserting an extra word to pry the two titles apart into two persons; the single article in the Greek does not allow it, and the NWT does not apply the same split to the parallel 'our Lord and Savior Jesus Christ' later in 2 Peter."
+    },
+    {
+      "id": "src-colwell-anarthrous",
+      "title": "The anarthrous predicate nominative (John 1:1) and Colwell's point",
+      "shortClaim": "The article-less 'theos' before the verb in John 1:1 is qualitative \u2014 the Word has the nature of God \u2014 not indefinite 'a god.'",
+      "category": "Greek grammar tools",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "John 1:1",
+          "translationUsed": "DRA",
+          "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Greek",
+        "text": "\u03ba\u03b1\u1f76 \u03b8\u03b5\u1f78\u03c2 \u1f26\u03bd \u1f41 \u03bb\u03cc\u03b3\u03bf\u03c2",
+        "translit": "kai theos ēn ho logos",
+        "note": "In the third clause 'theos' (God) is a predicate nominative with NO article, placed before the verb 'ēn' (was). A pre-verbal anarthrous predicate noun in Greek is regularly QUALITATIVE \u2014 it stresses nature/kind \u2014 rather than indefinite. Colwell's rule (1933) observed that definite predicate nouns before the verb usually drop the article; the sharper modern statement (Harner, Wallace) is that such nouns are typically qualitative. Either way, 'a god' (indefinite) is unsupported: the clause says the Word is of the very nature of God while remaining personally distinct from 'the God' (the Father) of the previous clause."
+      },
+      "explanation": "John 1:1 has three clauses: the Word existed 'in the beginning,' the Word was 'with God' (so distinct from the Father), and 'the Word was God.' In that third clause the Greek word for God has no article and comes before the verb. That construction in Greek normally stresses NATURE \u2014 the Word is of the same kind as God \u2014 not 'a god' among others. This is the grammatical heart of the dispute, so state it carefully: it does not say the Word is the Father (both articles would do that, which would be modalism), and it does not say the Word is a lesser deity (indefinite 'a god'); it says the Word shares the one divine nature while being personally distinct. See the caveat on Colwell's rule below."
+    },
+    {
+      "id": "src-nwt-committee",
+      "title": "The New World Translation's anonymous committee",
+      "shortClaim": "The NWT's translators asked to remain anonymous and the Watch Tower honored it, so their identities and credentials cannot be checked.",
+      "category": "About the New World Translation",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower, Reasoning From the Scriptures (and the article 'New World Translation,' Watchtower Online Library, wol.jw.org)",
+          "translationUsed": "N/A \u2014 reference work",
+          "text": "The New World Bible Translation Committee requested anonymity when it gave the publishing rights to the Watch Tower Society, and the Society states it has honored that request."
+        }
+      ],
+      "explanation": "By the Watch Tower's own account, the New World Bible Translation Committee asked that its members remain anonymous, and the Society agreed. The point for debate is not that anonymity proves error \u2014 it does not \u2014 but that it removes accountability: a reader cannot check who translated the text or what qualifications in Greek and Hebrew they held. Mainstream Bible translations (for example the RSV, NASB, and ESV) publish their committees. When a Witness appeals to the NWT's renderings of the disputed verses, it is fair to ask whose scholarship stands behind them."
+    },
+    {
+      "id": "src-237-jehovah",
+      "title": "The 237 'Jehovah' insertions where the Greek reads 'Lord'",
+      "shortClaim": "The NWT inserts 'Jehovah' into the New Testament 237 times \u2014 by the Watch Tower's own count \u2014 where the surviving Greek says 'Kyrios' (Lord), with no Greek manuscript support.",
+      "category": "About the New World Translation",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "New World Translation, Appendix A4, 'The Divine Name in the Christian Greek Scriptures' (jw.org)",
+          "translationUsed": "N/A \u2014 reference work",
+          "text": "The NWT's own appendix states it uses the name Jehovah 237 times in the Christian Greek Scriptures (the New Testament)."
+        }
+      ],
+      "explanation": "The NWT places the divine name 'Jehovah' into the New Testament text 237 times. That figure is not a critic's estimate \u2014 it is the Watch Tower's OWN count, stated in NWT Appendix A4. The difficulty is that no surviving Greek manuscript of the New Testament contains the Tetragrammaton (YHWH) in those places; the Greek reads 'Kyrios' (Lord). The NWT defends the insertions by appeal to Old Testament quotations and to later Hebrew translations (its 'J' reference sources), not to Greek manuscript evidence. Deciding in advance where the New Testament 'should' say 'Jehovah' is itself a doctrinal choice, and it can mask the places where the New Testament applies 'Lord' (Kyrios, the Greek Old Testament's own word for YHWH) directly to Jesus."
+    },
+    {
+      "id": "src-divine-name",
+      "title": "The divine name: YHWH / the Tetragrammaton",
+      "shortClaim": "The name revealed in Exodus 3:14-15 is YHWH ('I AM WHO AM'), the backdrop to the 'I AM' and 'First and Last' arguments.",
+      "category": "About the New World Translation",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Exodus 3:14",
+          "translationUsed": "DRA",
+          "text": "God said to Moses: I AM WHO AM. He said: Thus shalt thou say to the children of Israel: HE WHO IS, hath sent me to you."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Hebrew",
+        "text": "\u05d9\u05d4\u05d5\u05d4",
+        "translit": "YHWH (Yahweh; rendered 'Jehovah' by the Watch Tower)",
+        "note": "The Tetragrammaton, four Hebrew consonants, is the proper name of God revealed to Moses. 'Jehovah' is a later Latinized vocalization combining the consonants YHWH with the vowels of 'Adonai' (Lord). The name underlies the 'I AM' saying of John 8:58 and the 'First and the Last' title that Isaiah reserves for YHWH and Revelation applies to Jesus."
+      },
+      "explanation": "Both sides of this debate care about the divine name, so it is worth stating plainly. In Exodus 3:14-15 God names himself with the four Hebrew letters YHWH, explained as 'I AM WHO AM.' 'Jehovah' is a later way of vocalizing those consonants. This name is the key to several arguments on the site: when Jesus says 'before Abraham was made, I AM' (John 8:58) and when he claims to be 'the First and the Last' (Revelation 1:17, a title YHWH reserves to himself in Isaiah 44:6), he is taking to himself the identity of the God who bears this name."
+    }
+  ],
+  "uncertainCitations": [
+    {
+      "citation": "Colwell's rule (John 1:1)",
+      "issue": "Frequently MISSTATED in popular apologetics. Colwell's rule concerns DEFINITE predicate nouns and does not by itself prove that 'theos' in John 1:1 is definite. The sound and defensible point is the QUALITATIVE force of an anarthrous pre-verbal predicate nominative (Harner, Wallace). State it that way; do not claim 'Colwell's rule proves the Word is God.'"
+    },
+    {
+      "citation": "The 237 insertions / the 'J' sources",
+      "issue": "The 237 figure is the Watch Tower's own (NWT Appendix A4) and is cited as such. But no extant Greek New Testament manuscript contains the Tetragrammaton in these places; the claim that the NT 'originally' read 'Jehovah' rests on later Hebrew translations (the 'J' sources), not Greek manuscripts. Present the 237 as documented INSERTIONS, not as recovered original readings."
+    },
+    {
+      "citation": "Manuscript evidence (what it proves)",
+      "issue": "Manuscripts establish the WORDING of a text, not its interpretation. P66, P75, Sinaiticus (\u2135/01), and Vaticanus (B/03) secure the Greek of John 1:1 and John 8:58, but the meaning still turns on grammar and context. Avoid claiming a papyrus 'disproves \u201ca god\u201d'; it secures the text that the grammar argument then interprets."
+    }
+  ]
+}

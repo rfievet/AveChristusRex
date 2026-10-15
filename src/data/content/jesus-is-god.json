@@ -1,5 +1,5 @@
 {
-  "title": "The Divinity of Christ: An Exhaustive Case That Jesus Is God",
+  "title": "The Divinity of Christ: The Case That Jesus Is God",
   "subtitle": "A sourced, debate-ready collection of arguments, with each argument's New World Translation (NWT) rendering and why it is disputed.",
   "displayTranslation": "Douay-Rheims American Edition (DRA, 1899)",
   "displayTranslationNote": "The Douay-Rheims (DRA) is used consistently for all displayed English Scripture text because it is a reliable Catholic translation in the public domain, verified here against bible-api.com. Where the original Greek/Hebrew carries the decisive point, the original language is given with transliteration. NWT renderings were verified directly against the official text on jw.org (New World Translation, 2013 revision, Study Bible edition).",
@@ -57,7 +57,7 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u1f10\u03bd \u1f00\u03c1\u03c7\u1fc7 \u1f26\u03bd \u1f41 \u03bb\u03cc\u03b3\u03bf\u03c2, \u03ba\u03b1\u1f76 \u1f41 \u03bb\u03cc\u03b3\u03bf\u03c2 \u1f26\u03bd \u03c0\u03c1\u1f78\u03c2 \u03c4\u1f78\u03bd \u03b8\u03b5\u03cc\u03bd, \u03ba\u03b1\u1f76 \u03b8\u03b5\u1f78\u03c2 \u1f26\u03bd \u1f41 \u03bb\u03cc\u03b3\u03bf\u03c2",
-        "translit": "en archē ēn ho logos, kai ho logos ēn pros ton theon, kai theos ēn ho logos",
+        "translit": "en arch\u0113 \u0113n ho logos, kai ho logos \u0113n pros ton theon, kai theos \u0113n ho logos",
         "note": "In the third clause 'theos' (God) is an anarthrous predicate nominative placed before the verb. Greek regularly drops the article from a pre-verbal predicate noun while it remains qualitative/definite (Colwell's rule; more precisely the pre-verbal predicate is typically qualitative, stressing nature). The construction stresses that the Word has the very nature of God, not that He is 'a god.' Had John meant 'a god' he had other means; had he written the article on both nouns he would have taught Sabellian identity of persons. Oldest manuscript witnesses to the text of John 1 include Papyrus 66 (P66, c. 200), Papyrus 75 (P75, early 3rd c.), Codex Sinaiticus (\u2135 / 01, 4th c.), and Codex Vaticanus (B / 03, 4th c.); none support an indefinite 'a god,' and ancient translators (e.g., Latin, Syriac Peshitta) rendered it as 'God.'"
       },
       "nwtRebuttal": "The NWT reads: 'and the Word was a god.' The Watch Tower appeals to the absence of the Greek article before 'theos' to justify an indefinite 'a god.' This is selective: the same Gospel repeatedly uses anarthrous 'theos' of the Father (e.g., John 1:6,12,13,18) without the NWT translating 'a god' there. The 'a god' rendering also forces polytheism (two gods, a great one and a lesser one) onto a Jewish monotheist author, and is rejected by the overwhelming consensus of Greek grammarians.",
@@ -126,7 +126,7 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u1f10\u03b3\u1f7c \u03ba\u03b1\u1f76 \u1f41 \u03c0\u03b1\u03c4\u1f74\u03c1 \u1f15\u03bd \u1f10\u03c3\u03bc\u03b5\u03bd",
-        "translit": "egō kai ho patēr hen esmen",
+        "translit": "eg\u014d kai ho pat\u0113r hen esmen",
         "note": "'hen' is neuter ('one thing/one in nature'), not masculine 'heis' ('one person'). The neuter guards against modalism: Father and Son are one in being while remaining two persons."
       },
       "nwtRebuttal": "The Watch Tower argues 'I and the Father are one' means merely one in purpose/agreement (as Jesus prays His disciples be 'one' in John 17:21-22), not one in nature. But the hearers understood a claim to deity ('thou, being a man, makest thyself God'), and in John 5:18 the inspired narrator \u2014 not the opponents \u2014 states that Jesus was 'making himself equal to God.' Jesus corrects the charge of being merely 'a man' (by appealing to His works and oneness with the Father), but He never retracts the deity His opponents heard.",
@@ -158,10 +158,10 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u03c0\u03c1\u1f76\u03bd \u1f08\u03b2\u03c1\u03b1\u1f70\u03bc \u03b3\u03b5\u03bd\u03ad\u03c3\u03b8\u03b1\u03b9 \u1f10\u03b3\u1f7c \u03b5\u1f30\u03bc\u03af",
-        "translit": "prin Abraam genesthai egō eimi",
-        "note": "Jesus contrasts Abraham's coming-into-being (genesthai, an aorist/past event) with His own timeless 'egō eimi' (present 'I AM'). The Septuagint of Exodus 3:14 uses 'egō eimi ho ōn' and Isaiah repeatedly has God say 'egō eimi' (e.g., Isa 43:10). The grammatical mismatch ('before X came to be, I AM', not 'I was') is deliberate and signals eternal, timeless existence."
+        "translit": "prin Abraam genesthai eg\u014d eimi",
+        "note": "Jesus contrasts Abraham's coming-into-being (genesthai, an aorist/past event) with His own timeless 'eg\u014d eimi' (present 'I AM'). The Septuagint of Exodus 3:14 uses 'eg\u014d eimi ho \u014dn' and Isaiah repeatedly has God say 'eg\u014d eimi' (e.g., Isa 43:10). The grammatical mismatch ('before X came to be, I AM', not 'I was') is deliberate and signals eternal, timeless existence."
       },
-      "nwtRebuttal": "The NWT reads: 'Before Abraham came into existence, I have been.' This renders the present-tense 'egō eimi' as a past-continuous ('I have been') to teach that Jesus merely existed before Abraham as a created being, not that He bears the divine name. The move is disputed because (a) 'eimi' is present tense, and (b) the hearers' violent reaction \u2014 picking up stones \u2014 only makes sense if they heard a claim to the divine 'I AM', not a claim to be merely old.",
+      "nwtRebuttal": "The NWT reads: 'Before Abraham came into existence, I have been.' This renders the present-tense 'eg\u014d eimi' as a past-continuous ('I have been') to teach that Jesus merely existed before Abraham as a created being, not that He bears the divine name. The move is disputed because (a) 'eimi' is present tense, and (b) the hearers' violent reaction \u2014 picking up stones \u2014 only makes sense if they heard a claim to the divine 'I AM', not a claim to be merely old.",
       "explanation": "Jesus deliberately does not say 'before Abraham, I was'; He says 'I AM,' echoing God's self-naming in Exodus 3:14 and the Isaiah 'I am he' sayings. The crowd's instant attempt to stone Him for blasphemy shows exactly how they understood it. 'I have been' blunts the force of a present-tense claim to timeless being."
     },
     {
@@ -180,7 +180,7 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u1f10\u03bd \u03b1\u1f50\u03c4\u1ff7 \u1f10\u03ba\u03c4\u03af\u03c3\u03b8\u03b7 \u03c4\u1f70 \u03c0\u03ac\u03bd\u03c4\u03b1 ... \u03c4\u1f70 \u03c0\u03ac\u03bd\u03c4\u03b1 \u03b4\u03b9' \u03b1\u1f50\u03c4\u03bf\u1fe6 \u03ba\u03b1\u1f76 \u03b5\u1f30\u03c2 \u03b1\u1f50\u03c4\u1f78\u03bd \u1f14\u03ba\u03c4\u03b9\u03c3\u03c4\u03b1\u03b9",
-        "translit": "en autō ektisthē ta panta ... ta panta di' autou kai eis auton ektistai",
+        "translit": "en aut\u014d ektisth\u0113 ta panta ... ta panta di' autou kai eis auton ektistai",
         "note": "The Greek is 'ta panta' ('the all things / everything'); the word 'other' (Greek 'heteros/allos') is simply not present in the text. 'prototokos' ('firstborn,' v.15) is a title of rank/preeminence and heirship (cf. Psalm 89:27, where God makes David 'firstborn, higher than the kings'), not a statement that the Son was born/created."
       },
       "nwtRebuttal": "The NWT reads: 'by means of him all OTHER things were created ... All OTHER things have been created through him ... he is before all OTHER things.' (Earlier NWT editions bracketed the insertions as '[other]'; the 2013 revision prints 'other' without brackets.) The word 'other' has no basis in the Greek. It is inserted to make Jesus the first creature who then created the remaining 'other' things, protecting the doctrine that He is a creation. The text as written places Him over 'all things' as Creator and sustainer.",
@@ -202,8 +202,8 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u03c4\u03bf\u1fe6 \u03bc\u03b5\u03b3\u03ac\u03bb\u03bf\u03c5 \u03b8\u03b5\u03bf\u1fe6 \u03ba\u03b1\u1f76 \u03c3\u03c9\u03c4\u1fc6\u03c1\u03bf\u03c2 \u1f21\u03bc\u1ff6\u03bd \u1f38\u03b7\u03c3\u03bf\u1fe6 \u03a7\u03c1\u03b9\u03c3\u03c4\u03bf\u1fe6",
-        "translit": "tou megalou theou kai sōtēros hēmōn Iēsou Christou",
-        "note": "Granville Sharp's rule: when a single article governs two singular, personal, non-proper nouns joined by 'kai' (here 'theou kai sōtēros'), both nouns refer to the same person. There is one article ('tou') before 'God,' and none repeated before 'Savior,' so 'great God and Savior' is one subject = Jesus Christ."
+        "translit": "tou megalou theou kai s\u014dt\u0113ros h\u0113m\u014dn I\u0113sou Christou",
+        "note": "Granville Sharp's rule: when a single article governs two singular, personal, non-proper nouns joined by 'kai' (here 'theou kai s\u014dt\u0113ros'), both nouns refer to the same person. There is one article ('tou') before 'God,' and none repeated before 'Savior,' so 'great God and Savior' is one subject = Jesus Christ."
       },
       "nwtRebuttal": "The NWT reads: 'of the great God and OF our Savior, Jesus Christ.' By inserting a second 'of' (implying a repeated article/preposition), the NWT splits the one phrase into two persons \u2014 'the great God' (the Father) and separately 'our Savior Jesus Christ.' The Greek has a single article governing both nouns, which by Granville Sharp's rule denotes one person. The inserted division is grammatically unwarranted.",
       "explanation": "Granville Sharp's construction (article-noun-kai-noun, both personal and singular) consistently identifies the two nouns with one person throughout the NT. Here it identifies Jesus as 'our great God and Savior.' The same construction appears in 2 Peter 1:1 (next argument). The NWT's extra 'of' is the device used to avoid the plain grammar."
@@ -224,8 +224,8 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u03c4\u03bf\u1fe6 \u03b8\u03b5\u03bf\u1fe6 \u1f21\u03bc\u1ff6\u03bd \u03ba\u03b1\u1f76 \u03c3\u03c9\u03c4\u1fc6\u03c1\u03bf\u03c2 \u1f38\u03b7\u03c3\u03bf\u1fe6 \u03a7\u03c1\u03b9\u03c3\u03c4\u03bf\u1fe6",
-        "translit": "tou theou hēmōn kai sōtēros Iēsou Christou",
-        "note": "One article 'tou' governs both 'theou' (God) and 'sōtēros' (Savior); by Granville Sharp's rule they name one person, 'Jesus Christ.' Notably, in 2 Peter 1:11 and 3:18 the identical construction 'our Lord and Savior Jesus Christ' is universally agreed to refer to one person \u2014 so consistency requires the same reading in 1:1."
+        "translit": "tou theou h\u0113m\u014dn kai s\u014dt\u0113ros I\u0113sou Christou",
+        "note": "One article 'tou' governs both 'theou' (God) and 's\u014dt\u0113ros' (Savior); by Granville Sharp's rule they name one person, 'Jesus Christ.' Notably, in 2 Peter 1:11 and 3:18 the identical construction 'our Lord and Savior Jesus Christ' is universally agreed to refer to one person \u2014 so consistency requires the same reading in 1:1."
       },
       "nwtRebuttal": "The NWT reads: 'by the righteousness of our God and THE Savior Jesus Christ,' inserting a second definite article ('the') before 'Savior' to break the two titles into two persons. The Greek has only one article. The NWT does not add 'the' in the parallel 2 Peter 1:11 / 3:18 ('our Lord and Savior Jesus Christ'), exposing the inconsistency: the same grammar is read as one person there and two persons here, only to avoid calling Jesus 'God.'",
       "explanation": "This verse is a textbook Granville Sharp construction, reinforced by Peter's own repeated 'our Lord and Savior Jesus Christ' later in the same letter. Reading 1:1 differently from 1:11/3:18 is special pleading. Peter opens his letter by calling Jesus 'our God and Savior.'"
@@ -251,8 +251,8 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u1f10\u03bd \u03bc\u03bf\u03c1\u03c6\u1fc7 \u03b8\u03b5\u03bf\u1fe6 ... \u03c4\u1f78 \u03b5\u1f36\u03bd\u03b1\u03b9 \u1f34\u03c3\u03b1 \u03b8\u03b5\u1ff7",
-        "translit": "en morphē theou ... to einai isa theō",
-        "note": "'morphē theou' ('form of God') denotes the essential nature/mode of being of God; it is paralleled by 'morphē doulou' ('form of a servant'), which was His true human nature, so 'form of God' indicates His true divine nature. Paul applies Isaiah 45:23 \u2014 where YHWH swears that 'every knee' shall bow to Him alone \u2014 to the exalted Jesus."
+        "translit": "en morph\u0113 theou ... to einai isa the\u014d",
+        "note": "'morph\u0113 theou' ('form of God') denotes the essential nature/mode of being of God; it is paralleled by 'morph\u0113 doulou' ('form of a servant'), which was His true human nature, so 'form of God' indicates His true divine nature. Paul applies Isaiah 45:23 \u2014 where YHWH swears that 'every knee' shall bow to Him alone \u2014 to the exalted Jesus."
       },
       "nwtRebuttal": "The NWT renders v.6: 'who, although he was existing in God\u2019s form, gave no consideration to a seizure, namely, that he should be equal to God.' This reverses the thrust: instead of 'did not count equality with God a thing to be grasped/clung to' (He already had it but did not exploit it), the NWT implies Jesus never aspired to equality He did not possess. The decisive point for the debate is vv.10-11: homage that Isaiah 45:23 reserves for YHWH alone is here directed to Jesus, 'to the glory of God the Father' \u2014 not in competition with the Father but as sharing His glory.",
       "explanation": "Paul takes an oracle in which YHWH declares that every knee will bow to Him alone, and applies it to Jesus. A monotheist could do this only if Jesus is YHWH incarnate. 'Form of God' / 'equal with God' describes His pre-incarnate divine status, which He did not cling to but veiled in becoming man."
@@ -278,7 +278,7 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u03c0\u03c1\u1f78\u03c2 \u03b4\u1f72 \u03c4\u1f78\u03bd \u03c5\u1f31\u03cc\u03bd\u00b7 \u1f41 \u03b8\u03c1\u03cc\u03bd\u03bf\u03c2 \u03c3\u03bf\u03c5 \u1f41 \u03b8\u03b5\u1f78\u03c2 \u03b5\u1f30\u03c2 \u03c4\u1f78\u03bd \u03b1\u1f30\u1ff6\u03bd\u03b1 \u03c4\u03bf\u1fe6 \u03b1\u1f30\u1ff6\u03bd\u03bf\u03c2",
-        "translit": "pros de ton huion; ho thronos sou ho theos eis ton aiōna tou aiōnos",
+        "translit": "pros de ton huion; ho thronos sou ho theos eis ton ai\u014dna tou ai\u014dnos",
         "note": "Quoting Psalm 45:6-7 (LXX 44:7-8). The vocative 'ho theos' ('O God') is addressed to the Son, as the framing 'but to the Son He says' makes explicit."
       },
       "nwtRebuttal": "The NWT reads: 'God is your throne forever and ever,' making 'God' the subject (the Son's throne is God) rather than a vocative addressed to the Son ('Thy throne, O God'). This avoids the Father calling the Son 'God.' The rendering 'God is your throne' is grammatically possible in isolation but strained in context: the author's whole argument in Hebrews 1 is the Son's superiority to angels because of who He is, and the next clause ('God, thy God, hath anointed thee') already distinguishes the Son from 'thy God,' so the Son addressed as 'O God' in v.8 and having a 'God' in v.9 reflects the two-natures/Trinitarian pattern, not a throne made of God.",
@@ -398,10 +398,10 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u03c0\u03c1\u03bf\u03c3\u03b5\u03ba\u03cd\u03bd\u03b7\u03c3\u03b1\u03bd / \u03c0\u03c1\u03bf\u03c3\u03ba\u03c5\u03bd\u03b5\u03af\u03c4\u03c9\u03c3\u03b1\u03bd",
-        "translit": "prosekynēsan / proskyneitōsan",
-        "note": "The verb 'proskyneō' can mean reverent homage in general, but in Revelation 19:10 and 22:8-9 the very same act toward an angel is forbidden with the command 'Worship God' (proskynēson). The angel's refusal shows the proper object of such homage is God alone \u2014 yet the identical homage is directed to Jesus and accepted (and in Hebrews 1:6 God commands angels to render it to the Son)."
+        "translit": "prosekyn\u0113san / proskyneit\u014dsan",
+        "note": "The verb 'proskyne\u014d' can mean reverent homage in general, but in Revelation 19:10 and 22:8-9 the very same act toward an angel is forbidden with the command 'Worship God' (proskyn\u0113son). The angel's refusal shows the proper object of such homage is God alone \u2014 yet the identical homage is directed to Jesus and accepted (and in Hebrews 1:6 God commands angels to render it to the Son)."
       },
-      "nwtRebuttal": "The NWT consistently translates 'proskyneō' toward Jesus as 'do obeisance' (e.g., Matthew 14:33, 28:9,17) rather than 'worship,' reserving 'worship' for God. But the same Greek verb is used of the forbidden act toward angels in Revelation 19:10 / 22:8-9, where it is called illegitimate and redirected to God \u2014 so the word itself marks worship due to God alone. In Hebrews 1:6 the NWT (2013) actually reads 'let all of God\u2019s angels do obeisance to him' (the Son) \u2014 i.e., God commands the angels to render to the Son the very homage angels refuse to receive.",
+      "nwtRebuttal": "The NWT consistently translates 'proskyne\u014d' toward Jesus as 'do obeisance' (e.g., Matthew 14:33, 28:9,17) rather than 'worship,' reserving 'worship' for God. But the same Greek verb is used of the forbidden act toward angels in Revelation 19:10 / 22:8-9, where it is called illegitimate and redirected to God \u2014 so the word itself marks worship due to God alone. In Hebrews 1:6 the NWT (2013) actually reads 'let all of God\u2019s angels do obeisance to him' (the Son) \u2014 i.e., God commands the angels to render to the Son the very homage angels refuse to receive.",
       "explanation": "The pattern is decisive: creatures (holy angels, the apostle Peter) refuse the homage and command it be given to God alone; Jesus receives it without rebuke, and God Himself commands angels to render it to the Son. Translating the word as 'obeisance' only when directed at Jesus is a lexical dodge, since the identical word marks the forbidden worship of an angel elsewhere."
     },
     {
@@ -417,7 +417,7 @@
           "text": "For neither doth the Father judge any man, but hath given all judgment to the Son. That all men may honour the Son, as they honour the Father. He who honoureth not the Son, honoureth not the Father, who hath sent him."
         }
       ],
-      "nwtRebuttal": "The NWT text is essentially the same ('honor the Son just as they honor the Father'). The Watch Tower reads this as relative honor delegated by the Father, not divine honor. But the standard is absolute \u2014 'as (kathōs, 'in the same way as') they honour the Father' \u2014 and the sanction is severe: failing to honour the Son equals failing to honour the Father. Only a divine person could rightfully demand to be honoured exactly as God the Father is honoured.",
+      "nwtRebuttal": "The NWT text is essentially the same ('honor the Son just as they honor the Father'). The Watch Tower reads this as relative honor delegated by the Father, not divine honor. But the standard is absolute \u2014 'as (kath\u014ds, 'in the same way as') they honour the Father' \u2014 and the sanction is severe: failing to honour the Son equals failing to honour the Father. Only a divine person could rightfully demand to be honoured exactly as God the Father is honoured.",
       "explanation": "For a monotheist, giving a creature the same honour owed to God is idolatry. Yet Jesus demands precisely equal honour and makes honour of the Father contingent on it. This equates the Son with the Father as the proper object of divine honour."
     },
     {
@@ -452,7 +452,7 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u03bf\u1f57\u03c4\u03cc\u03c2 \u1f10\u03c3\u03c4\u03b9\u03bd \u1f41 \u1f00\u03bb\u03b7\u03b8\u03b9\u03bd\u1f78\u03c2 \u03b8\u03b5\u1f78\u03c2 \u03ba\u03b1\u1f76 \u03b6\u03c9\u1f74 \u03b1\u1f30\u03ce\u03bd\u03b9\u03bf\u03c2",
-        "translit": "houtos estin ho alēthinos theos kai zōē aiōnios",
+        "translit": "houtos estin ho al\u0113thinos theos kai z\u014d\u0113 ai\u014dnios",
         "note": "'houtos' ('this one') most naturally refers to the nearest antecedent, 'Jesus Christ,' named immediately before ('in his Son Jesus Christ'). 'eternal life' is a title John applies to Jesus (John 1:4; 1 John 1:2, 'the life ... was manifested'), reinforcing that 'this one' is the Son."
       },
       "nwtRebuttal": "The NWT reads: 'And we are in union with the true God, through his Son Jesus Christ. This is the true God and life everlasting.' The Watch Tower refers 'this' to the Father (the 'true God'), not to Jesus. The grammar is debated \u2014 'houtos' could in principle point to the Father \u2014 but the nearest and most natural antecedent is 'Jesus Christ,' and 'eternal life' is elsewhere a title of the Son (John 1:4; 1 John 1:2), favoring the reference to Christ.",
@@ -522,10 +522,10 @@
       "originalLanguage": {
         "language": "Greek",
         "text": "\u1f10\u03c0\u03b9\u03ba\u03b1\u03bb\u03bf\u03cd\u03bc\u03b5\u03bd\u03bf\u03bd \u03ba\u03b1\u1f76 \u03bb\u03ad\u03b3\u03bf\u03bd\u03c4\u03b1\u00b7 \u039a\u03cd\u03c1\u03b9\u03b5 \u1f38\u03b7\u03c3\u03bf\u1fe6, \u03b4\u03ad\u03be\u03b1\u03b9 \u03c4\u1f78 \u03c0\u03bd\u03b5\u1fe6\u03bc\u03ac \u03bc\u03bf\u03c5",
-        "translit": "epikaloumenon kai legonta; Kyrie Iēsou, dexai to pneuma mou",
-        "note": "'epikaleō' is a verb used for calling upon / invoking God in prayer (cf. Acts 2:21, 'call upon the name of the Lord'). Stephen directs this invocation to 'Lord Jesus,' mirroring Jesus' own dying prayer to the Father in Luke 23:46 ('receive my spirit'). NOTE ON VERSIFICATION: the Douay-Rheims (following the Vulgate) numbers this clause as Acts 7:58, whereas Greek/modern English versions (and the common citation) place it at Acts 7:59; the wording is identical, only the verse number differs."
+        "translit": "epikaloumenon kai legonta; Kyrie I\u0113sou, dexai to pneuma mou",
+        "note": "'epikale\u014d' is a verb used for calling upon / invoking God in prayer (cf. Acts 2:21, 'call upon the name of the Lord'). Stephen directs this invocation to 'Lord Jesus,' mirroring Jesus' own dying prayer to the Father in Luke 23:46 ('receive my spirit'). NOTE ON VERSIFICATION: the Douay-Rheims (following the Vulgate) numbers this clause as Acts 7:58, whereas Greek/modern English versions (and the common citation) place it at Acts 7:59; the wording is identical, only the verse number differs."
       },
-      "nwtRebuttal": "The NWT text reads: 'Lord Jesus, receive my spirit.' The Watch Tower does not deny the words but denies this is worship \u2014 arguing Stephen simply addressed the Jesus he had just seen in vision (Acts 7:55-56). The reply is that Stephen commits his departing spirit to Jesus in the very words Jesus used to commit His spirit to the Father, using the vocabulary of invocation/prayer ('epikaleō'); entrusting one's soul at death is an act of religious trust directed to God.",
+      "nwtRebuttal": "The NWT text reads: 'Lord Jesus, receive my spirit.' The Watch Tower does not deny the words but denies this is worship \u2014 arguing Stephen simply addressed the Jesus he had just seen in vision (Acts 7:55-56). The reply is that Stephen commits his departing spirit to Jesus in the very words Jesus used to commit His spirit to the Father, using the vocabulary of invocation/prayer ('epikale\u014d'); entrusting one's soul at death is an act of religious trust directed to God.",
       "explanation": "Stephen does to Jesus exactly what Jesus did to the Father at death: commends his spirit. Prayer and the entrusting of one's soul belong to God; Stephen directs them to the risen Jesus, treating Him as the rightful recipient of a dying man's prayer."
     },
     {
@@ -550,7 +550,7 @@
         "language": "Hebrew",
         "text": "\u05e2\u05b4\u05de\u05b8\u05bc\u05e0\u05d5\u05bc \u05d0\u05b5\u05dc",
         "translit": "Immanu El",
-        "note": "'Immanu El' = 'with us (is) God.' Matthew gives the Greek gloss 'meth' hēmōn ho theos' ('God with us'), explicitly glossing the name with 'ho theos' (God). The name is given to the child who is Jesus."
+        "note": "'Immanu El' = 'with us (is) God.' Matthew gives the Greek gloss 'meth' h\u0113m\u014dn ho theos' ('God with us'), explicitly glossing the name with 'ho theos' (God). The name is given to the child who is Jesus."
       },
       "nwtRebuttal": "The NWT text keeps 'Immanuel, which means, \u2018With Us Is God.\u2019' The Watch Tower treats the name as a theophoric name expressing that God is with His people through this child (as names like 'Elijah' = 'my God is Yah' do not make the bearer God), not a claim that the child is God. The counter is that Matthew uniquely frames this child as the fulfillment of the virgin-birth sign and interprets the name for the reader, and the Gospel's thrust (ending in 28:20, 'I am with you') presents Jesus Himself as God present with His people.",
       "explanation": "This is strong corroboration rather than a decontextualized proof: theophoric names alone do not deify their bearers. But in Matthew's framing \u2014 virgin birth, inspired name, and the inclusio with 'I am with you always' at 28:20 \u2014 the title 'God with us' is presented as realized in the person of Jesus."
@@ -581,6 +581,28 @@
       },
       "nwtRebuttal": "This is not a translation dispute and should NOT be used as a proof-text in debate. A Jehovah's Witness (or any critic) can rightly point out that the Gospel never records the Hebrew wording or any acrostic, and that the acrostic depends on a particular reconstructed Hebrew word order. Presenting it as hard evidence would undermine the credibility of the stronger, genuinely scriptural arguments.",
       "explanation": "Included for completeness and devotional interest only, and clearly flagged as such. The honest value here is the real and verified fact that YHWH (Exodus 3:14-15) is God's revealed name \u2014 which underwrites the 'I AM' (John 8:58) and 'First and Last' (Revelation/Isaiah) arguments above. The acrostic itself is a traditional meditation, not a demonstration, and must not be oversold to a skeptic."
+    },
+    {
+      "id": "romans-9-5-god-over-all",
+      "title": "Romans 9:5 \u2014 Christ, \u201cwho is over all things, God blessed for ever\u201d",
+      "shortClaim": "Paul, listing Israel's privileges, calls the Christ who came from them 'God over all, blessed for ever.'",
+      "category": "Addressed as God",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Romans 9:5",
+          "translationUsed": "DRA",
+          "text": "Whose are the fathers, and of whom is Christ, according to the flesh, who is over all things, God blessed for ever. Amen."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Greek",
+        "text": "\u1f41 \u1f64\u03bd \u1f10\u03c0\u1f76 \u03c0\u03ac\u03bd\u03c4\u03c9\u03bd \u03b8\u03b5\u1f78\u03c2 \u03b5\u1f50\u03bb\u03bf\u03b3\u03b7\u03c4\u1f78\u03c2 \u03b5\u1f30\u03c2 \u03c4\u03bf\u1f7a\u03c2 \u03b1\u1f30\u1ff6\u03bd\u03b1\u03c2",
+        "translit": "ho \u014dn epi pant\u014dn theos eulog\u0113tos eis tous ai\u014dnas",
+        "note": "The relative clause 'ho \u014dn epi pant\u014dn theos' ('who is over all, God') most naturally continues the sentence about Christ ('of whom is Christ according to the flesh, who is...'). The dispute is one of PUNCTUATION, not wording: the original Greek had no punctuation, so a translator can either keep it as one sentence predicating 'God over all' of Christ, or insert a full stop and read 'God' as beginning a separate doxology to the Father. Grammar favors applying it to Christ: a doxology to God normally begins with 'blessed' (eulog\u0113tos) first in Greek, which this clause does not; and the contrast 'according to the flesh ... who is over all, God' fits Paul's pattern of pairing Christ's humanity with his deity (cf. Romans 1:3-4)."
+      },
+      "nwtRebuttal": "The NWT reads: '...and from whom the Christ descended according to the flesh. God, who is over all, be praised forever. Amen.' By placing a full stop after 'flesh,' the NWT turns 'God who is over all' into a separate exclamation of praise to the Father, so that it no longer describes Christ. The move is a punctuation choice, not a translation of different words \u2014 the Greek is the same; the question is where the sentence breaks, and the grammar (word order of a Greek doxology) and context favor reading it of Christ.",
+      "explanation": "Here Paul lists the privileges of Israel and climaxes with the Messiah who came from them 'according to the flesh' \u2014 then adds 'who is over all things, God blessed for ever.' Read as one sentence (as the DRA and most translations do), Paul calls Christ 'God over all.' The Watch Tower breaks the sentence so that 'God' starts a new burst of praise to the Father. Since the earliest Greek had no punctuation, this is a genuine interpretive choice; but two things favor the DRA reading: Greek doxologies to God characteristically put 'blessed' first (this clause puts 'who is over all' first, describing the preceding subject, Christ), and Paul elsewhere pairs Christ's human descent with his divine status (Romans 1:3-4). Rated 'strong' rather than decisive precisely because the punctuation is debatable \u2014 flagged in Honest caveats."
     }
   ],
   "uncertainCitations": [
@@ -611,6 +633,10 @@
     {
       "citation": "NWT Colossians 1:16-17 brackets",
       "issue": "The inserted word 'other' is confirmed present in the current (2013) NWT without brackets; older NWT editions printed it as bracketed '[other]'. Both noted in the argument."
+    },
+    {
+      "citation": "Romans 9:5 (punctuation)",
+      "issue": "Whether 'who is over all, God blessed for ever' describes Christ or begins a separate doxology to the Father is a matter of PUNCTUATION (absent in the original Greek), not wording. The DRA and most translations apply it to Christ; the NWT re-punctuates it as praise to the Father. Rated 'strong,' not a slam-dunk; the Greek word order and Paul's flesh/deity pairing favor applying it to Christ."
     }
   ]
 }
