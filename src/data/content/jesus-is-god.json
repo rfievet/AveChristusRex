@@ -13,11 +13,18 @@
     "Old Testament titles of YHWH applied to Jesus",
     "Supplementary/traditional"
   ],
+  "featured": [
+    "thomas-my-lord-my-god",
+    "john-1-1-word-was-god",
+    "forgives-sins",
+    "colossians-creator-sustainer",
+    "before-abraham-i-am"
+  ],
   "arguments": [
     {
       "id": "thomas-my-lord-my-god",
       "title": "Thomas: \u201cMy Lord and my God\u201d",
-      "shortClaim": "The apostle Thomas directly addresses the risen Jesus as 'my God,' and Jesus accepts it rather than correcting him.",
+      "shortClaim": "The apostle Thomas looks at the risen Jesus and calls him 'my Lord and my God' - and Jesus accepts the title instead of correcting him. (A faithful Jew would never call a creature 'God,' yet Jesus commends Thomas for it.)",
       "category": "Addressed as God",
       "strength": "scriptural",
       "primaryReferences": [
@@ -44,7 +51,7 @@
     {
       "id": "john-1-1-word-was-god",
       "title": "John 1:1 \u2014 \u201cand the Word was God\u201d",
-      "shortClaim": "John opens his Gospel by stating the Word was God; the NWT's 'a god' is grammatically and theologically indefensible.",
+      "shortClaim": "John calls Jesus 'the Word' and says plainly that 'the Word was God' - so the Bible's own opening identifies Jesus as God. (Jehovah's Witnesses render it 'a god,' a change the Greek grammar does not support.)",
       "category": "Addressed as God",
       "strength": "scriptural",
       "primaryReferences": [
@@ -66,7 +73,7 @@
     {
       "id": "john-1-creator-made-flesh",
       "title": "John 1:1-3,14 \u2014 the Word is Creator and became flesh",
-      "shortClaim": "The Word made all things that were made, then became flesh \u2014 the Creator cannot be a creature.",
+      "shortClaim": "John says Jesus (the Word) made everything that was ever made, and then became a man - and the Maker of all things cannot himself be one of the created things.",
       "category": "Does what only God does",
       "strength": "scriptural",
       "primaryReferences": [
@@ -87,7 +94,7 @@
     {
       "id": "forgives-sins",
       "title": "Jesus forgives sins \u2014 which only God can do",
-      "shortClaim": "Jesus forgives sins on His own authority; the scribes rightly note only God can forgive sins, and Jesus proves His authority by a miracle.",
+      "shortClaim": "Jesus forgives a man's sins on his own authority, and the watching scribes object that only God can forgive sins - so Jesus proves his authority by healing the man on the spot. (He answers their charge not by denying the claim but by backing it up.)",
       "category": "Does what only God does",
       "strength": "scriptural",
       "primaryReferences": [
@@ -108,7 +115,7 @@
     {
       "id": "makes-himself-god",
       "title": "Accused of making Himself God \u2014 He does not deny it",
-      "shortClaim": "Jesus says 'I and the Father are one'; His hearers try to stone Him for making Himself God, and He defends, rather than retracts, the claim.",
+      "shortClaim": "When Jesus says 'I and the Father are one,' his listeners pick up stones to kill him for 'making himself God' - and he defends the claim rather than denying it. (The narrator of John 5:18 confirms they heard him making himself equal to God.)",
       "category": "Claims the divine name/identity",
       "strength": "scriptural",
       "primaryReferences": [
@@ -135,7 +142,7 @@
     {
       "id": "before-abraham-i-am",
       "title": "\u201cBefore Abraham was, I AM\u201d",
-      "shortClaim": "Jesus applies the divine 'I AM' of Exodus 3:14 to Himself, claiming eternal pre-existence; His hearers immediately try to stone Him.",
+      "shortClaim": "Jesus says 'before Abraham was, I AM,' taking for himself the very name God used for himself when speaking to Moses in Exodus 3:14 - a claim to eternal existence. (His hearers grasp the claim at once and try to stone him for blasphemy.)",
       "category": "Claims the divine name/identity",
       "strength": "scriptural",
       "primaryReferences": [
@@ -167,7 +174,7 @@
     {
       "id": "colossians-creator-sustainer",
       "title": "Colossians 1:15-17 \u2014 all things created in Him and held together",
-      "shortClaim": "Paul says all things in heaven and earth were created in, through, and for Christ, and that He sustains all things \u2014 the NWT inserts 'other' to make Him a creature.",
+      "shortClaim": "Paul says Jesus created everything in heaven and on earth and holds it all together in existence - work that belongs to God alone. (The New World Translation inserts the word 'other' four times to turn him into a creature, but that word is not in the Greek.)",
       "category": "Does what only God does",
       "strength": "scriptural",
       "primaryReferences": [
@@ -189,7 +196,7 @@
     {
       "id": "titus-great-god-savior",
       "title": "Titus 2:13 \u2014 \u201cour great God and Savior Jesus Christ\u201d (Granville Sharp)",
-      "shortClaim": "By a fixed rule of Greek grammar, the single article binds 'God' and 'Savior' to one person: Jesus Christ.",
+      "shortClaim": "Paul calls Jesus Christ 'our great God and Savior' in a single breath - one title, one person. (A fixed rule of Greek grammar, Granville Sharp's rule, ties 'God' and 'Savior' to the same person here; the New World Translation splits them with an added 'of' that the Greek lacks.)",
       "category": "Addressed as God",
       "strength": "scriptural",
       "primaryReferences": [
@@ -211,7 +218,7 @@
     {
       "id": "2peter-god-and-savior",
       "title": "2 Peter 1:1 \u2014 \u201cour God and Savior Jesus Christ\u201d (Granville Sharp)",
-      "shortClaim": "The same one-article construction as Titus 2:13 again calls Jesus 'our God and Savior.'",
+      "shortClaim": "Peter opens his letter by calling Jesus Christ 'our God and Savior' outright. (It is the same one-article Greek construction as Titus 2:13, and the New World Translation adds a second 'the' to break the one title into two persons.)",
       "category": "Addressed as God",
       "strength": "scriptural",
       "primaryReferences": [
@@ -233,7 +240,7 @@
     {
       "id": "philippians-form-of-god",
       "title": "Philippians 2:6-11 \u2014 in the form of God; every knee shall bow",
-      "shortClaim": "Christ existed 'in the form of God' and 'equal with God,' and receives the universal homage Isaiah 45:23 reserves for YHWH alone.",
+      "shortClaim": "Paul says Jesus already existed 'in the form of God' and 'equal with God' before becoming a man, and that every knee will one day bow to him - the very worship Isaiah 45:23 says belongs to the LORD alone.",
       "category": "Old Testament titles of YHWH applied to Jesus",
       "strength": "scriptural",
       "primaryReferences": [
@@ -260,7 +267,7 @@
     {
       "id": "hebrews-throne-o-god",
       "title": "Hebrews 1:8 \u2014 \u201cThy throne, O God, is for ever\u201d (the Father addresses the Son)",
-      "shortClaim": "In Hebrews 1 the Father directly addresses the Son as 'God.'",
+      "shortClaim": "In Hebrews 1 God the Father speaks to Jesus (the Son) and calls him 'God' to his face: 'Thy throne, O God, is for ever.' (The New World Translation rearranges it to 'God is your throne' to avoid the Father addressing the Son as God.)",
       "category": "Addressed as God",
       "strength": "scriptural",
       "primaryReferences": [
@@ -287,7 +294,7 @@
     {
       "id": "isaiah-mighty-god",
       "title": "Isaiah 9:6 \u2014 the Messiah is called \u201cMighty God\u201d (El Gibbor)",
-      "shortClaim": "The promised child-king is titled 'Mighty God,' a title Isaiah also uses of YHWH Himself.",
+      "shortClaim": "Isaiah foretells the coming child-king and gives him the title 'Mighty God' - the exact title Isaiah uses of the LORD himself just one chapter later. (Jehovah's Witnesses grant 'a mighty god' but not full deity; the identical Hebrew title rules that out.)",
       "category": "Old Testament titles of YHWH applied to Jesus",
       "strength": "strong",
       "primaryReferences": [
@@ -314,7 +321,7 @@
     {
       "id": "revelation-first-and-last",
       "title": "Revelation \u2014 Jesus is \u201cthe First and the Last\u201d, \u201cAlpha and Omega\u201d",
-      "shortClaim": "Jesus claims titles that YHWH alone claims in Isaiah: First and Last, Alpha and Omega, the Beginning and the End.",
+      "shortClaim": "The risen Jesus calls himself 'the First and the Last' and 'the Alpha and the Omega' - titles the LORD uses in Isaiah precisely to say no other God exists beside him. (If no God exists besides the First and the Last, and Jesus is the First and the Last, then Jesus is that one God.)",
       "category": "Old Testament titles of YHWH applied to Jesus",
       "strength": "scriptural",
       "primaryReferences": [
@@ -350,7 +357,7 @@
     {
       "id": "worship-of-jesus",
       "title": "Jesus accepts worship \u2014 angels and apostles refuse it",
-      "shortClaim": "Jesus receives and accepts worship, while holy angels and apostles explicitly refuse worship and redirect it to God alone.",
+      "shortClaim": "People bow down and worship Jesus and he accepts it, while holy angels and the apostles refuse the same worship and command that it be given to God alone. (The New World Translation softens the word to 'obeisance' only when it is directed at Jesus.)",
       "category": "Receives worship",
       "strength": "strong",
       "primaryReferences": [
@@ -407,7 +414,7 @@
     {
       "id": "john-honour-the-son",
       "title": "John 5:23 \u2014 honour the Son as the Father",
-      "shortClaim": "Jesus demands that all honour Him exactly as they honour the Father.",
+      "shortClaim": "Jesus demands that everyone honour him exactly as they honour the Father - something only a divine person could rightly require. (For a monotheist, giving a creature the honour owed to God would be idolatry.)",
       "category": "Receives worship",
       "strength": "strong",
       "primaryReferences": [
@@ -423,7 +430,7 @@
     {
       "id": "john-seen-me-seen-father",
       "title": "John 14:9 \u2014 \u201cHe that seeth me seeth the Father\u201d",
-      "shortClaim": "Jesus says that to see Him is to see the Father, claiming to be the perfect visible manifestation of God.",
+      "shortClaim": "Jesus tells Philip that whoever has seen him has seen the Father - claiming to be the invisible God made visible. (A mere creature could not say that to look at him is to look at God.)",
       "category": "Claims the divine name/identity",
       "strength": "strong",
       "primaryReferences": [
@@ -439,7 +446,7 @@
     {
       "id": "1john-true-god",
       "title": "1 John 5:20 \u2014 \u201cThis is the true God and life eternal\u201d",
-      "shortClaim": "John identifies Jesus Christ as 'the true God and eternal life.'",
+      "shortClaim": "John, having just named Jesus Christ, says 'this is the true God and eternal life' - most naturally calling Jesus himself the true God. (The phrase 'eternal life' is a title John elsewhere gives to the Son.)",
       "category": "Addressed as God",
       "strength": "strong",
       "primaryReferences": [
@@ -461,7 +468,7 @@
     {
       "id": "micah-from-everlasting",
       "title": "Micah 5:2 \u2014 the Bethlehem ruler whose origins are 'from eternity'",
-      "shortClaim": "The Messiah to be born in Bethlehem has goings-forth 'from the days of eternity,' implying pre-existence beyond a creature's.",
+      "shortClaim": "Micah foretells the Messiah born in Bethlehem whose 'goings forth' are 'from the days of eternity' - pointing to an existence older than creation itself. (The Hebrew word can mean 'ancient' or 'everlasting,' so this best supports the stronger arguments rather than standing alone.)",
       "category": "Claims the divine name/identity",
       "strength": "strong",
       "primaryReferences": [
@@ -483,7 +490,7 @@
     {
       "id": "zechariah-pierced",
       "title": "Zechariah 12:10 \u2014 \u201cthey shall look upon me whom they have pierced\u201d",
-      "shortClaim": "YHWH says they will look on 'me whom they have pierced' \u2014 applied in the NT to the crucified Jesus.",
+      "shortClaim": "The LORD, speaking in the first person, says 'they shall look upon me whom they have pierced' - and John's Gospel applies those exact words to the crucified Jesus. (So the one who was pierced is identified with the LORD who is speaking.)",
       "category": "Old Testament titles of YHWH applied to Jesus",
       "strength": "strong",
       "primaryReferences": [
@@ -504,7 +511,7 @@
     {
       "id": "acts-pray-to-jesus",
       "title": "Stephen prays to Jesus \u2014 \u201cLord Jesus, receive my spirit\u201d",
-      "shortClaim": "The dying Stephen prays directly to Jesus to receive his spirit, as Jesus had prayed to the Father.",
+      "shortClaim": "As he is dying, Stephen prays directly to Jesus - 'Lord Jesus, receive my spirit' - using the very words Jesus had prayed to the Father. (Entrusting your soul at death is an act of worship owed to God.)",
       "category": "Receives worship",
       "strength": "strong",
       "primaryReferences": [
@@ -531,7 +538,7 @@
     {
       "id": "emmanuel-god-with-us",
       "title": "Matthew 1:23 \u2014 Emmanuel, \u201cGod with us\u201d",
-      "shortClaim": "The virgin's son is named Emmanuel, which Matthew translates 'God with us.'",
+      "shortClaim": "Matthew says the virgin's son is to be called Emmanuel, and then tells the reader it means 'God with us' - presenting Jesus as God come to be present with his people. (On its own a name proves little, but Matthew's framing points to Jesus himself as that presence.)",
       "category": "Old Testament titles of YHWH applied to Jesus",
       "strength": "strong",
       "primaryReferences": [
@@ -558,7 +565,7 @@
     {
       "id": "inri-yhwh-acrostic",
       "title": "The cross titulus and the YHWH acrostic (devotional tradition)",
-      "shortClaim": "A devotional tradition observes that the Hebrew words of Pilate's sign over the cross can form an acrostic of the divine name YHWH.",
+      "shortClaim": "A devotional tradition - not a proof - notes that the Hebrew words of Pilate's sign over the cross could spell out the divine name YHWH as an acrostic. (The Gospel never records the Hebrew wording, so treat this as a pious meditation and never as debate evidence.)",
       "category": "Supplementary/traditional",
       "strength": "supplementary",
       "primaryReferences": [
@@ -585,7 +592,7 @@
     {
       "id": "romans-9-5-god-over-all",
       "title": "Romans 9:5 \u2014 Christ, \u201cwho is over all things, God blessed for ever\u201d",
-      "shortClaim": "Paul, listing Israel's privileges, calls the Christ who came from them 'God over all, blessed for ever.'",
+      "shortClaim": "Listing Israel's privileges, Paul climaxes with the Christ who came from them and calls him 'God over all, blessed for ever.' (Read as one sentence, as most translations do, Paul plainly calls Jesus God; the New World Translation breaks the sentence to make it praise of the Father instead.)",
       "category": "Addressed as God",
       "strength": "strong",
       "primaryReferences": [

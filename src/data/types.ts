@@ -51,6 +51,10 @@ export interface TopicContent {
   // Ordered section labels. jesus-is-god uses `categories`; jw-critique uses `subCategories`.
   categories?: string[]
   subCategories?: string[]
+  // Optional ordered list of argument ids to surface in a "Start here" highlights
+  // block above the sections (strongest-first). Any topic that adds this array
+  // gets the block automatically; ids that don't resolve are skipped.
+  featured?: string[]
   arguments: Argument[]
   uncertainCitations?: UncertainCitation[]
 }

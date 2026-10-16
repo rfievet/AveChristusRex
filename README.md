@@ -249,6 +249,7 @@ interface TopicContent {
   methodologyNote?: string
   categories?: string[]      // ordered section labels (jesus-is-god)
   subCategories?: string[]   // ordered section labels (jw-critique)
+  featured?: string[]        // ordered argument ids for the "Start here" block
   arguments: Argument[]
   uncertainCitations?: { citation: string; issue: string }[]  // "Honest caveats"
 }
@@ -257,6 +258,12 @@ interface TopicContent {
 Arguments are grouped on the page by `category`, in the order the topic's `categories` /
 `subCategories` array declares (any category not listed there falls to the end in the order it
 first appears).
+
+If a topic sets `featured` to an ordered list of argument ids, the page renders a **"Start
+here — strongest arguments"** highlights block above the filter bar. Each entry is a compact,
+tappable preview (title, strength badge, one-line claim) that jumps to the canonical card
+below via the same `#<argumentId>` hash-scroll + flash used by search. Ids that don't resolve
+are skipped, so any topic can add the array and get the block automatically.
 
 ### `TopicMeta` (the registry entry in `topics.ts`)
 

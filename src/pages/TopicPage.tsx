@@ -6,6 +6,7 @@ import SectionHeader from '../components/SectionHeader'
 import ArgumentCard from '../components/ArgumentCard'
 import Callout from '../components/Callout'
 import TopicFilterBar from '../components/TopicFilterBar'
+import StrengthBadge from '../components/StrengthBadge'
 
 // Build the ordered list of section labels, preferring the topic's declared order
 // (categories for jesus-is-god, subCategories for jw-critique) and falling back to
@@ -145,6 +146,14 @@ export default function TopicPage() {
 
   const filterSections = visibleSections.map(({ label, id, args }) => ({ label, id, count: args.length }))
 
+  // "Start here" highlights: resolve the topic's featured ids (in order) to real
+  // arguments, skipping any id that doesn't match. Generic — any topic with a
+  // `featured` array gets the block.
+  const byId = new Map(content.arguments.map((arg) => [arg.id, arg]))
+  const featuredArgs = (content.featured ?? [])
+    .map((id) => byId.get(id))
+    .filter((arg): arg is Argument => Boolean(arg))
+
   return (
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-12">
       <header className="mb-8">
@@ -172,6 +181,53 @@ export default function TopicPage() {
             </Callout>
           ))}
         </div>
+      ) : null}
+
+      {featuredArgs.length ? (
+        <section
+          aria-labelledby="start-here-heading"
+          className="mb-10 rounded-xl border border-gold-500/40 bg-gold-900/5 p-5 dark:border-gold-400/40 dark:bg-gold-900/15 sm:p-6"
+        >
+          <h2
+            id="start-here-heading"
+            className="font-serif text-2xl font-semibold text-gold-700 dark:text-gold-200 sm:text-3xl"
+          >
+            Start here — strongest arguments
+          </h2>
+          <p className="mt-1 text-sm text-ink-600 dark:text-parchment-300">
+            The clearest, hardest-to-dispute arguments — lead with these.
+          </p>
+          <ol className="mt-4 space-y-3">
+            {featuredArgs.map((arg, index) => (
+              <li key={arg.id}>
+                <a
+                  href={`#${arg.id}`}
+                  className="flex min-h-[44px] items-start gap-3 rounded-lg border border-ink-200/70 bg-parchment-50 p-3 transition-colors hover:border-gold-500/60 hover:bg-gold-900/10 dark:border-ink-600/50 dark:bg-ink-800/50 dark:hover:border-gold-400/60 dark:hover:bg-ink-700/60 sm:p-4"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gold-400 font-serif text-sm font-semibold text-ink-900"
+                  >
+                    {index + 1}
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
+                      <span className="font-serif text-lg font-semibold leading-snug text-ink-900 dark:text-parchment-50">
+                        {arg.title}
+                      </span>
+                      <span className="shrink-0">
+                        <StrengthBadge strength={arg.strength} />
+                      </span>
+                    </span>
+                    <span className="mt-1 block text-sm leading-relaxed text-ink-600 dark:text-parchment-300">
+                      {arg.shortClaim}
+                    </span>
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
       ) : null}
 
       <TopicFilterBar
