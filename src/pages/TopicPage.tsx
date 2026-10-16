@@ -7,6 +7,9 @@ import ArgumentCard from '../components/ArgumentCard'
 import Callout from '../components/Callout'
 import TopicFilterBar from '../components/TopicFilterBar'
 import StrengthBadge from '../components/StrengthBadge'
+import { useLocale } from '../i18n/useLocale'
+import { useStrings } from '../i18n/useStrings'
+import { localized, withLocalePath } from '../i18n/locales'
 
 // Build the ordered list of section labels, preferring the topic's declared order
 // (categories for jesus-is-god, subCategories for jw-critique) and falling back to
@@ -35,6 +38,8 @@ function slugify(value: string): string {
 export default function TopicPage() {
   const { topicId } = useParams<{ topicId: string }>()
   const { hash } = useLocation()
+  const { locale } = useLocale()
+  const strings = useStrings()
   const meta = getTopicMeta(topicId)
   const [activeStrength, setActiveStrength] = useState<Strength | 'all'>('all')
 
@@ -67,13 +72,13 @@ export default function TopicPage() {
   if (!meta) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6">
-        <h1 className="font-serif text-3xl text-ink-900 dark:text-parchment-50">Topic not found</h1>
-        <p className="mt-3 text-ink-600 dark:text-parchment-300">We couldn't find that topic.</p>
+        <h1 className="font-serif text-3xl text-ink-900 dark:text-parchment-50">{strings.topicPage.topicNotFoundTitle}</h1>
+        <p className="mt-3 text-ink-600 dark:text-parchment-300">{strings.topicPage.topicNotFoundBody}</p>
         <Link
-          to="/"
+          to={withLocalePath(locale, '/')}
           className="mt-6 inline-flex min-h-[44px] items-center rounded-md px-2 text-gold-700 hover:text-gold-600 dark:text-gold-300 dark:hover:text-gold-200"
         >
-          ← Back to home
+          {strings.topicPage.backHome}
         </Link>
       </div>
     )
@@ -83,25 +88,25 @@ export default function TopicPage() {
     return (
       <div className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6">
         <span className="mb-3 inline-flex rounded-full bg-ink-200/70 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-ink-500 dark:bg-ink-700/70 dark:text-parchment-400">
-          Coming soon
+          {strings.topicPage.comingSoonBadge}
         </span>
-        <h1 className="font-serif text-3xl text-ink-900 dark:text-parchment-50 sm:text-4xl">{meta.title}</h1>
-        <p className="mx-auto mt-3 max-w-xl text-ink-600 dark:text-parchment-300">{meta.blurb}</p>
+        <h1 className="font-serif text-3xl text-ink-900 dark:text-parchment-50 sm:text-4xl">{localized(meta.title, locale)}</h1>
+        <p className="mx-auto mt-3 max-w-xl text-ink-600 dark:text-parchment-300">{localized(meta.blurb, locale)}</p>
         <p className="mt-4 text-sm text-ink-500 dark:text-parchment-400">
-          This section is in preparation and will be published soon.
+          {strings.topicPage.comingSoonBody}
         </p>
         <Link
-          to="/"
+          to={withLocalePath(locale, '/')}
           className="mt-6 inline-flex min-h-[44px] items-center rounded-md px-2 text-gold-700 hover:text-gold-600 dark:text-gold-300 dark:hover:text-gold-200"
         >
-          ← Back to home
+          {strings.topicPage.backHome}
         </Link>
       </div>
     )
   }
 
-  const content = meta.loadContent()
-  const heading = content.title || content.topic || meta.title
+  const content = meta.loadContent(locale)
+  const heading = content.title || content.topic || localized(meta.title, locale)
   const declaredSections = content.categories ?? content.subCategories
   const order = sectionOrder(declaredSections, content.arguments)
 
@@ -116,21 +121,23 @@ export default function TopicPage() {
   // Intro callouts differ per topic shape.
   const introCallouts: { key: string; variant: 'info' | 'caveat' | 'disclaimer'; title: string; body: string }[] = []
   if (content.disclaimer) {
-    introCallouts.push({ key: 'disclaimer', variant: 'disclaimer', title: 'Please note', body: content.disclaimer })
+    introCallouts.push({ key: 'disclaimer', variant: 'disclaimer', title: strings.callout.pleaseNote, body: content.disclaimer })
   }
   if (content.displayTranslationNote) {
     introCallouts.push({
       key: 'translation',
       variant: 'info',
-      title: content.displayTranslation ? `Display translation — ${content.displayTranslation}` : 'Display translation',
+      title: content.displayTranslation
+        ? strings.callout.displayTranslationWith(content.displayTranslation)
+        : strings.callout.displayTranslation,
       body: content.displayTranslationNote,
     })
   }
   if (content.divineNameNote) {
-    introCallouts.push({ key: 'divine-name', variant: 'info', title: 'On the divine name', body: content.divineNameNote })
+    introCallouts.push({ key: 'divine-name', variant: 'info', title: strings.callout.divineName, body: content.divineNameNote })
   }
   if (content.methodologyNote) {
-    introCallouts.push({ key: 'methodology', variant: 'caveat', title: 'Methodology', body: content.methodologyNote })
+    introCallouts.push({ key: 'methodology', variant: 'caveat', title: strings.callout.methodology, body: content.methodologyNote })
   }
 
   // Apply the active strength filter per section, dropping empty sections. The
@@ -158,10 +165,10 @@ export default function TopicPage() {
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-12">
       <header className="mb-8">
         <Link
-          to="/"
+          to={withLocalePath(locale, '/')}
           className="-ml-2 inline-flex min-h-[44px] items-center rounded-md px-2 text-sm text-gold-700 hover:text-gold-600 dark:text-gold-300 dark:hover:text-gold-200"
         >
-          ← All topics
+          {strings.topicPage.allTopics}
         </Link>
         <h1 className="mt-3 font-serif text-4xl font-semibold text-ink-900 dark:text-parchment-50 sm:text-5xl">
           {heading}
@@ -192,10 +199,10 @@ export default function TopicPage() {
             id="start-here-heading"
             className="font-serif text-2xl font-semibold text-gold-700 dark:text-gold-200 sm:text-3xl"
           >
-            Strongest arguments
+            {content.featuredTitle ?? strings.topicPage.strongestTitle}
           </h2>
           <p className="mt-1 text-sm text-ink-600 dark:text-parchment-300">
-            The clearest and most direct evidence that Jesus is God.
+            {content.featuredBlurb ?? strings.topicPage.strongestBlurb}
           </p>
           <ol className="mt-4 space-y-3">
             {featuredArgs.map((arg, index) => (
@@ -252,11 +259,10 @@ export default function TopicPage() {
       {content.uncertainCitations?.length ? (
         <details className="mt-12 rounded-xl border border-ink-200/70 bg-parchment-50 p-5 dark:border-ink-600/50 dark:bg-ink-800/40 sm:p-6">
           <summary className="flex min-h-[44px] cursor-pointer items-center rounded-md font-serif text-xl font-semibold text-ink-900 dark:text-parchment-50">
-            Honest caveats ({content.uncertainCitations.length})
+            {strings.topicPage.honestCaveats(content.uncertainCitations.length)}
           </summary>
           <p className="mt-2 text-sm text-ink-600 dark:text-parchment-300">
-            Points of versification, translation uncertainty, or devotional (non-probative) claims,
-            flagged for honest debate.
+            {strings.topicPage.honestCaveatsBody}
           </p>
           <ul className="mt-4 space-y-4">
             {content.uncertainCitations.map((item, index) => (

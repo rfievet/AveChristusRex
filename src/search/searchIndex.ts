@@ -1,4 +1,5 @@
 import { listTopics } from '../data/topics'
+import type { LocaleCode } from '../i18n/locales'
 import type { OriginalLanguage, Strength } from '../data/types'
 
 // A single searchable record. There are two kinds:
@@ -43,13 +44,17 @@ function originalLanguageText(ol: OriginalLanguage | string | undefined): string
   return [ol.language, ol.text, ol.translit, ol.note].filter(Boolean).join(' ')
 }
 
-let cachedIndex: SearchEntry[] | null = null
+// One index per locale: the first search in a locale builds and caches that
+// locale's entries; switching locale builds the other on demand.
+const cachedIndexes = new Map<LocaleCode, SearchEntry[]>()
 
-// Build the search index once from the topic registry. Because it iterates
-// listTopics() and each live topic's loadContent(), any argument or topic the
-// user adds under src/data is indexed automatically with no code changes.
-export function buildSearchIndex(): SearchEntry[] {
-  if (cachedIndex) return cachedIndex
+// Build the search index once per locale from the topic registry. Because it
+// iterates listTopics() and each live topic's loadContent(locale), any argument
+// or topic the user adds under src/data is indexed automatically with no code
+// changes, and results always match the visible language.
+export function buildSearchIndex(locale: LocaleCode): SearchEntry[] {
+  const cached = cachedIndexes.get(locale)
+  if (cached) return cached
 
   const entries: SearchEntry[] = []
 
@@ -71,7 +76,7 @@ export function buildSearchIndex(): SearchEntry[] {
 
     if (!isLive || !topic.loadContent) continue
 
-    const content = topic.loadContent()
+    const content = topic.loadContent(locale)
     for (const arg of content.arguments) {
       const citations = (arg.primaryReferences ?? []).map((r) => r.citation).filter(Boolean)
       const refText = (arg.primaryReferences ?? [])
@@ -112,7 +117,7 @@ export function buildSearchIndex(): SearchEntry[] {
     }
   }
 
-  cachedIndex = entries
+  cachedIndexes.set(locale, entries)
   return entries
 }
 
@@ -125,8 +130,8 @@ export interface SearchResult extends SearchEntry {
 // Lightweight scoring: split the query into normalized tokens and require every
 // token to appear somewhere (AND semantics). Hits in the `primary` haystack
 // (title / citation / category / claim) outrank hits in the `body`.
-export function searchEntries(query: string, limit = 24): SearchResult[] {
-  const index = buildSearchIndex()
+export function searchEntries(query: string, locale: LocaleCode, limit = 24): SearchResult[] {
+  const index = buildSearchIndex(locale)
   const normQuery = normalize(query)
   if (!normQuery) return []
 

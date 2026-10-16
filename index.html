@@ -43,6 +43,23 @@
         }
       })()
     </script>
+    <!-- No-flash locale init: must run synchronously before React mounts so the
+         first paint carries the correct <html lang> for screen readers. The URL
+         is authoritative — the first path segment (after the base) decides the
+         language, NOT localStorage. A bare/unprefixed URL always renders English.
+         NON_DEFAULT mirrors nonDefaultCodes() in src/i18n/locales.ts; add a code
+         here (the one line) when adding a language. -->
+    <script>
+      (function () {
+        var BASE = '/AveChristusRex/'
+        var NON_DEFAULT = ['fr'] // add codes here when adding a language
+        var path = window.location.pathname
+        if (path.indexOf(BASE) === 0) path = path.slice(BASE.length - 1)
+        var seg = path.split('/')[1] || ''
+        var lang = NON_DEFAULT.indexOf(seg) !== -1 ? seg : 'en'
+        document.documentElement.lang = lang
+      })()
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ave Christus Rex</title>
     <meta

@@ -4,6 +4,9 @@ import ReferenceBlock from './ReferenceBlock'
 import OriginalLanguageBlock from './OriginalLanguageBlock'
 import Callout from './Callout'
 import { useCopy } from '../hooks/useCopy'
+import { useLocale } from '../i18n/useLocale'
+import { useStrings } from '../i18n/useStrings'
+import { resolveLocaleFromPath, withLocalePath } from '../i18n/locales'
 
 interface ArgumentCardProps {
   argument: Argument
@@ -37,16 +40,22 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
   } = argument
 
   const { copied, copy } = useCopy()
+  const { locale } = useLocale()
+  const strings = useStrings()
 
   const handleCopy = () => {
     void copy(buildCopyText(argument))
   }
 
   const handleLink = () => {
-    const origin = window.location.origin
-    const href = topicId
-      ? `${origin}/topic/${topicId}#${id}`
-      : `${origin}${window.location.pathname}#${id}`
+    // Build a base- AND locale-aware absolute URL. withLocalePath returns an
+    // in-app, base-stripped path; prepend origin + base so the copied link is
+    // openable on GitHub Pages and renders in the active locale.
+    const base = import.meta.env.BASE_URL.replace(/\/$/, '')
+    const inApp = topicId
+      ? withLocalePath(locale, `/topic/${topicId}`)
+      : withLocalePath(locale, resolveLocaleFromPath(window.location.pathname.slice(base.length) || '/').rest)
+    const href = `${window.location.origin}${base}${inApp}#${id}`
     void copy(href)
   }
 
@@ -68,8 +77,8 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
             type="button"
             onClick={handleCopy}
             className={actionButtonClasses}
-            aria-label={`Copy argument "${title}" with its references`}
-            title="Copy argument text"
+            aria-label={strings.argumentCard.copyAria(title)}
+            title={strings.argumentCard.copyTitle}
           >
             <svg
               className="h-5 w-5"
@@ -87,8 +96,8 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
             type="button"
             onClick={handleLink}
             className={actionButtonClasses}
-            aria-label={`Copy a link to argument "${title}"`}
-            title="Copy link to this argument"
+            aria-label={strings.argumentCard.linkAria(title)}
+            title={strings.argumentCard.linkTitle}
           >
             <svg
               className="h-5 w-5"
@@ -123,7 +132,7 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
 
       {nwtRebuttal ? (
         <div className="mb-5">
-          <Callout variant="rebuttal" title="New World Translation — the dispute">
+          <Callout variant="rebuttal" title={strings.argumentCard.nwtRebuttalTitle}>
             {nwtRebuttal}
           </Callout>
         </div>
@@ -134,7 +143,7 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
       </div>
 
       <span aria-live="polite" role="status" className="sr-only">
-        {copied ? 'Copied to clipboard' : ''}
+        {copied ? strings.argumentCard.copiedLive : ''}
       </span>
       {copied ? (
         <div
@@ -151,7 +160,7 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="m5 13 4 4L19 7" />
           </svg>
-          Copied
+          {strings.argumentCard.copiedBadge}
         </div>
       ) : null}
     </article>

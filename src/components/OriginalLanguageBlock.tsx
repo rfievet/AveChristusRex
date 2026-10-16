@@ -1,3 +1,4 @@
+import { useStrings } from '../i18n/useStrings'
 import type { OriginalLanguage } from '../data/types'
 
 interface OriginalLanguageBlockProps {
@@ -5,10 +6,20 @@ interface OriginalLanguageBlockProps {
   originalLanguage: OriginalLanguage | string
 }
 
+// Map a structured language label (English or French) to a BCP-47 lang tag so
+// screen readers switch pronunciation. Unknown labels fall through to undefined
+// (the pre-i18n behaviour). Spellings are locked to the Part-B content labels.
+function langTag(language: string): string | undefined {
+  if (language === 'Greek' || language === 'Grec') return 'el'
+  if (language === 'Hebrew' || language === 'Hébreu') return 'he'
+  return undefined
+}
+
 export default function OriginalLanguageBlock({ originalLanguage }: OriginalLanguageBlockProps) {
+  const strings = useStrings()
   // Normalize the two shapes the research data uses.
   const isObject = typeof originalLanguage === 'object' && originalLanguage !== null
-  const language = isObject ? originalLanguage.language : 'Original language'
+  const language = isObject ? originalLanguage.language : strings.originalLanguage.fallbackLabel
   const text = isObject ? originalLanguage.text : undefined
   const translit = isObject ? originalLanguage.translit : undefined
   const note = isObject ? originalLanguage.note : originalLanguage
@@ -19,7 +30,7 @@ export default function OriginalLanguageBlock({ originalLanguage }: OriginalLang
         {language}
       </p>
       {text ? (
-        <p lang={language === 'Greek' ? 'el' : language === 'Hebrew' ? 'he' : undefined} className="mb-1 break-words font-serif text-2xl leading-relaxed text-ink-900 dark:text-parchment-50">
+        <p lang={langTag(language)} className="mb-1 break-words font-serif text-2xl leading-relaxed text-ink-900 dark:text-parchment-50">
           {text}
         </p>
       ) : null}

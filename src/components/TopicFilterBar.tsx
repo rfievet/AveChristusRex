@@ -1,3 +1,4 @@
+import { useStrings } from '../i18n/useStrings'
 import type { Strength } from '../data/types'
 
 export interface FilterSection {
@@ -19,31 +20,26 @@ interface TopicFilterBarProps {
 // supplementary) with a neutral style for "All".
 const STRENGTH_OPTIONS: {
   value: StrengthFilter
-  label: string
   active: string
   idle: string
 }[] = [
   {
     value: 'all',
-    label: 'All',
     active: 'bg-ink-900 text-parchment-50 ring-1 ring-inset ring-ink-900 dark:bg-parchment-100 dark:text-ink-900 dark:ring-parchment-100',
     idle: 'bg-transparent text-ink-700 ring-1 ring-inset ring-ink-300/70 hover:text-ink-900 dark:text-parchment-200 dark:ring-ink-500/60 dark:hover:text-parchment-50',
   },
   {
     value: 'scriptural',
-    label: 'Scriptural',
     active: 'bg-gold-400 text-ink-900 ring-1 ring-inset ring-gold-500',
     idle: 'bg-transparent text-gold-700 ring-1 ring-inset ring-gold-500/50 hover:bg-gold-900/10 dark:text-gold-200 dark:ring-gold-400/50 dark:hover:bg-gold-900/20',
   },
   {
     value: 'strong',
-    label: 'Strong',
     active: 'bg-gold-900/15 text-gold-700 ring-1 ring-inset ring-gold-500/60 dark:bg-gold-900/40 dark:text-gold-200 dark:ring-gold-400/70',
     idle: 'bg-transparent text-gold-700 ring-1 ring-inset ring-gold-500/40 hover:bg-gold-900/10 dark:text-gold-200 dark:ring-gold-400/40 dark:hover:bg-gold-900/20',
   },
   {
     value: 'supplementary',
-    label: 'Supplementary',
     active: 'bg-ink-200 text-ink-700 ring-1 ring-inset ring-ink-300/70 dark:bg-ink-700/70 dark:text-parchment-200 dark:ring-ink-400/50',
     idle: 'bg-transparent text-ink-600 ring-1 ring-inset ring-ink-300/60 hover:bg-ink-200/60 dark:text-parchment-300 dark:ring-ink-500/50 dark:hover:bg-ink-700/50',
   },
@@ -59,11 +55,18 @@ function scrollToSection(id: string) {
 }
 
 export default function TopicFilterBar({ sections, activeStrength, onStrengthChange }: TopicFilterBarProps) {
+  const strings = useStrings()
+  const optionLabels: Record<StrengthFilter, string> = {
+    all: strings.filterBar.all,
+    scriptural: strings.filterBar.scriptural,
+    strong: strings.filterBar.strong,
+    supplementary: strings.filterBar.supplementary,
+  }
   return (
     <div className="sticky top-[69px] z-30 -mx-4 mb-10 border-b border-gold-500/30 bg-parchment-50/90 px-4 py-2.5 backdrop-blur dark:border-gold-500/20 dark:bg-ink-900/90 sm:-mx-6 sm:px-6">
       {/* Category jump chips — horizontally scrollable on mobile, wrapping on wider screens */}
       {sections.length ? (
-        <nav aria-label="Jump to section" className="flex gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-x-visible sm:pb-0">
+        <nav aria-label={strings.filterBar.jumpLabel} className="flex gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-x-visible sm:pb-0">
           {sections.map((section) => (
             <button
               key={section.id}
@@ -84,7 +87,7 @@ export default function TopicFilterBar({ sections, activeStrength, onStrengthCha
       <div
         className="mt-2 flex gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-x-visible sm:pb-0"
         role="group"
-        aria-label="Filter arguments by strength"
+        aria-label={strings.filterBar.groupLabel}
       >
         {STRENGTH_OPTIONS.map((option) => {
           const isActive = activeStrength === option.value
@@ -98,7 +101,7 @@ export default function TopicFilterBar({ sections, activeStrength, onStrengthCha
                 isActive ? option.active : option.idle
               }`}
             >
-              {option.label}
+              {optionLabels[option.value]}
             </button>
           )
         })}
