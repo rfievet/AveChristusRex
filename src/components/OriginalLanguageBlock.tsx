@@ -24,7 +24,7 @@ export default function OriginalLanguageBlock({ originalLanguage }: OriginalLang
         </p>
       ) : null}
       {translit ? <p className="mb-2 font-sans text-base italic text-ink-500 dark:text-parchment-300">{translit}</p> : null}
-      {note ? <p className="text-base leading-relaxed text-ink-700 dark:text-parchment-200">{note}</p> : null}
+      {note ? <p className="text-lg leading-relaxed text-ink-700 dark:text-parchment-200 sm:text-base">{note}</p> : null}
     </div>
   )
 }

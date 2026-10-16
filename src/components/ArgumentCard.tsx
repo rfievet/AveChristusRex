@@ -105,7 +105,7 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
         </div>
       </header>
 
-      <p className="mb-5 max-w-prose text-base leading-relaxed text-ink-700 dark:text-parchment-200">{shortClaim}</p>
+      <p className="mb-5 max-w-prose text-lg leading-relaxed text-ink-700 dark:text-parchment-200 sm:text-base">{shortClaim}</p>
 
       {primaryReferences?.length ? (
         <div className="mb-5 space-y-3">
@@ -129,7 +129,7 @@ export default function ArgumentCard({ argument, topicId }: ArgumentCardProps) {
         </div>
       ) : null}
 
-      <div className="max-w-prose text-base leading-relaxed text-ink-800 dark:text-parchment-100">
+      <div className="max-w-prose text-lg leading-relaxed text-ink-800 dark:text-parchment-100 sm:text-base">
         <p>{explanation}</p>
       </div>
 
