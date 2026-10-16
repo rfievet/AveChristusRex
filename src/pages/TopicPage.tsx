@@ -192,10 +192,10 @@ export default function TopicPage() {
             id="start-here-heading"
             className="font-serif text-2xl font-semibold text-gold-700 dark:text-gold-200 sm:text-3xl"
           >
-            Start here — strongest arguments
+            Strongest arguments
           </h2>
           <p className="mt-1 text-sm text-ink-600 dark:text-parchment-300">
-            The clearest, hardest-to-dispute arguments — lead with these.
+            The clearest and most direct evidence that Jesus is God.
           </p>
           <ol className="mt-4 space-y-3">
             {featuredArgs.map((arg, index) => (
