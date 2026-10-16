@@ -51,7 +51,7 @@
     {
       "id": "john-1-1-word-was-god",
       "title": "John 1:1 \u2014 \u201cand the Word was God\u201d",
-      "shortClaim": "John calls Jesus 'the Word' and says plainly that 'the Word was God' - so the Bible's own opening identifies Jesus as God. (Jehovah's Witnesses render it 'a god,' a change the Greek grammar does not support.)",
+      "shortClaim": "John says 'the Word was God,' and a few verses later tells us who 'the Word' is: the one who 'was made flesh' and is named 'Jesus Christ' (John 1:14,17) - so the Bible's own opening identifies Jesus as God. (Jehovah's Witnesses render it 'a god,' a change the Greek grammar does not support.)",
       "category": "Addressed as God",
       "strength": "scriptural",
       "primaryReferences": [
@@ -59,6 +59,16 @@
           "citation": "John 1:1",
           "translationUsed": "DRA",
           "text": "In the beginning was the Word, and the Word was with God, and the Word was God."
+        },
+        {
+          "citation": "John 1:14",
+          "translationUsed": "DRA",
+          "text": "And the Word was made flesh, and dwelt among us, (and we saw his glory, the glory as it were of the only begotten of the Father,) full of grace and truth."
+        },
+        {
+          "citation": "John 1:17",
+          "translationUsed": "DRA",
+          "text": "For the law was given by Moses; grace and truth came by Jesus Christ."
         }
       ],
       "originalLanguage": {
@@ -68,7 +78,7 @@
         "note": "In the third clause 'theos' (God) is an anarthrous predicate nominative placed before the verb. Greek regularly drops the article from a pre-verbal predicate noun while it remains qualitative/definite (Colwell's rule; more precisely the pre-verbal predicate is typically qualitative, stressing nature). The construction stresses that the Word has the very nature of God, not that He is 'a god.' Had John meant 'a god' he had other means; had he written the article on both nouns he would have taught Sabellian identity of persons. Oldest manuscript witnesses to the text of John 1 include Papyrus 66 (P66, c. 200), Papyrus 75 (P75, early 3rd c.), Codex Sinaiticus (\u2135 / 01, 4th c.), and Codex Vaticanus (B / 03, 4th c.); none support an indefinite 'a god,' and ancient translators (e.g., Latin, Syriac Peshitta) rendered it as 'God.'"
       },
       "nwtRebuttal": "The NWT reads: 'and the Word was a god.' The Watch Tower appeals to the absence of the Greek article before 'theos' to justify an indefinite 'a god.' This is selective: the same Gospel repeatedly uses anarthrous 'theos' of the Father (e.g., John 1:6,12,13,18) without the NWT translating 'a god' there. The 'a god' rendering also forces polytheism (two gods, a great one and a lesser one) onto a Jewish monotheist author, and is rejected by the overwhelming consensus of Greek grammarians.",
-      "explanation": "John 1:1 is the single most-contested verse in the debate. Three clauses move in order: the Word's eternity ('in the beginning was'), the Word's distinction from the Father ('with God'), and the Word's deity ('was God'). The grammar makes the third clause qualitative: the Word shares the divine nature while remaining personally distinct from the Father \u2014 exactly Trinitarian, not two separate gods."
+      "explanation": "First, who is 'the Word'? John tells us in the same passage: 'the Word was made flesh, and dwelt among us' (John 1:14) \u2014 the Word became a real human being who lived among people. John then names that person three verses later: 'grace and truth came by Jesus Christ' (John 1:17), picking up the exact 'grace and truth' he had just said the Word-made-flesh was full of (1:14). So John's own text identifies the Word as Jesus; this is not an assumption read into the verse. With that settled, John 1:1 is the single most-contested verse in the debate. Three clauses move in order: the Word's eternity ('in the beginning was'), the Word's distinction from the Father ('with God'), and the Word's deity ('was God'). The grammar makes the third clause qualitative: the Word \u2014 that is, Jesus \u2014 shares the divine nature while remaining personally distinct from the Father \u2014 exactly Trinitarian, not two separate gods."
     },
     {
       "id": "john-1-creator-made-flesh",
