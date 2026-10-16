@@ -36,7 +36,7 @@ export default function Callout({ variant = 'info', title, children }: CalloutPr
           {title}
         </p>
       ) : null}
-      <div className="text-sm leading-relaxed text-ink-800 dark:text-parchment-100 sm:text-base">{children}</div>
+      <div className="text-base leading-relaxed text-ink-800 dark:text-parchment-100">{children}</div>
     </div>
   )
 }

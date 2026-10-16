@@ -219,7 +219,7 @@ export default function TopicPage() {
                         <StrengthBadge strength={arg.strength} />
                       </span>
                     </span>
-                    <span className="mt-1 block text-sm leading-relaxed text-ink-600 dark:text-parchment-300">
+                    <span className="mt-1 block text-base leading-relaxed text-ink-600 dark:text-parchment-300">
                       {arg.shortClaim}
                     </span>
                   </span>
@@ -261,8 +261,8 @@ export default function TopicPage() {
           <ul className="mt-4 space-y-4">
             {content.uncertainCitations.map((item, index) => (
               <li key={`${item.citation}-${index}`} className="border-l-2 border-gold-500/50 pl-4 dark:border-gold-500/40">
-                <p className="font-sans text-sm font-semibold text-gold-700 dark:text-gold-200">{item.citation}</p>
-                <p className="mt-1 text-sm leading-relaxed text-ink-700 dark:text-parchment-200">{item.issue}</p>
+                <p className="font-sans text-base font-semibold text-gold-700 dark:text-gold-200">{item.citation}</p>
+                <p className="mt-1 text-base leading-relaxed text-ink-700 dark:text-parchment-200">{item.issue}</p>
               </li>
             ))}
           </ul>
