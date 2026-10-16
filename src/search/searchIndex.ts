@@ -1,5 +1,5 @@
 import { listTopics } from '../data/topics'
-import type { LocaleCode } from '../i18n/locales'
+import { localized, type LocaleCode } from '../i18n/locales'
 import type { OriginalLanguage, Strength } from '../data/types'
 
 // A single searchable record. There are two kinds:
@@ -60,18 +60,21 @@ export function buildSearchIndex(locale: LocaleCode): SearchEntry[] {
 
   for (const topic of listTopics()) {
     const isLive = topic.status === 'live' && typeof topic.loadContent === 'function'
+    const navLabel = localized(topic.navLabel, locale)
+    const title = localized(topic.title, locale)
+    const blurb = localized(topic.blurb, locale)
 
     // Index the topic itself so queries like 'trinity' or 'watch tower' land here.
     entries.push({
       kind: 'topic',
       topicId: topic.id,
-      topicLabel: topic.navLabel,
-      topicTitle: topic.title,
-      title: topic.title,
+      topicLabel: navLabel,
+      topicTitle: title,
+      title,
       citations: [],
       comingSoon: !isLive,
-      primary: normalize([topic.navLabel, topic.title].join(' ')),
-      body: normalize(topic.blurb),
+      primary: normalize([navLabel, title].join(' ')),
+      body: normalize(blurb),
     })
 
     if (!isLive || !topic.loadContent) continue
@@ -102,8 +105,8 @@ export function buildSearchIndex(locale: LocaleCode): SearchEntry[] {
       entries.push({
         kind: 'argument',
         topicId: topic.id,
-        topicLabel: topic.navLabel,
-        topicTitle: topic.title,
+        topicLabel: navLabel,
+        topicTitle: title,
         argumentId: arg.id,
         title: arg.title,
         shortClaim: arg.shortClaim,

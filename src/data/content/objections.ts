@@ -1,4 +1,12 @@
-import data from './objections.json'
+import en from './en/objections.json'
+import fr from './fr/objections.json'
 import type { TopicContent } from '../types'
+import type { LocaleCode } from '../../i18n/locales'
 
-export default data as unknown as TopicContent
+// en is authoritative; fr matches its structure (same ids, slugs, order).
+const byLocale = {
+  en: en as unknown as TopicContent,
+  fr: fr as unknown as TopicContent,
+} satisfies Partial<Record<LocaleCode, TopicContent>>
+
+export default byLocale

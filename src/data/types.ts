@@ -2,6 +2,8 @@
 // The research JSON files in src/data/content are the single source of truth;
 // these interfaces describe their shape so the app can render them with type safety.
 
+import type { LocaleCode, LocalizedString } from '../i18n/locales'
+
 export type Strength = 'scriptural' | 'strong' | 'supplementary'
 
 export interface Reference {
@@ -55,16 +57,23 @@ export interface TopicContent {
   // block above the sections (strongest-first). Any topic that adds this array
   // gets the block automatically; ids that don't resolve are skipped.
   featured?: string[]
+  // Optional per-topic overrides for the "Start here" featured block. When set,
+  // they take precedence over the generic chrome strings (strongestTitle/Blurb);
+  // when absent, the block falls back to those generic labels. Today only
+  // jesus-is-god sets featuredBlurb; featuredTitle is an intentionally-dormant
+  // extension point for a future featured topic.
+  featuredTitle?: string
+  featuredBlurb?: string
   arguments: Argument[]
   uncertainCitations?: UncertainCitation[]
 }
 
 export interface TopicMeta {
   id: string
-  navLabel: string
-  title: string
-  blurb: string
+  navLabel: LocalizedString
+  title: LocalizedString
+  blurb: LocalizedString
   status: 'live' | 'coming-soon'
   accent?: string
-  loadContent?: () => TopicContent
+  loadContent?: (locale: LocaleCode) => TopicContent
 }
