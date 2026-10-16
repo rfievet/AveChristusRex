@@ -1,4 +1,392 @@
 {
-  "title": "",
-  "arguments": []
+  "topic": "Pourquoi la prétention de l'organisation des Témoins de Jéhovah à être la vraie religion restaurée est historiquement et doctrinalement problématique",
+  "disclaimer": "Cette recherche critique les doctrines et les prétentions institutionnelles de la Société Watch Tower Bible and Tract et de l'organisation des Témoins de Jéhovah, non les individus. Elle est destinée à un débat civil et fondé sur les preuves. Les faits signalés comme incertains sont marqués dans le champ « uncertain » de chaque entrée et résumés dans jw-critique.md.",
+  "subCategories": [
+    "Problème du vide historique",
+    "Prédictions ratées/révisées",
+    "Problèmes de la Traduction du monde nouveau",
+    "Nouveautés doctrinales",
+    "Problème d'autorité"
+  ],
+  "arguments": [
+    {
+      "id": "jw-gap-origin-1870s",
+      "title": "Le mouvement n'existait pas avant les années 1870-1880",
+      "shortClaim": "Les Témoins de Jéhovah remontent à Charles Taze Russell dans les années 1870-1880, non à l'Église apostolique.",
+      "category": "Problème du vide historique",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Zion's Watch Tower and Herald of Christ's Presence, premier numéro, juillet 1879 (C. T. Russell)",
+          "translationUsed": "N/A — histoire éditoriale",
+          "text": "Russell commença à publier sa revue en juillet 1879 ; une trentaine de congrégations d'« Étudiants de la Bible » se formèrent en 1879-1880."
+        },
+        {
+          "citation": "Zion's Watch Tower Tract Society, fondée à Pittsburgh (Pennsylvanie) en 1881 ; constituée le 15 décembre 1884",
+          "translationUsed": "N/A — histoire corporative",
+          "text": "La société légale fut fondée en 1881 et constituée en Pennsylvanie le 15 décembre 1884, avec Russell comme président."
+        }
+      ],
+      "explanation": "L'histoire éditoriale de l'organisation elle-même date son origine du travail de Russell commençant en juillet 1879, avec la société constituée en 1881 et incorporée en 1884. Il n'existe aucune lignée institutionnelle continue documentée remontant au premier siècle. C'est le fondement factuel de l'argument du « vide » : le groupe est un mouvement restaurationniste américain du dix-neuvième siècle, non une branche survivante de l'Église apostolique."
+    },
+    {
+      "id": "jw-gap-name-1931",
+      "title": "Le nom « Témoins de Jéhovah » ne fut adopté qu'en 1931",
+      "shortClaim": "Le nom distinctif remonte à un congrès de 1931 sous J. F. Rutherford, non à l'Antiquité.",
+      "category": "Problème du vide historique",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Résolution adoptée au congrès de Columbus (Ohio), le 26 juillet 1931 (sous la présidence de J. F. Rutherford), fondée sur Isaïe 43:10",
+          "translationUsed": "N/A — histoire organisationnelle",
+          "text": "Le 26 juillet 1931, Rutherford introduisit le nouveau nom « Témoins de Jéhovah ». Auparavant, les adhérents étaient appelés « Étudiants de la Bible »."
+        }
+      ],
+      "explanation": "L'identité et le nom du groupe sont modernes. Beaucoup de ses pratiques distinctives (la prédication de porte en porte, le rejet des fêtes, l'abolition des anciens élus localement en 1932, la nomination centrale des dirigeants à partir de 1938) furent introduites par Rutherford après la mort de Russell en 1916. Une religion dont le nom et les pratiques déterminantes sont des innovations du vingtième siècle ne peut être présentée de façon plausible comme la continuation inchangée de l'Église du premier siècle."
+    },
+    {
+      "id": "jw-gap-18-centuries",
+      "title": "Le problème de la disparition de 18 siècles face à la promesse du Christ à son Église",
+      "shortClaim": "Si la vraie Église a disparu pendant ~1 800 ans jusqu'aux années 1870, cela contredit la promesse de Jésus qu'elle ne disparaîtrait jamais.",
+      "category": "Problème du vide historique",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Matthieu 16:18",
+          "translationUsed": "BJ",
+          "text": "Eh bien ! moi je te dis : Tu es Pierre, et sur cette pierre je bâtirai mon Église, et les Portes de l'Hadès ne tiendront pas contre elle."
+        },
+        {
+          "citation": "Matthieu 28:20",
+          "translationUsed": "BJ",
+          "text": "...et leur apprenant à observer tout ce que je vous ai prescrit. Et voici que je suis avec vous pour toujours jusqu'à la fin du monde."
+        }
+      ],
+      "nwtRebuttal": "La TMN rend Matthieu 16:18 « ...les portes de la Tombe ne l'emporteront pas sur elle » et Matthieu 28:20 « ...je suis avec vous tous les jours jusqu'à l'achèvement du système de choses », ce qui ne retire rien à la force de l'argument : Jésus promet une présence continue et l'indéfectibilité de son Église.",
+      "explanation": "Jésus a promis que son Église ne serait jamais vaincue et qu'il serait avec elle « pour toujours, jusqu'à la fin du monde ». La position des TJ exige en effet que le christianisme authentique ait disparu de la terre pendant environ dix-huit siècles et n'ait été recouvré que dans les années 1870 par un petit groupe américain. Pressée dans le débat : par quelle autorité, à partir de quelle source survivante et par quel enseignement ininterrompu ce seul groupe a-t-il « recouvré » la foi alors que, de son propre aveu, aucune Église fidèle n'existait de qui la recouvrer ? La prétention se sabote elle-même — elle affirme à la fois que la vraie foi fut perdue et qu'un groupe moderne l'a restaurée de façon fiable, sans aucun mécanisme reliant les deux."
+    },
+    {
+      "id": "jw-pred-1914",
+      "title": "La prédiction de 1914 et sa révision répétée",
+      "shortClaim": "1914 fut d'abord prédite comme la fin visible du pouvoir mondain, puis réinterprétée après coup.",
+      "category": "Prédictions ratées/révisées",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "C. T. Russell, Études des Écritures (identifiant octobre 1914 comme la « pleine fin des temps des Gentils »)",
+          "translationUsed": "N/A — archive éditoriale",
+          "text": "Les écrits de Russell identifiaient explicitement octobre 1914 comme la limite extrême de la domination humaine et l'établissement du règne du Christ ; il écrivit que ces dates étaient « les dates de Dieu, non les nôtres »."
+        }
+      ],
+      "explanation": "L'attente d'une fin visible en 1914 ne se produisit pas comme enseigné. L'événement fut ensuite réinterprété comme une intronisation céleste « invisible » du Christ en 1914 — une doctrine encore centrale dans l'organisation. Le schéma (une date assurée, un non-événement, puis une réinterprétation qui préserve l'autorité de l'organisation) se répète à travers 1914, 1918, 1925 et 1975."
+    },
+    {
+      "id": "jw-pred-1925",
+      "title": "1925 : « Des millions de personnes actuellement vivantes ne mourront jamais »",
+      "shortClaim": "Rutherford enseigna que les patriarches de l'Ancien Testament seraient ressuscités en 1925 ; cela échoua.",
+      "category": "Prédictions ratées/révisées",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "J. F. Rutherford, Des millions de personnes actuellement vivantes ne mourront jamais (brochure, publiée en 1920), enseignant le retour des patriarches en 1925",
+          "translationUsed": "N/A — archive éditoriale",
+          "text": "Rutherford attendait la résurrection des « fidèles d'autrefois » (Abraham, Isaac, Jacob, etc.) en 1925. Le slogan « Des millions de personnes actuellement vivantes ne mourront jamais » reposait sur cette chronologie."
+        }
+      ],
+      "explanation": "La prédiction de 1925 était précise et empirique — le retour corporel de patriarches nommés — et ne pouvait être spiritualisée comme celle de 1914. Lorsqu'elle échoua, Rutherford concéda plus tard (selon le compte rendu du chercheur George Chryssides) que 1925 n'avait été « qu'une opinion exprimée ». À noter pour le débat : la brochure-slogan fut publiée en 1920 et visait l'année 1925."
+    },
+    {
+      "id": "jw-pred-1975",
+      "title": "1975 : la fin de 6 000 ans d'histoire humaine",
+      "shortClaim": "À partir de 1966, la Watch Tower suscita de fortes attentes que le millénaire pourrait commencer en 1975 ; cela n'eut pas lieu.",
+      "category": "Prédictions ratées/révisées",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "La vie éternelle dans la liberté des fils de Dieu (Watch Tower Bible and Tract Society, 1966) et articles ultérieurs de La Tour de Garde/Réveillez-vous ! 1966-1968",
+          "translationUsed": "N/A — archive éditoriale",
+          "text": "Le livre de 1966 déclarait que 6 000 ans d'existence humaine s'achèveraient à l'automne 1975 ; des publications décrivaient un début du règne du Christ en 1975 comme « plausible » et « approprié », et les baptêmes montèrent fortement (environ 59 000 en 1966 à plus de 297 000 en 1974)."
+        }
+      ],
+      "explanation": "Après le passage de 1975, l'organisation reprocha aux membres de la base d'avoir « mal lu » ses interprétations (La Tour de Garde, 1976), alors que les publications elles-mêmes avaient alimenté l'attente. La croissance du nombre de membres s'effondra dans de nombreux pays par la suite. C'est l'épisode de date ratée le plus récent et le mieux documenté, et il est particulièrement utile dans le débat parce que les propres aveux ultérieurs de l'organisation reconnaissent l'attente qu'elle avait créée."
+    },
+    {
+      "id": "jw-pred-deut-test",
+      "title": "Le test biblique du prophète (Deutéronome 18) appliqué à la Watch Tower",
+      "shortClaim": "L'Écriture donne un test — une prédiction qui échoue ne venait pas de Dieu.",
+      "category": "Prédictions ratées/révisées",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Deutéronome 18:21-22",
+          "translationUsed": "BJ",
+          "text": "Peut-être vas-tu dire en ton cœur : « Comment saurons-nous que cette parole, Yahvé ne l'a pas dite ? » Si ce prophète a parlé au nom de Yahvé, et que sa parole reste sans effet et ne s'accomplit pas, alors Yahvé n'a pas dit cette parole-là. Le prophète a parlé avec présomption. Tu n'as pas à le craindre."
+        }
+      ],
+      "explanation": "L'organisation s'est à divers moments décrite comme une voix prophétique et le « canal de Dieu ». Deutéronome 18:21-22 fournit le critère scripturaire : des prédictions faites au nom de Dieu qui échouent ne venaient pas de Dieu. Les dates ratées à répétition (1914 telle qu'enseignée à l'origine, 1925, 1975) placent la crédibilité prophétique de l'organisation sous le test précis que l'Écriture fournit. (Note : la littérature TJ moderne dit désormais que le groupe n'a jamais prétendu être un prophète inspiré ; le point du débat est qu'il a néanmoins fixé au nom de Dieu des dates qui ont échoué.)"
+    },
+    {
+      "id": "jw-nwt-anonymous",
+      "title": "La Traduction du monde nouveau fut produite par un comité anonyme",
+      "shortClaim": "Les traducteurs de la TMN ne furent jamais nommés, de sorte que leurs qualifications ne peuvent être évaluées.",
+      "category": "Problèmes de la Traduction du monde nouveau",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Traduction du monde nouveau des Saintes Écritures (Watch Tower Bible and Tract Society) ; le comité de traduction est resté anonyme à la demande de l'organisation",
+          "translationUsed": "N/A — histoire de la traduction",
+          "text": "Les identités et les diplômes du Comité de traduction de la Bible du monde nouveau ne furent pas publiés ; l'organisation dit que c'était pour rendre gloire à Dieu plutôt qu'aux traducteurs."
+        }
+      ],
+      "explanation": "Les grandes traductions indiquent leurs érudits et leurs qualifications afin que le travail puisse être examiné. Le comité de la TMN était anonyme, de sorte qu'une évaluation indépendante de la compétence des traducteurs en hébreu, en araméen et en grec koinè est impossible. C'est un point complémentaire : l'anonymat seul n'est pas une preuve d'erreur, mais combiné aux rendus contestés précis ci-dessous, il est significatif."
+    },
+    {
+      "id": "jw-nwt-john1-1",
+      "title": "Jean 1:1 — « le Verbe était un dieu »",
+      "shortClaim": "La TMN rend Jean 1:1 par « un dieu », ce que des spécialistes de diverses traditions qualifient de mauvaise traduction.",
+      "category": "Problèmes de la Traduction du monde nouveau",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 1:1 (Traduction du monde nouveau)",
+          "translationUsed": "NWT",
+          "text": "Au commencement la Parole était, et la Parole était avec Dieu, et la Parole était un dieu."
+        },
+        {
+          "citation": "Jean 1:1 (BJ)",
+          "translationUsed": "BJ",
+          "text": "Au commencement était le Verbe, et le Verbe était auprès de Dieu, et le Verbe était Dieu."
+        }
+      ],
+      "originalLanguage": "Grec : Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος. Le prédicat « theos » est anarthre (sans article) et antéposé au verbe — une construction bien connue (cf. la règle de Colwell et l'étude de Harner sur les noms prédicats qualitatifs) qui exprime normalement la nature divine du Verbe, non qu'il serait « un dieu ».",
+      "nwtRebuttal": "La TMN insère l'article indéfini « un », traitant le « theos » anarthre comme « un dieu ». De nombreux spécialistes ont rejeté cela : Bruce M. Metzger (1953) a qualifié d'erronés les rendus distinctifs de la TMN ; William Barclay (1953) a dit que « le Verbe était un dieu » était une traduction « grammaticalement impossible » ; Julius R. Mantey (co-auteur d'une grammaire grecque de référence) l'a appelée « une mauvaise traduction choquante ». Le prédicat anarthre devant le verbe est, en grec standard, un nominatif qualitatif/prédicatif, non un « un dieu » indéfini.",
+      "explanation": "C'est le verset le plus contesté de tous. La grammaire n'exige pas, et le poids écrasant de l'érudition rejette, le rendu « un dieu ». Dans le débat, citez que des spécialistes nommés, extérieurs au catholicisme — Metzger, Barclay, Mantey — ont expressément critiqué ce verset, et que le choix de la TMN s'accorde commodément avec sa doctrine antérieure selon laquelle Jésus est un « dieu » inférieur et créé."
+    },
+    {
+      "id": "jw-nwt-col1-16-17",
+      "title": "Colossiens 1:16-17 — le mot inséré « autres »",
+      "shortClaim": "La TMN insère « autres » quatre fois pour que le Christ soit rendu partie de la création.",
+      "category": "Problèmes de la Traduction du monde nouveau",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Colossiens 1:16-17 (Traduction du monde nouveau)",
+          "translationUsed": "NWT",
+          "text": "...par son moyen toutes les [autres] choses ont été créées... Toutes les [autres] choses ont été créées par son intermédiaire et pour lui. Et il est avant toutes les [autres] choses..."
+        },
+        {
+          "citation": "Colossiens 1:16-17 (BJ)",
+          "translationUsed": "BJ",
+          "text": "car c'est en lui qu'ont été créées toutes choses, dans les cieux et sur la terre... tout a été créé par lui et pour lui. Il est avant toutes choses et tout subsiste en lui."
+        }
+      ],
+      "originalLanguage": "Le grec « ta panta » = « toutes choses », sans aucun mot pour « autre » (allos/heteros) dans le texte. Les crochets de la TMN reconnaissent que le mot n'est pas dans le grec.",
+      "nwtRebuttal": "Le grec ne contient aucun mot signifiant « autre ». Insérer « autres » change le sens de « le Christ a créé toutes choses » (donc il n'est pas lui-même une créature) en « le Christ a créé toutes les autres choses » (donc il est lui-même la première créature). Metzger (1953) a classé Colossiens 1:15-17 parmi les rendus erronés de la TMN.",
+      "explanation": "Le propos de Paul est que toutes choses ont été créées en, par et pour le Christ, ce qui le place du côté Créateur de la ligne de partage Créateur/créature. Le mot inséré « autres » le rétrograde discrètement au rang d'être créé. Même les crochets de la TMN elle-même concèdent que le mot n'est pas dans l'original — un point de débat fort et concret."
+    },
+    {
+      "id": "jw-nwt-john8-58",
+      "title": "Jean 8:58 — « j'ai été » contre « JE SUIS »",
+      "shortClaim": "La TMN rend le « ego eimi » de Jésus par « j'ai été », masquant le lien avec Exode 3:14.",
+      "category": "Problèmes de la Traduction du monde nouveau",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 8:58 (Traduction du monde nouveau)",
+          "translationUsed": "NWT",
+          "text": "Jésus leur dit : « Oui, je vous l'assure, avant qu'Abraham vienne à l'existence, j'ai été. »"
+        },
+        {
+          "citation": "Jean 8:58 (BJ)",
+          "translationUsed": "BJ",
+          "text": "Jésus leur dit : « En vérité, en vérité, je vous le dis, avant qu'Abraham existât, Je Suis. »"
+        },
+        {
+          "citation": "Exode 3:14 (BJ)",
+          "translationUsed": "BJ",
+          "text": "Dieu dit à Moïse : « Je suis celui qui est. » Et il dit : « Voici ce que tu diras aux Israélites : Je suis m'a envoyé vers vous. »"
+        }
+      ],
+      "originalLanguage": "Le grec « ego eimi » = « je suis » (présent). La TMN le rend par un passé « j'ai été ». La réaction immédiate des Juifs (ils ramassèrent des pierres, Jean 8:59) indique qu'ils comprirent une auto-identification divine.",
+      "nwtRebuttal": "Le « j'ai été » de la TMN convertit un énoncé au présent en une construction au parfait/passé, coupant l'écho délibéré du nom divin « JE SUIS » d'Exode 3:14. La tentative de la foule de le lapider pour blasphème est un indice interne fort qu'une prétention divine fut comprise.",
+      "explanation": "Jésus oppose la venue à l'existence d'Abraham (aoriste) à son propre « je suis » intemporel (présent), évoquant la révélation de soi de Dieu en Exode 3:14. La réaction — la lapidation immédiate pour blasphème — confirme que les auditeurs y virent une prétention à la divinité. Le rendu au passé de la TMN en retire la force."
+    },
+    {
+      "id": "jw-nwt-jehovah-nt-237",
+      "title": "Insérer « Jéhovah » dans le Nouveau Testament 237 fois",
+      "shortClaim": "La TMN met « Jéhovah » dans le NT 237 fois là où les manuscrits grecs lisent Kyrios (Seigneur) ou Theos (Dieu).",
+      "category": "Problèmes de la Traduction du monde nouveau",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Traduction du monde nouveau ; le chiffre de 237 occurrences de « Jéhovah » dans les Écritures grecques chrétiennes reconnu par la Société Watch Tower",
+          "translationUsed": "NWT",
+          "text": "La TMN emploie « Jéhovah » 237 fois dans le Nouveau Testament à des endroits où les textes grecs conservés ne lisent que « kyrios » (Seigneur) ou « theos » (Dieu)."
+        }
+      ],
+      "originalLanguage": "Aucun manuscrit grec conservé du Nouveau Testament ne contient le Tétragramme (יהוה / YHWH) dans le texte du NT ; les mots qui y figurent sont « kyrios » et « theos ».",
+      "nwtRebuttal": "L'organisation soutient que les apôtres auraient employé le nom divin et que des copistes ultérieurs l'auraient retiré, de sorte qu'elle le « restaure ». Le fait incontournable pour le débat : il n'y a aucun témoignage manuscrit — pas un seul manuscrit grec critique du NT ne contient le Tétragramme. Les insertions sont des restaurations conjecturales, non des traductions du texte qui existe.",
+      "explanation": "C'est un point fort et concret. Le chiffre de 237 est le propre décompte de l'organisation (et il est corroboré dans la littérature secondaire, qui note aussi que la pratique n'est « pas propre » à la TMN). L'argument décisif est textuel : parce que le grec dit « kyrios », de nombreux passages du NT qui appellent Jésus « Seigneur » en des termes faisant écho à des textes de l'Ancien Testament sur YHWH sont doctrinalement significatifs — et la substitution sélective de « Jéhovah » par la TMN peut masquer les endroits où le NT applique le langage de YHWH au Christ. À signaler : le décompte de 237 est celui de la Watch Tower ; confirmez le nombre exact si un interlocuteur le conteste."
+    },
+    {
+      "id": "jw-doc-trinity",
+      "title": "Le rejet de la Trinité",
+      "shortClaim": "Les TJ rejettent la Trinité, une doctrine tenue à travers le christianisme catholique, orthodoxe et protestant classique.",
+      "category": "Nouveautés doctrinales",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Devriez-vous croire à la Trinité ? (Watch Tower Bible and Tract Society, 1989) et enseignement constant de La Tour de Garde",
+          "translationUsed": "N/A — publication doctrinale",
+          "text": "Les Témoins de Jéhovah rejettent la Trinité, soutenant que Dieu le Père (« Jéhovah ») seul est le Dieu Tout-Puissant, que Jésus est un être créé distinct et que l'Esprit Saint n'est pas une personne."
+        }
+      ],
+      "explanation": "La Trinité (un seul Dieu en trois personnes co-égales et co-éternelles) fut formulée et défendue aux conciles œcuméniques de Nicée (325) et de Constantinople (381) et est la confession commune des Églises chrétiennes historiques d'Orient et d'Occident. Le rejet par les TJ est une nouveauté doctrinale par rapport à ce consensus bimillénaire, formulée par une organisation des dix-neuvième et vingtième siècles."
+    },
+    {
+      "id": "jw-doc-arianism",
+      "title": "Arianisme revivifié : le Christ comme être créé",
+      "shortClaim": "La christologie des TJ répète l'erreur d'Arius, condamnée au concile de Nicée en 325.",
+      "category": "Nouveautés doctrinales",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Premier concile de Nicée, an 325 (convoqué par l'empereur Constantin Ier) ; le « homoousios » du Credo de Nicée (consubstantiel/d'un seul être avec le Père)",
+          "translationUsed": "N/A — histoire conciliaire",
+          "text": "L'arianisme soutenait que le Fils n'était pas co-éternel avec le Père mais avait été créé par le Père avant tout le reste. Le concile de Nicée (325) rejeta cela et confessa le Fils comme « d'un seul être » (homoousios) avec le Père."
+        }
+      ],
+      "explanation": "L'enseignement des TJ selon lequel Jésus est la première et la plus haute création de Dieu — un être qui a commencé d'exister et qui est subordonné par nature — est la substance de la position associée à Arius, que l'Église entière condamna à Nicée en 325. Dans le débat, cela recadre la vue des TJ non comme une fraîche redécouverte de la vérité apostolique mais comme une erreur vieille de seize siècles que l'Église a déjà examinée et rejetée. (Nuance savante : les historiens notent qu'Arius ne fut pas littéralement le seul fondateur de l'« arianisme », mais le contenu christologique est le même.)"
+    },
+    {
+      "id": "jw-doc-holy-spirit",
+      "title": "Le rejet de la personnalité de l'Esprit Saint",
+      "shortClaim": "Les TJ enseignent que l'Esprit Saint est une « force agissante » impersonnelle, non une personne divine.",
+      "category": "Nouveautés doctrinales",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Enseignement de la Watch Tower Bible and Tract Society selon lequel l'esprit saint est la « force agissante » de Dieu",
+          "translationUsed": "N/A — publication doctrinale",
+          "text": "Les Témoins de Jéhovah enseignent que l'esprit saint est la force agissante impersonnelle de Jéhovah, non une personne."
+        },
+        {
+          "citation": "Actes 5:3-4 ; Jean 14:26 ; Éphésiens 4:30 (BJ)",
+          "translationUsed": "BJ",
+          "text": "L'Écriture attribue des actes personnels à l'Esprit — se laisser mentir (Actes 5:3-4), enseigner et rappeler (Jean 14:26), et être attristé (Éphésiens 4:30) — ce qui convient à une personne, non à une force impersonnelle."
+        }
+      ],
+      "explanation": "La doctrine de la « force agissante » est en conflit avec des passages du Nouveau Testament qui attribuent des attributs et des actions personnels à l'Esprit Saint (parler, enseigner, être attristé, se laisser mentir comme à Dieu). C'est une nouveauté supplémentaire découlant du rejet de la Trinité."
+    },
+    {
+      "id": "jw-doc-michael",
+      "title": "Jésus identifié à Michel l'archange",
+      "shortClaim": "Les TJ enseignent que Jésus est Michel l'archange.",
+      "category": "Nouveautés doctrinales",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Doctrine de la Watch Tower Bible and Tract Society identifiant Jésus à Michel l'archange (enseignée de façon constante dans la littérature de La Tour de Garde)",
+          "translationUsed": "N/A — publication doctrinale",
+          "text": "Les Témoins de Jéhovah enseignent que « Michel l'archange » est un titre/nom de Jésus dans son existence préhumaine et céleste."
+        },
+        {
+          "citation": "Hébreux 1:5-6, 13 (BJ)",
+          "translationUsed": "BJ",
+          "text": "Auquel des anges, en effet, Dieu a-t-il jamais dit : « Tu es mon fils... » ? Et de nouveau : « Que tous les anges de Dieu l'adorent. »... Et auquel des anges a-t-il jamais dit : « Assieds-toi à ma droite... » ?"
+        }
+      ],
+      "explanation": "Identifier Jésus à un archange créé est requis par la vue plus large des TJ selon laquelle le Christ est une créature. Hébreux 1 argumente longuement que le Fils est supérieur aux anges et qu'il est adoré par eux — le contraire de le classer parmi eux. À signaler : je n'ai pu, dans cet environnement, vérifier le numéro/la page exacts de La Tour de Garde qui énonce le plus explicitement l'identification à Michel ; présentez la doctrine comme un enseignement TJ constant et ne citez un numéro précis qu'après l'avoir confirmé."
+    },
+    {
+      "id": "jw-doc-144000",
+      "title": "La classe céleste limitée des 144 000",
+      "shortClaim": "Les TJ enseignent que seuls 144 000 vont au ciel ; les autres vivent éternellement sur une terre paradisiaque.",
+      "category": "Nouveautés doctrinales",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Doctrine de la Watch Tower fondée sur une lecture littérale d'Apocalypse 7:4 et 14:1-4",
+          "translationUsed": "N/A — publication doctrinale",
+          "text": "Les Témoins de Jéhovah enseignent qu'exactement 144 000 chrétiens « oints » vont au ciel pour régner avec le Christ, tandis que la « grande foule » vit éternellement sur la terre."
+        }
+      ],
+      "explanation": "Apocalypse 7 et 14 décrivent les 144 000 symboliquement (12 000 de chacune des douze tribus), et Apocalypse 7:9 décrit immédiatement « une foule immense que nul ne pouvait dénombrer » également devant le trône au ciel. Lire les 144 000 comme un plafond littéral du salut céleste est une construction TJ distinctive absente de l'interprétation chrétienne historique, et elle crée une double appartenance (oints contre grande foule) avec des conséquences pratiques sur qui peut prendre la communion."
+    },
+    {
+      "id": "jw-doc-blood",
+      "title": "L'interdiction des transfusions sanguines",
+      "shortClaim": "Les TJ interdisent les transfusions sanguines, appliquant les lois diététiques de l'Ancien Testament sur le sang à la médecine moderne.",
+      "category": "Nouveautés doctrinales",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Enseignement de la Watch Tower Bible and Tract Society interdisant les transfusions sanguines (position habituellement datée d'un article de La Tour de Garde de 1945)",
+          "translationUsed": "N/A — publication doctrinale",
+          "text": "Les Témoins de Jéhovah refusent les transfusions sanguines, en invoquant Genèse 9:4, Lévitique 17:10-14 et Actes 15:28-29 (« s'abstenir du sang »)."
+        }
+      ],
+      "explanation": "Les textes cités concernent la consommation de sang et la loi sacrificielle/diététique de l'Ancien Testament, non la transfusion médicale intraveineuse, qui n'existait pas dans le monde biblique. Appliquer « s'abstenir du sang » (une directive diététique/rituelle du premier siècle) à la médecine transfusionnelle est une opération interprétative moderne aux graves conséquences réelles. La politique a aussi évolué dans le temps (certaines fractions du sang et procédures ont été permises à différents moments), illustrant le schéma de la « nouvelle lumière ». À signaler : l'année précise de 1945 est couramment citée pour l'interdiction des transfusions ; je n'ai pu revérifier l'article exact dans cet environnement — confirmez avant d'affirmer la date dans le débat."
+    },
+    {
+      "id": "jw-doc-cross",
+      "title": "Le rejet de la croix (« poteau de supplice »)",
+      "shortClaim": "Depuis les années 1930, les TJ enseignent que Jésus mourut sur un poteau vertical, non sur une croix.",
+      "category": "Nouveautés doctrinales",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower Bible and Tract Society : utilisa le symbole « Croix et Couronne » sur ses publications jusqu'en 1931 ; à partir de 1936, enseigna que Jésus mourut sur un simple poteau vertical, non sur une croix",
+          "translationUsed": "N/A — histoire doctrinale",
+          "text": "L'organisation utilisa le symbole de la Croix et Couronne jusqu'en 1931 et, à partir de 1936, rejeta la croix, enseignant un « poteau de supplice » (grec « stauros »)."
+        }
+      ],
+      "explanation": "C'est un point fort de cohérence interne : l'organisation elle-même utilisa le symbole de la croix jusqu'en 1931 et ne fit volte-face qu'à partir de 1936 — un renversement doctrinal documenté, non un enseignement apostolique immuable. La thèse du « poteau » repose sur un argument lexical étroit à propos de « stauros » que le poids large de l'érudition historique et lexicale n'appuie pas, et de toute façon la forme de l'instrument de supplice n'est pas le fondement de la question de la divinité."
+    },
+    {
+      "id": "jw-doc-shunning",
+      "title": "L'exclusion et l'ostracisme",
+      "shortClaim": "Les TJ pratiquent un ostracisme strict des anciens membres, y compris la famille.",
+      "category": "Nouveautés doctrinales",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Enseignement de la Watch Tower Bible and Tract Society sur l'exclusion et l'évitement des membres expulsés ou dissociés",
+          "translationUsed": "N/A — publication doctrinale",
+          "text": "Les Témoins de Jéhovah reçoivent l'instruction d'éviter les contacts sociaux et familiaux normaux avec ceux qui sont exclus ou qui quittent formellement l'organisation."
+        }
+      ],
+      "explanation": "L'organisation défend l'ostracisme comme protégeant la pureté de la congrégation, mais l'évitement complet de membres de la famille pour avoir quitté le groupe ou être en désaccord est une pratique sévère qui a pour fonction de mettre l'autorité de l'organisation à l'abri de tout examen. Dans le débat, c'est pertinent pour le « problème d'autorité » : un système qui pénalise le questionnement par l'exclusion sociale et familiale décourage l'examen même qui mettrait ses prétentions doctrinales à l'épreuve."
+    },
+    {
+      "id": "jw-auth-new-light",
+      "title": "Changer la doctrine par la « nouvelle lumière »",
+      "shortClaim": "L'organisation renverse à répétition ses enseignements et appelle ces changements « nouvelle lumière ».",
+      "category": "Problème d'autorité",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Enseignement de la Watch Tower selon lequel les « ajustements » doctrinaux sont « nouvelle lumière », fondé sur Proverbes 4:18",
+          "translationUsed": "N/A — publication doctrinale",
+          "text": "Les membres reçoivent l'instruction d'accueillir les changements doctrinaux comme « nouvelle lumière » ou « nouvelle compréhension », en citant Proverbes 4:18 (« le sentier des justes est comme la lumière de l'aube, dont l'éclat grandit jusqu'au plein jour »)."
+        }
+      ],
+      "explanation": "Les renversements documentés incluent le symbole de la croix (utilisé jusqu'en 1931, rejeté à partir de 1936), les dates (1914 réinterprétée, 1925, 1975), la définition de « cette génération » et diverses positions sur le sang/les greffes d'organes au fil des décennies. Proverbes 4:18 décrit une croissance dans la justice, non une licence pour renverser des enseignements auparavant présentés comme la vérité même de Dieu. Le cadre de la « nouvelle lumière » permet à l'organisation de conserver son autorité après chaque enseignement raté ou renversé, ce qui est précisément le mécanisme qu'un test du vrai prophète (Deutéronome 18) est censé exposer."
+    },
+    {
+      "id": "jw-auth-sole-channel",
+      "title": "La prétention de canal unique : « l'esclave fidèle et avisé »",
+      "shortClaim": "Le Collège central prétend être le seul canal de vérité de Dieu sur la terre.",
+      "category": "Problème d'autorité",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower / Collège central des Témoins de Jéhovah : l'« esclave fidèle et avisé » (Matthieu 24:45-47) ; Collège central formellement établi en 1971",
+          "translationUsed": "N/A — doctrine organisationnelle",
+          "text": "Jusqu'à la fin de 2012, le Collège central se décrivait comme le représentant et le porte-parole de la « classe de l'esclave fidèle et avisé » ; depuis 2012, il identifie l'« esclave fidèle et avisé » au Collège central lui-même. Le Collège central fut formellement établi en 1971."
+        }
+      ],
+      "explanation": "L'organisation prétend être l'unique canal divinement établi par lequel Dieu enseigne l'humanité, ce qui rend la dissidence équivalente à s'opposer à Dieu. Combinée à la politique d'ostracisme et au mécanisme de la « nouvelle lumière », cela crée une boucle d'autorité fermée : l'organisation définit la vérité, pénalise ceux qui la questionnent, et réinterprète ses propres prétentions ratées tout en conservant son autorité. La prétention de canal unique est elle-même une affirmation moderne — le Collège central comme corps faisant autorité n'a été formellement établi qu'en 1971, et son auto-identification à l'« esclave fidèle et avisé » a été reformulée aussi récemment qu'en 2012. Pour le débat, c'est la clé de voûte : presque tout autre problème (dates ratées, mauvaise traduction, doctrines nouvelles) est protégé par la prétention qu'il faut faire confiance de façon absolue à cette seule organisation."
+    }
+  ]
 }

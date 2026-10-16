@@ -1,4 +1,405 @@
 {
-  "title": "",
-  "arguments": []
+  "title": "Répondre aux versets de la Watch Tower",
+  "subtitle": "Les versets qu'un Témoin de Jéhovah soulève pour nier que Jésus est Dieu — chacun avec la réponse orthodoxe, prête pour le débat. L'image inversée du dossier positif de « La divinité du Christ ».",
+  "displayTranslation": "Bible de Jérusalem (BJ)",
+  "displayTranslationNote": "L'Écriture affichée en français est la Bible de Jérusalem (BJ), conforme au reste du site. Là où le grec ou l'hébreu tranche le différend, la langue d'origine est donnée avec sa translittération. Les rendus de la TMN (Traduction du monde nouveau, révision 2013) sont cités là où le rendu lui-même fait partie du différend, et furent vérifiés sur jw.org / Watchtower Online Library.",
+  "methodologyNote": "Chaque argument ici est une OBJECTION de Témoin de Jéhovah : le titre énonce le verset tel qu'un Témoin l'emploie, et l'explication donne la réponse catholique/orthodoxe. Les clés récurrentes sont (1) les deux natures du Christ — vrai Dieu et vrai homme — de sorte que les textes de soumission, de prière, d'ignorance ou de « mon Dieu » décrivent le Fils comme homme ou dans sa mission incarnée, non un défaut de sa nature divine ; (2) l'ordre économique/fonctionnel n'est pas une infériorité de nature ; (3) les études de mots (premier-né = héritier, archE = source/souverain, echad = un uni, « plus grand » = rang) ; (4) les versets « seul vrai Dieu »/monothéisme sont la prémisse même de la Trinité, non sa réfutation. Les textes contestés ou à double tranchant (Proverbes 8, Apocalypse 3:14 archE, Jean 14:28) sont évalués honnêtement et listés dans les « Réserves honnêtes ».",
+  "categories": [
+    "Textes de subordination",
+    "Textes « créé / premier-né »",
+    "Textes de monothéisme / « seul vrai Dieu »",
+    "Textes « ne savait pas / moindre que »"
+  ],
+  "arguments": [
+    {
+      "id": "obj-john-14-28",
+      "title": "« Le Père est plus grand que moi » — Jean 14:28",
+      "shortClaim": "Le Témoin soutient que si le Père est « plus grand » que Jésus, alors Jésus ne peut être Dieu — il doit être un être moindre et créé.",
+      "category": "Textes de subordination",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 14:28",
+          "translationUsed": "BJ",
+          "text": "Vous avez entendu que je vous ai dit : Je m'en vais et je reviendrai vers vous. Si vous m'aimiez, vous vous réjouiriez de ce que je vais vers le Père, parce que le Père est plus grand que moi."
+        },
+        {
+          "citation": "Philippiens 2:6-7",
+          "translationUsed": "BJ",
+          "text": "Lui, de condition divine, ne retint pas jalousement le rang qui l'égalait à Dieu. Mais il s'anéantit lui-même, prenant condition d'esclave, et devenant semblable aux hommes. S'étant comporté comme un homme,"
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f41 \u03c0\u03b1\u03c4\u1f74\u03c1 \u03bc\u03b5\u03af\u03b6\u03c9\u03bd \u03bc\u03bf\u03cd \u1f10\u03c3\u03c4\u03b9\u03bd",
+        "translit": "ho patēr meizōn mou estin",
+        "note": "« meizōn » (plus grand) est le comparatif de « megas » (grand) — plus grand en rang, en position ou en gloire. Ce n'est PAS « kreittōn » (meilleur/supérieur en nature/qualité). Jésus prononce ces mots dans son état humilié et incarné, et dans le contexte de « je vais vers le Père » — c'est-à-dire qu'il retourne à la gloire céleste qu'il avait « avant que le monde fût » (Jean 17:5). Comparez Philippiens 2:6, où le même Christ est « égal » (isa) à Dieu, un énoncé de nature. La grandeur de position (le Père, comme source inengendrée au sein de la divinité, et comme celui à qui le Fils incarné obéit) est pleinement compatible avec l'égalité de nature."
+      },
+      "nwtRebuttal": "La TMN lit : « le Père est plus grand que moi ». La formulation elle-même n'est pas contestée — le verset est vrai dans toute lecture. Le différend porte seulement sur le sens de « plus grand ». La Watch Tower le prend comme plus grand en nature (donc Jésus serait une créature) ; la réponse orthodoxe est plus grand en position/charge, prononcé par le Fils dans son état humain humilié.",
+      "explanation": "Ce verset est vrai, et les catholiques l'affirment. La question est de savoir quel genre de « plus grand ». Deux faits tranchent. D'abord, Jésus parle comme le Fils incarné qui s'est « anéanti lui-même » et a pris « condition d'esclave » (Philippiens 2:7) ; dans cet état humilié, le Père dans la gloire céleste est en effet plus grand, ce qui est exactement pourquoi Jésus le dit dans le même souffle que « je vais vers le Père ». Ensuite, le même Paul qui rapporte l'abaissement dit aussi que le Christ était « égal à Dieu » (Philippiens 2:6, grec « isa »). Plus grand en charge, égal en nature — un fils peut être pleinement aussi humain que son père tout en lui devant obéissance. « Plus grand » répond à une question de rang, non d'être. Pressez le Témoin : Jean 14:28 dit « plus grand », non « meilleur que » ni « autre en nature » ; et le chapitre suivant même voit Jésus revendiquer les œuvres, la gloire et l'honneur de Dieu."
+    },
+    {
+      "id": "obj-1cor-15-28",
+      "title": "« Le Fils aussi se soumettra » — 1 Corinthiens 15:28",
+      "shortClaim": "Le Témoin soutient que si le Fils est finalement « soumis » au Père, il ne peut être Dieu co-égal.",
+      "category": "Textes de subordination",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "1 Corinthiens 15:28",
+          "translationUsed": "BJ",
+          "text": "Et lorsque toutes choses lui auront été soumises, alors le Fils lui-même se soumettra à Celui qui lui a tout soumis, afin que Dieu soit tout en tous."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f51\u03c0\u03bf\u03c4\u03b1\u03b3\u03ae\u03c3\u03b5\u03c4\u03b1\u03b9",
+        "translit": "hypotagēsetai",
+        "note": "« hypotassō » (être soumis/ordonné sous) décrit un ordre fonctionnel et relationnel, non une différence de nature. L'Écriture emploie le même verbe pour la soumission mutuelle d'égaux (Éphésiens 5:21, les chrétiens « soumis les uns aux autres ») et pour le Christ, enfant, soumis à Marie et Joseph (Luc 2:51) — sans impliquer qu'il était moins humain qu'eux. La soumission ici est celle du Fils incarné dans son rôle médiateur et messianique, qui est remis au Père lorsque sa fin (« afin que Dieu soit tout en tous ») est accomplie."
+      },
+      "explanation": "La soumission concerne l'ordre, non la nature. Un fils peut être entièrement égal à son père en humanité et pourtant lui être justement soumis ; la soumission entre personnes qui partagent une nature est ordinaire, non une dégradation. Ici Paul décrit la fin du royaume médiateur du Christ : ayant soumis tout ennemi (v. 25-26), le Fils incarné, comme chef de l'humanité rachetée, remet le royaume achevé afin que « Dieu soit tout en tous ». C'est le rôle économique du Fils dans le salut, librement assumé dans l'incarnation, non une preuve que sa nature divine soit inférieure. Notez que la soumission du Fils est volontaire et fonctionnelle ; la lecture arienne doit faire entrer en contrebande « inférieur en être » dans un mot (« hypotassō ») qui ne le porte nulle part."
+    },
+    {
+      "id": "obj-john-20-17",
+      "title": "« Mon Dieu et votre Dieu » — Jean 20:17",
+      "shortClaim": "Le Témoin soutient que si Jésus appelle le Père « mon Dieu », alors Jésus a un Dieu au-dessus de lui et n'est donc pas Dieu.",
+      "category": "Textes de subordination",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 20:17",
+          "translationUsed": "BJ",
+          "text": "Jésus lui dit : Ne me touche pas, car je ne suis pas encore monté vers le Père. Mais va trouver mes frères et dis-leur : je monte vers mon Père et votre Père, vers mon Dieu et votre Dieu."
+        },
+        {
+          "citation": "Jean 20:28",
+          "translationUsed": "BJ",
+          "text": "Thomas lui répondit : Mon Seigneur et mon Dieu !"
+        }
+      ],
+      "explanation": "Le Fils incarné, devenu vraiment homme, peut à juste titre adorer le Père et s'adresser à lui comme à « mon Dieu » selon sa nature humaine — c'est ce que signifie, pour le Verbe, avoir pris « condition d'esclave ». Cela n'annule pas plus sa divinité que sa faim ou sa mort ne le font. Le détail décisif est celui que le Témoin néglige : Jésus dit « mon Père et votre Père, mon Dieu et votre Dieu » — il ne dit soigneusement PAS « notre Père » ni « notre Dieu », parce que sa filiation et sa relation au Père sont d'un ordre différent de la nôtre (il est Fils par nature, nous par adoption). Et dans le MÊME chapitre, onze versets plus loin seulement, Thomas s'adresse à ce même Jésus ressuscité en disant « mon Seigneur et mon Dieu » (Jean 20:28), et Jésus l'accepte. Jean compose le chapitre de sorte que le Fils appelle le Père « mon Dieu » comme homme, et soit lui-même appelé « mon Dieu » comme Dieu — les deux natures côte à côte."
+    },
+    {
+      "id": "obj-1cor-11-3",
+      "title": "« Le chef du Christ, c'est Dieu » — 1 Corinthiens 11:3",
+      "shortClaim": "Le Témoin soutient que si Dieu est le « chef » du Christ, le Christ est subordonné et n'est donc pas Dieu.",
+      "category": "Textes de subordination",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "1 Corinthiens 11:3",
+          "translationUsed": "BJ",
+          "text": "Je veux cependant que vous le sachiez : le chef de tout homme, c'est le Christ ; le chef de la femme, c'est l'homme ; et le chef du Christ, c'est Dieu."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03ba\u03b5\u03c6\u03b1\u03bb\u1f74 \u03b4\u1f72 \u03c7\u03c1\u03b9\u03c3\u03c4\u03bf\u1fe6 \u1f41 \u03b8\u03b5\u03cc\u03c2",
+        "translit": "kephalē de christou ho theos",
+        "note": "« kephalē » (tête/chef) dénote la source ou une primauté ordonnée, non une nature supérieure. La chaîne même de Paul réfute l'usage arien : « le chef de la femme, c'est l'homme » — or l'homme et la femme partagent une seule et même nature humaine (Genèse 2:23). Par la même logique, le fait que le Père soit « chef » du Christ nomme un ordre de relation, non une inégalité de nature. La primauté s'applique par excellence au Fils dans son rôle incarné et médiateur."
+      },
+      "explanation": "La primauté chez Paul concerne l'ordre et la source, non le rang d'être. Lisez tout le verset : Paul dit que l'homme est le « chef » de la femme — mais personne ne conclut qu'une femme est une créature d'un genre moindre que l'homme ; ils sont également humains (Genèse 2:23, « os de mes os »). Ainsi « le chef du Christ, c'est Dieu » nomme un ordre relationnel dans l'égalité, non une différence de nature. Appliqué au Christ, cela convient à sa place volontaire comme Fils incarné et médiateur qui fait la volonté du Père. Le verset est coté « fort » plutôt que décisif seulement parce qu'il demande au Témoin d'accorder le parallèle homme/femme que Paul lui-même trace ; une fois accordé, l'inférence arienne s'effondre."
+    },
+    {
+      "id": "obj-acts-2-36",
+      "title": "« Dieu l'a fait Seigneur et Christ » — Actes 2:36",
+      "shortClaim": "Le Témoin soutient que si Dieu a « fait » Jésus Seigneur, alors Jésus n'était pas Seigneur par nature — il fut promu, comme une créature.",
+      "category": "Textes de subordination",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Actes 2:36",
+          "translationUsed": "BJ",
+          "text": "Que toute la maison d'Israël le sache donc avec certitude : Dieu l'a fait Seigneur et Christ, ce Jésus que vous, vous avez crucifié."
+        },
+        {
+          "citation": "Philippiens 2:9-11",
+          "translationUsed": "BJ",
+          "text": "Aussi Dieu l'a-t-il exalté et lui a-t-il donné le Nom qui est au-dessus de tout nom, pour que tout, au nom de Jésus, s'agenouille..."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03ba\u03b1\u1f76 \u03ba\u03cd\u03c1\u03b9\u03bf\u03bd \u03b1\u1f50\u03c4\u1f78\u03bd \u03ba\u03b1\u1f76 \u03c7\u03c1\u03b9\u03c3\u03c4\u1f78\u03bd \u1f10\u03c0\u03bf\u03af\u03b7\u03c3\u03b5\u03bd \u1f41 \u03b8\u03b5\u03cc\u03c2",
+        "translit": "kai kyrion auton kai christon epoiēsen ho theos",
+        "note": "« epoiēsen » (fit) signifie ici « constitua/déclara/établit à une charge », non « créa à partir de rien ». Pierre parle de la résurrection-exaltation : celui que les Juifs ont crucifié a été publiquement installé comme Messie (« Christ ») et intronisé comme « Seigneur » (Kyrios, le mot de la LXX pour YHWH). Cela nomme un nouveau statut public donné au Fils incarné ressuscité dans son humanité, non l'origine de son être."
+      },
+      "explanation": "« Fait » signifie ici « établi/déclaré », non « créé ». Le sermon de Pierre porte sur la résurrection : le Jésus crucifié a maintenant été ouvertement intronisé et justifié comme « Seigneur et Christ ». C'est un énoncé sur sa charge messianique et son exaltation publique comme homme, non sur le moment où il vint à l'existence. Le parallèle est Philippiens 2:9-11, où Dieu « exalte » le Fils déjà divin qui s'était humilié. Notez aussi que le titre donné est « Seigneur » (Kyrios), le rendu même du nom divin YHWH dans l'Ancien Testament grec — ainsi, si tant est que le verset exalte Jésus dans le nom divin, il ne le rétrograde pas. Coté « fort » parce que la force dépend de la lecture de « fait » comme « établi », que le contexte de la résurrection soutient clairement."
+    },
+    {
+      "id": "obj-col-1-15",
+      "title": "« Le premier-né de toute créature » — Colossiens 1:15",
+      "shortClaim": "Le Témoin soutient que « premier-né de toute la création » signifie que Jésus est le premier et le plus haut être créé — partie de la création, non le Créateur.",
+      "category": "Textes « créé / premier-né »",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Colossiens 1:15",
+          "translationUsed": "BJ",
+          "text": "Il est l'Image du Dieu invisible, Premier-né de toute créature,"
+        },
+        {
+          "citation": "Colossiens 1:16-17",
+          "translationUsed": "BJ",
+          "text": "car c'est en lui qu'ont été créées toutes choses, dans les cieux et sur la terre, les visibles et les invisibles, Trônes, Seigneuries, Principautés, Puissances ; tout a été créé par lui et pour lui. Il est avant toutes choses et tout subsiste en lui."
+        },
+        {
+          "citation": "Psaume 89:28 (= Psaume 88:28 dans la numérotation de la Bible de Jérusalem/Vulgate)",
+          "translationUsed": "BJ",
+          "text": "Et moi, j'en ferai mon premier-né, le très-haut sur les rois de la terre."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03c0\u03c1\u03c9\u03c4\u03cc\u03c4\u03bf\u03ba\u03bf\u03c2 \u03c0\u03ac\u03c3\u03b7\u03c2 \u03ba\u03c4\u03af\u03c3\u03b5\u03c9\u03c2",
+        "translit": "prōtotokos pasēs ktiseōs",
+        "note": "« prōtotokos » (premier-né) est un titre de RANG, d'héritage et de prééminence, non de création chronologique. En Psaume 89:28 (LXX 88:28), Dieu fait de David son « premier-né » — or David était le plus jeune fils (1 Samuel 16:11-13) ; « premier-né » signifie là manifestement héritier suprême. Si Paul avait voulu dire « premier-créé », le grec avait le mot « prōtoktistos » (premier-créé), qu'il n'emploie PAS. Le génitif « de toute créature / de toute la création » est un génitif de subordination (« premier-né SUR toute la création »), comme l'explique aussitôt le v. 16 : « CAR c'est en lui qu'ont été créées toutes choses »."
+      },
+      "nwtRebuttal": "La TMN lit « premier-né de toute la création » au v. 15, puis (aux v. 16-17) insère le mot « autres » quatre fois — « par son moyen toutes les AUTRES choses ont été créées » — de sorte que Jésus devient la première créature qui fit ensuite les « autres » choses restantes. Le mot « autres » n'est pas dans le grec. L'insertion est le dispositif qui transforme « premier-né » en « premier-créé ». Retirez-le et le v. 16 prouve le contraire : il a créé toutes choses, donc il n'est pas parmi les choses créées.",
+      "explanation": "« Premier-né » dans la Bible est un titre de statut, non un certificat de naissance. Dieu appelle David son « premier-né » alors même que David était le plus jeune fils de son père (Psaume 89:28 ; 1 Samuel 16), et appelle Israël sa nation « premier-né » (Exode 4:22). Cela signifie héritier suprême, le prééminent. Paul dit exactement pourquoi le Christ détient ce rang sur la création au verset suivant même : « CAR c'est en lui qu'ont été créées toutes choses... tout a été créé par lui et pour lui » (Colossiens 1:16). Le Créateur de toutes choses n'est pas lui-même l'une des choses créées. Si Paul avait voulu dire « premier créé », le grec a un mot précis pour cela (prōtoktistos) et il l'a évité. Toute la lecture de la Watch Tower tient au mot inséré « autres » au v. 16, qui n'a aucun fondement dans le grec."
+    },
+    {
+      "id": "obj-rev-3-14",
+      "title": "« Le principe de la création de Dieu » — Apocalypse 3:14",
+      "shortClaim": "Le Témoin soutient que si Jésus est « le principe de la création de Dieu », il est la première chose que Dieu a créée.",
+      "category": "Textes « créé / premier-né »",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Apocalypse 3:14",
+          "translationUsed": "BJ",
+          "text": "À l'Ange de l'Église de Laodicée, écris : Ainsi parle l'Amen, le Témoin fidèle et véritable, le Principe de la création de Dieu."
+        },
+        {
+          "citation": "Apocalypse 1:17-18",
+          "translationUsed": "BJ",
+          "text": "Je suis le Premier et le Dernier, le Vivant ; je fus mort, et me voici vivant pour les siècles des siècles, tenant les clés de la Mort et de l'Hadès."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f21 \u1f00\u03c1\u03c7\u1f74 \u03c4\u1fc6\u03c2 \u03ba\u03c4\u03af\u03c3\u03b5\u03c9\u03c2 \u03c4\u03bf\u1fe6 \u03b8\u03b5\u03bf\u1fe6",
+        "translit": "hē archē tēs ktiseōs tou theou",
+        "note": "« archē » signifie commencement, mais aussi origine, source et souverain (c'est la racine d'« archōn », chef, et d'« archē », principauté/domination). Lu au sens actif — « la Source/l'Origine/le Souverain de la création de Dieu » — il s'accorde avec Apocalypse 1:17-18 (Jésus comme Premier et Dernier) et Colossiens 1:16 (toutes choses créées en lui). Le « le commencement de la création par Dieu » de la TMN presse le sens passif (Jésus comme première chose créée). Le mot porte réellement les deux sens ; le contexte et le reste de l'Apocalypse favorisent le sens actif."
+      },
+      "nwtRebuttal": "La TMN lit : « le commencement de la création par Dieu », compris comme la première créature que Dieu fit. Le point honnête dans le débat : « archē » peut se lire passivement (« commencement » = premier créé) ou activement (« origine/souverain ») ; le grec permet les deux, de sorte que ce verset seul ne tranchera pas l'argument. Appuyez-vous sur les textes plus clairs (Colossiens 1:16, Jean 1:3) et utilisez Apocalypse 3:14 comme corroboration lue en contexte.",
+      "explanation": "Le mot grec « archē » est la même racine que l'anglais garde dans « architect » (maître d'œuvre) et « monarch » (seul souverain) : il signifie non seulement un point dans le temps mais une source, une origine ou un souverain. Lu ainsi, Jésus est « la Source/le Souverain de la création de Dieu », ce qui s'accorde avec la manière dont le même livre le fait dire « je suis le Premier et le Dernier... je fus mort et me voici vivant » (Apocalypse 1:17-18) — un titre de YHWH, non d'une créature. Soyez honnête avec le Témoin : ce verset seul est à double tranchant, parce qu'« archē » peut aussi signifier un point de départ. C'est exactement pourquoi il ne doit pas être votre argument principal. Tranchez la question avec Colossiens 1:16 et Jean 1:3 (il a fait toutes choses qui furent faites), puis lisez Apocalypse 3:14 à leur lumière."
+    },
+    {
+      "id": "obj-prov-8-22",
+      "title": "« Le Seigneur m'a créé/possédé » — Proverbes 8:22-31 (la Sagesse)",
+      "shortClaim": "Le Témoin soutient que la Sagesse de Proverbes 8 (identifiée au Christ préexistant) dit avoir été « créée » par Dieu, prouvant que Jésus est une créature.",
+      "category": "Textes « créé / premier-né »",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Proverbes 8:22",
+          "translationUsed": "BJ",
+          "text": "Yahvé m'a créée, prémices de son œuvre, avant ses œuvres les plus anciennes."
+        },
+        {
+          "citation": "Proverbes 8:30",
+          "translationUsed": "BJ",
+          "text": "j'étais maître d'œuvre à son côté, faisant ses délices jour après jour, jouant en sa présence en tout temps."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Hébreu",
+        "text": "\u05d9\u05b0\u05d4\u05d5\u05b8\u05d4 \u05e7\u05b8\u05e0\u05b8\u05e0\u05b4\u05d9 \u05e8\u05b5\u05d0\u05e9\u05b4\u05c1\u05d9\u05ea \u05d3\u05b7\u05bc\u05e8\u05b0\u05db\u05bc\u05d5\u05b9",
+        "translit": "YHWH qanani rēshit darkō",
+        "note": "Le verbe hébreu « qanah » signifie posséder, acquérir ou engendrer tout aussi volontiers que créer (p. ex. Genèse 4:1, Ève « qanah/acquiert » un fils ; Genèse 14:19, Dieu « possesseur » du ciel et de la terre). La Septante choisit « ektise me » (« m'a créée »), ce sur quoi les ariens du quatrième siècle s'appuyèrent. DEUX mises en garde : (1) le choix lexical est réellement contesté, et (2) identifier la « Sagesse » personnifiée de ce poème hébreu au Fils préexistant est une tradition interprétative, non un énoncé que fait directement le Nouveau Testament."
+      },
+      "nwtRebuttal": "La TMN lit : « Jéhovah m'a produite comme le commencement de sa voie », s'appuyant sur le sens « créé » de la LXX. C'est un verset-preuve faible pour le Témoin, car il dépend À LA FOIS d'une traduction contestée de « qanah » ET de l'hypothèse que la Sagesse personnifiée de ce poème hébreu est littéralement le Fils qui parle.",
+      "explanation": "Soyez franc dans le débat : c'est le verset du Témoin qui a l'air fort mais l'est le moins, et vous devriez le dire d'abord — cela gagne en crédibilité. Deux problèmes le minent. D'abord, le mot hébreu (qanah) signifie normalement « posséda, acquit, enfanta », non « créa à partir de rien » ; le même mot a Ève « acquérant » un fils et Dieu comme « possesseur » du ciel et de la terre (Genèse 4:1 ; 14:19). La BJ rend d'ailleurs « m'a créée » au v. 22, mais le choix lexical demeure contesté. Ensuite, et plus fondamentalement, Proverbes 8 est une poésie de sagesse hébraïque personnifiant l'attribut divin de la Sagesse comme une figure qui parle — de la même manière que Proverbes personnifie aussi la Folie comme une femme. Lire cette figure poétique comme une autobiographie littérale du Fils préexistant est une application traditionnelle (les Pères l'utilisèrent dévotionnellement), non quelque chose que le Nouveau Testament affirme. Ne misez donc pas le débat sur Proverbes 8. Si le Témoin y insiste, accordez l'ambiguïté et revenez aux textes clairs du Nouveau Testament (Jean 1:1-3 ; Colossiens 1:16 ; Jean 8:58)."
+    },
+    {
+      "id": "obj-deut-6-4",
+      "title": "« Le Seigneur notre Dieu est le seul Seigneur » — Deutéronome 6:4 / Marc 12:29 (le Shema)",
+      "shortClaim": "Le Témoin soutient que le Shema enseigne que Dieu est une seule personne, de sorte que la Trinité (et un Christ divin) contredit le monothéisme.",
+      "category": "Textes de monothéisme / « seul vrai Dieu »",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Deutéronome 6:4",
+          "translationUsed": "BJ",
+          "text": "Écoute, Israël : Yahvé notre Dieu est le seul Yahvé."
+        },
+        {
+          "citation": "Marc 12:29",
+          "translationUsed": "BJ",
+          "text": "Jésus répondit : Le premier c'est : Écoute, Israël, le Seigneur notre Dieu est l'unique Seigneur,"
+        }
+      ],
+      "originalLanguage": {
+        "language": "Hébreu",
+        "text": "\u05e9\u05b0\u05c1\u05de\u05b7\u05e2 \u05d9\u05b4\u05e9\u05b0\u05c2\u05e8\u05b8\u05d0\u05b5\u05dc \u05d9\u05b0\u05d4\u05d5\u05b8\u05d4 \u05d0\u05b1\u05dc\u05b9\u05d4\u05b5\u05d9\u05e0\u05d5\u05bc \u05d9\u05b0\u05d4\u05d5\u05b8\u05d4 \u05d0\u05b6\u05d7\u05b8\u05d3",
+        "translit": "Shema Yisrael YHWH Eloheinu YHWH echad",
+        "note": "Le mot décisif est « echad » (un). « echad » peut dénoter une unité UNIE ou composée, non seulement une unité solitaire : « les deux ne feront qu'une (echad) chair » (Genèse 2:24) ; les espions portèrent « une (echad) grappe » de raisins (Nombres 13:23). L'hébreu a un mot différent pour un un absolu et solitaire — « yachid » — que le Shema n'emploie PAS. Ainsi le Shema affirme qu'il y a exactement un seul Dieu (ce que la Trinité affirme) sans définir ce Dieu unique comme uni-personnel. MISE EN GARDE : « echad » signifie le plus souvent simplement le chiffre un ; utilisez-le pour montrer que le Shema n'EXCLUT pas la Trinité, non pour prouver la pluralité à partir du mot seul."
+      },
+      "explanation": "Les catholiques confessent le Shema de tout cœur : il y a un seul et unique Dieu. La Trinité n'est pas trois dieux ; c'est l'unique Dieu existant comme Père, Fils et Esprit Saint. Ce verset n'est donc pas une objection à la position catholique — c'est le fondement même de la position catholique, et il réfute le vrai polythéisme, qui est le « le Verbe était un dieu » de la Watch Tower (un second dieu, moindre). Le mot du Shema pour « un » (echad) est le même mot employé pour un couple marié devenant « une seule chair » et pour « une » grappe de nombreux raisins — une unité qui peut être composée. L'hébreu avait un mot pour un un strictement solitaire (yachid) et le Shema ne l'emploie pas. Le but n'est pas de prouver la Trinité à partir d'un seul mot, mais de montrer que confesser un seul Dieu n'exige pas que ce Dieu soit une seule personne. Puis retournez-le : Jésus reçoit l'unique nom divin, YHWH, et l'honneur divin — de sorte qu'une lecture fidèle du Shema doit l'inclure."
+    },
+    {
+      "id": "obj-john-17-3",
+      "title": "« Toi, le seul véritable Dieu » — Jean 17:3",
+      "shortClaim": "Le Témoin soutient que Jésus appelle le Père « le seul véritable Dieu » et se distingue de lui, de sorte que seul le Père est Dieu.",
+      "category": "Textes de monothéisme / « seul vrai Dieu »",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 17:3",
+          "translationUsed": "BJ",
+          "text": "Or, la vie éternelle, c'est qu'ils te connaissent, toi, le seul véritable Dieu, et celui que tu as envoyé, Jésus Christ."
+        },
+        {
+          "citation": "1 Jean 5:20",
+          "translationUsed": "BJ",
+          "text": "...pour que nous connaissions le Véridique ; nous sommes dans le Véridique, dans son Fils Jésus Christ. Celui-ci est le Dieu véritable et la Vie éternelle."
+        }
+      ],
+      "explanation": "Appeler le Père « le seul véritable Dieu » exclut les faux dieux et les idoles ; cela n'exclut pas le Fils, qui partage l'unique nature divine du Père. Remarquez que la phrase ne s'arrête pas au Père : la vie éternelle est de connaître « le seul véritable Dieu ET celui que tu as envoyé, Jésus Christ » — le Fils est placé aux côtés du Père comme objet conjoint de la connaissance salvatrice qui est la vie éternelle, ce que nulle simple créature ne pourrait être. Le Fils incarné, priant le Père, s'adresse naturellement à lui comme à Dieu ; c'est encore le schéma des deux natures, non un déni de sa propre divinité. Et Jean, qui a écrit ce verset, écrit aussi que Jésus est « le Dieu véritable et la Vie éternelle » (1 Jean 5:20) et que « le Verbe était Dieu » (Jean 1:1). Le « seul véritable Dieu » est un seul Dieu — Père, Fils et Esprit — face aux idoles que le monde adore."
+    },
+    {
+      "id": "obj-1tim-2-5",
+      "title": "« Un seul médiateur... l'homme Christ Jésus » — 1 Timothée 2:5",
+      "shortClaim": "Le Témoin soutient que Paul appelle le Christ « l'homme » et le place entre Dieu et les hommes, de sorte que le Christ n'est pas Dieu mais un intermédiaire humain.",
+      "category": "Textes de monothéisme / « seul vrai Dieu »",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "1 Timothée 2:5",
+          "translationUsed": "BJ",
+          "text": "Car Dieu est unique, unique aussi le médiateur entre Dieu et les hommes, un homme : le Christ Jésus,"
+        }
+      ],
+      "explanation": "Ce verset énonce la vraie humanité du Christ, que les catholiques affirment pleinement — il ne nie pas sa divinité. En fait, c'est un énoncé précis de pourquoi il peut médiatiser : un médiateur entre Dieu et les hommes doit toucher les deux côtés. Le Christ est l'unique médiateur précisément parce qu'il est à la fois Dieu (capable de réconcilier) et homme (capable de nous représenter) ; « l'homme Christ Jésus » nomme l'humanité qu'il a assumée pour se tenir entre les deux. L'appeler « l'homme » ne nie pas plus sa divinité que l'appeler « le Verbe » (Jean 1:1) ne nie son humanité — chaque titre nomme l'une de ses deux natures. Loin de le réduire à une créature, le verset présuppose qu'en l'unique personne du Christ Jésus, Dieu et l'homme se rencontrent."
+    },
+    {
+      "id": "obj-isa-43-10",
+      "title": "« Avant moi aucun dieu ne fut formé » — Isaïe 43:10-11",
+      "shortClaim": "Le Témoin soutient que Dieu dit qu'aucun dieu ne fut formé avant lui ni après lui et qu'il est le seul Sauveur, de sorte que Jésus ne peut être un (second) Dieu ou Sauveur.",
+      "category": "Textes de monothéisme / « seul vrai Dieu »",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Isaïe 43:10",
+          "translationUsed": "BJ",
+          "text": "C'est vous qui êtes mes témoins, oracle de Yahvé, mes serviteurs que j'ai choisis, afin que vous le sachiez, que vous croyiez en moi et compreniez que c'est moi : avant moi aucun dieu ne fut formé et après moi il n'y en aura pas."
+        },
+        {
+          "citation": "Isaïe 43:11",
+          "translationUsed": "BJ",
+          "text": "Moi, c'est moi Yahvé, et hors moi il n'y a pas de sauveur."
+        }
+      ],
+      "explanation": "Ce passage est le meilleur ami du chrétien orthodoxe, non celui du Témoin. Dieu déclare qu'il n'y a aucun autre Dieu ni aucun autre Sauveur hors de lui — il y a donc exactement un seul Dieu et un seul Sauveur. Remarquez maintenant ce que le Nouveau Testament fait de « Sauveur » : il appelle Jésus « notre Sauveur » et même « notre grand Dieu et Sauveur » (Tite 2:13 ; 2 Pierre 1:1), et l'ange dit que le nouveau-né Jésus « sauvera son peuple de ses péchés » (Matthieu 1:21). Si Dieu seul est Sauveur (Isaïe 43:11) et que Jésus est Sauveur, alors Jésus est inclus dans l'unique Dieu, non ajouté comme un rival. Le verset exclut le polythéisme — ce qui est précisément le problème du Christ « un dieu » de la Watch Tower, une seconde divinité moindre. La doctrine catholique a un seul Dieu et un seul Sauveur ; la position du Témoin en a discrètement deux."
+    },
+    {
+      "id": "obj-john-10-34",
+      "title": "« Vous êtes des dieux » — Jean 10:34-35 (Psaume 81:6 / 82:6)",
+      "shortClaim": "Le Témoin soutient que Jésus lui-même cite « vous êtes des dieux » pour montrer qu'être appelé « dieu » ne signifie pas être Dieu — de sorte qu'appeler Jésus « dieu » n'a pas à signifier qu'il est Dieu.",
+      "category": "Textes de monothéisme / « seul vrai Dieu »",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Jean 10:34",
+          "translationUsed": "BJ",
+          "text": "Jésus leur répondit : N'est-il pas écrit dans votre Loi : J'ai dit : Vous êtes des dieux ?"
+        },
+        {
+          "citation": "Jean 10:35-36",
+          "translationUsed": "BJ",
+          "text": "Si elle a appelé dieux ceux à qui la parole de Dieu fut adressée — et l'Écriture ne peut être récusée — à celui que le Père a consacré et envoyé dans le monde vous dites : Tu blasphèmes, parce que j'ai dit : Je suis Fils de Dieu !"
+        },
+        {
+          "citation": "Psaume 81:6 (= Psaume 82:6 dans la numérotation hébraïque/moderne)",
+          "translationUsed": "BJ",
+          "text": "Moi, j'ai dit : Vous, des dieux, des fils du Très-Haut, vous tous !"
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f10\u03b3\u1f7c \u03b5\u1f36\u03c0\u03b1 \u03b8\u03b5\u03bf\u03af \u1f10\u03c3\u03c4\u03b5",
+        "translit": "egō eipa theoi este",
+        "note": "Jésus cite le Psaume 81:6 (82:6 dans la numérotation hébraïque), où Dieu s'adresse aux juges d'Israël — des hommes à qui sa parole fut confiée et qui agissent comme ses représentants — en les appelant « dieux » (elohim) et « fils du Très-Haut ». Le titre leur est appliqué par délégation, parce que la parole de Dieu leur vint. Le raisonnement de Jésus est a fortiori (« du moindre au plus grand ») : si l'Écriture, qui « ne peut être récusée », peut appeler de simples hommes « dieux » parce que la parole de Dieu leur vint, combien plus celui « que le Père a consacré et envoyé dans le monde » (v. 36) peut-il à bon droit se dire Fils de Dieu ? Il ne s'abaisse pas à leur niveau — il argumente que sa prétention est bien plus juste que l'appellation honorifique que la Loi accorde déjà à des figures moindres."
+      },
+      "nwtRebuttal": "La formulation de Jean 10:34-35 n'est pas elle-même contestée ; la TMN lit de façon semblable (« J'ai dit : “Vous êtes des dieux” ? »). Le différend porte sur l'INFÉRENCE que la Watch Tower en tire : que parce que la Loi peut appeler des hommes « dieux », appeler Jésus « dieu/un dieu » ne comporte aucune prétention à la vraie divinité. Mais cela inverse l'argument même de Jésus : il raisonne du moindre (les juges appelés « dieux » par délégation) au plus grand (lui-même, consacré et envoyé par le Père), de sorte que le passage renforce, et non affaiblit, sa prétention unique.",
+      "explanation": "C'est le seul endroit où un Témoin peut pointer Jésus lui-même employant « dieux » de simples hommes — répondez-y donc sur les propres termes de Jésus. Au Psaume 81:6 (82:6 dans la numérotation hébraïque), Dieu appelle les juges d'Israël « dieux » et « fils du Très-Haut » parce qu'ils étaient dépositaires de sa parole et parlaient en son nom ; le titre est honorifique et délégué. Jésus le cite à la foule qui venait de ramasser des pierres parce que lui, « étant un homme », se faisait Dieu (v. 33). Son argument va du moindre au plus grand : si l'Écriture inspirée, qui « ne peut être récusée », ne blasphème pas en appelant de tels hommes « dieux », alors ce n'est pas un blasphème pour celui « que le Père a consacré et envoyé dans le monde » de se dire Fils de Dieu (v. 36). Pressez le Témoin là-dessus : Jésus ne dit PAS « je suis un dieu au même sens vague que ces juges ». Il dit que sa prétention est plus justifiée qu'un titre que la Loi permet déjà. Et notez ce qui a provoqué tout l'échange — la foule a compris « le Père et moi, nous sommes un » (v. 30) comme une prétention à la divinité, et Jésus répond en défendant, non en rétractant, la prétention. Coté « fort » parce que la force repose sur une lecture correcte de l'argument a fortiori, que le contexte (v. 30, v. 33, v. 36) rend clair."
+    },
+    {
+      "id": "obj-mark-13-32",
+      "title": "« Ni le Fils » — Marc 13:32 / Matthieu 24:36",
+      "shortClaim": "Le Témoin soutient que si le Fils ne connaît pas le jour ni l'heure, il ne peut être le Dieu omniscient.",
+      "category": "Textes « ne savait pas / moindre que »",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Marc 13:32",
+          "translationUsed": "BJ",
+          "text": "Quant à ce jour ou à cette heure, nul ne les connaît, ni les anges dans le ciel, ni le Fils, personne que le Père."
+        },
+        {
+          "citation": "Jean 21:17",
+          "translationUsed": "BJ",
+          "text": "...Seigneur, tu sais tout : tu sais bien que je t'aime..."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03bf\u1f50\u03b4\u1f72 \u1f41 \u03c5\u1f31\u03cc\u03c2 \u03b5\u1f30 \u03bc\u1f74 \u1f41 \u03c0\u03b1\u03c4\u03ae\u03c1",
+        "translit": "oude ho huios ei mē ho patēr",
+        "note": "La limitation est prédiquée du « Fils » comme incarné. Par l'union hypostatique, le Christ a deux natures et donc deux sortes de connaissance : dans sa nature divine il connaît toutes choses (Jean 16:30 ; 21:17), tandis que dans sa nature humaine assumée sa connaissance, comme son corps, était vraiment humaine et pouvait croître (Luc 2:52) et ne pas posséder, comme chose à communiquer, le calendrier du Père. La tradition catholique ancienne (notée même dans une note de la Douay-Rheims) est que le Fils ne le sait pas « comme notre maître » ; c'est-à-dire qu'il ne le sait pas de manière à nous l'enseigner."
+      },
+      "explanation": "Le Christ a deux natures, divine et humaine, et ce verset parle de sa connaissance humaine. Comme Dieu, Jésus connaît toutes choses — ses propres disciples le confessent : « Seigneur, tu sais tout » (Jean 21:17 ; 16:30). Comme homme, son esprit humain était un véritable esprit humain qui « croissait en sagesse » (Luc 2:52) ; dans cette capacité humaine, le jour du jugement n'était pas le sien à annoncer. La lecture catholique ancienne (notée jusque dans une note de la Douay-Rheims) est que le Fils ne le sait pas « comme notre maître » — il ne lui était pas donné de le révéler. Deux points pour le débat : d'abord, la logique même qui ferait de « ni le Fils » une preuve que Jésus n'est pas Dieu prouverait, dans le même verset, que les anges ne sont pas des créatures de la maison de Dieu — elle prouve trop. Ensuite, un être simplement créé ne serait guère classé au-dessus de tous les anges et nommé second après le Père seul dans un énoncé sur qui connaît la fin."
+    },
+    {
+      "id": "obj-luke-18-19",
+      "title": "« Pourquoi m'appelles-tu bon ? » — Luc 18:19 / Marc 10:18",
+      "shortClaim": "Le Témoin soutient que Jésus nie être bon comme Dieu (« nul n'est bon que Dieu seul »), de sorte qu'il se distingue de Dieu.",
+      "category": "Textes « ne savait pas / moindre que »",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Luc 18:19",
+          "translationUsed": "BJ",
+          "text": "Jésus lui dit : Pourquoi m'appelles-tu bon ? Nul n'est bon que Dieu seul."
+        },
+        {
+          "citation": "Marc 10:18",
+          "translationUsed": "BJ",
+          "text": "Jésus lui dit : Pourquoi m'appelles-tu bon ? Nul n'est bon que Dieu seul."
+        }
+      ],
+      "explanation": "Jésus ne dit pas « je ne suis pas bon » ni « je ne suis pas Dieu ». Il pose une question qui invite le jeune homme riche à réfléchir à ce qu'il vient de dire. Le jeune homme s'était adressé à Jésus comme à un « bon maître » par simple courtoisie flatteuse, le traitant comme un enseignant respecté de plus. La réponse de Jésus le presse : la bonté au sens plein appartient à Dieu seul — donc si tu m'appelles bon à juste titre, considère à qui tu parles réellement. C'est une question qui oriente, non un désaveu. Loin de nier la divinité, la logique y conduit : « seul Dieu est bon ; tu m'as appelé bon ; réfléchis-y ». Ailleurs, Jésus revendique positivement ce qui appartient à Dieu seul — pardonner les péchés, recevoir l'adoration, être un avec le Père — de sorte que ce verset ne peut se lire comme une confession qu'il n'est qu'un homme."
+    }
+  ],
+  "uncertainCitations": [
+    {
+      "citation": "Proverbes 8:22-31 (qanah ; application au Christ)",
+      "issue": "DOUBLEMENT contesté, c'est pourquoi cette objection est cotée « complémentaire ». (1) L'hébreu « qanah » peut signifier « posséder/acquérir/engendrer » ou « créer » ; la Septante lut « créé » (« ektise »), ce dont les ariens se servirent. (2) Identifier la « Sagesse » personnifiée de ce poème hébreu au Fils préexistant est une tradition interprétative/dévotionnelle, non une identification directe du Nouveau Testament. Accordez l'ambiguïté dans le débat et appuyez-vous plutôt sur des textes clairs du NT."
+    },
+    {
+      "citation": "Apocalypse 3:14 (« archē »)",
+      "issue": "Réellement à double tranchant. « archē » peut signifier « commencement » (passif : première chose créée, comme le prend la TMN) ou « origine/source/souverain » (actif : la lecture orthodoxe, convenant à Ap 1:17-18 et Col 1:16). Le grec permet les deux ; le contexte favorise le sens actif, mais ce verset seul ne tranchera pas le différend. Coté « fort », non décisif."
+    },
+    {
+      "citation": "Matthieu 24:36 (« ni le Fils »)",
+      "issue": "TEXTUEL. La Douay-Rheims de Challoner à Matthieu 24:36 lit « ni les anges du ciel, mais le Père seul » et OMET « ni le Fils ». La proposition « ni le Fils » est textuellement sûre au parallèle Marc 13:32 (et figure dans de nombreux manuscrits grecs de Matthieu). Utilisez Marc 13:32 comme citation principale de cette objection ; ne prétendez pas que la DRA Matthieu 24:36 contient la proposition."
+    },
+    {
+      "citation": "Jean 14:28 (« le Père est plus grand que moi »)",
+      "issue": "Le verset est vrai dans toute lecture ; le seul différend porte sur ce que modifie « plus grand » (position/charge du Fils incarné contre infériorité de nature). La réponse orthodoxe (plus grand en rang, égal en nature ; cf. Ph 2:6-7) repose sur le cadre des deux natures, qu'un Témoin rejette d'emblée — aussi se traite-t-elle comme partie d'un dossier systématique, non comme un argument décisif d'un seul verset."
+    },
+    {
+      "citation": "Deutéronome 6:4 (« echad »)",
+      "issue": "L'argument de l'« unité composée » tiré d'« echad » est contesté par les hébraïsants : « echad » signifie le plus souvent simplement le chiffre « un ». Utilisez-le seulement pour montrer que le Shema n'EXCLUT pas une pluralité au sein de l'unique Dieu (il emploie « echad », non le solitaire « yachid »), NON pour prouver la Trinité à partir du mot lui-même. Le monothéisme du Shema est affirmé par les catholiques, non combattu par eux."
+    },
+    {
+      "citation": "Psaume 89:28 (versification)",
+      "issue": "Différence de versification, signalée explicitement dans l'argument de Colossiens 1:15 : le verset cité comme Psaume 89:27 dans les Bibles hébraïques/anglaises modernes est Psaume 88:28 dans la Bible de Jérusalem/Vulgate. La formulation est inchangée ; seul le numéro de chapitre/verset diffère."
+    },
+    {
+      "citation": "Jean 10:34-35 (Psaume 81:6 / 82:6 ; lecture a fortiori)",
+      "issue": "DEUX notes. (1) Versification : le psaume que Jésus cite (« J'ai dit : Vous êtes des dieux ») est Psaume 81:6 dans la numérotation de la Bible de Jérusalem/Vulgate mais Psaume 82:6 dans les Bibles hébraïques/anglaises modernes ; la formulation est inchangée, seul le numéro diffère. (2) Le verset ne PROUVE pas à lui seul la divinité du Christ — il réfute l'inférence du Témoin. Sa force dépend d'une lecture a fortiori de l'argument de Jésus (des « dieux » délégués de la Loi à celui « consacré et envoyé » par le Père), que le contexte (vv. 30, 33, 36) soutient. Coté « fort », non décisif ; il répond à l'objection plutôt que de se tenir comme un verset-preuve indépendant."
+    }
+  ]
 }

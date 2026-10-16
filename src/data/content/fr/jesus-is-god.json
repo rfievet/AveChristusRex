@@ -1,4 +1,660 @@
 {
-  "title": "",
-  "arguments": []
+  "title": "La divinité du Christ : le dossier selon lequel Jésus est Dieu",
+  "subtitle": "Une collection sourcée d'arguments, prête pour le débat, avec pour chaque argument le rendu de la Traduction du monde nouveau (TMN) et les raisons pour lesquelles il est contesté.",
+  "displayTranslation": "Bible de Jérusalem (BJ)",
+  "displayTranslationNote": "La Bible de Jérusalem (BJ) est utilisée de façon constante pour tout le texte scripturaire français affiché, parce que c'est une traduction catholique reconnue, largement citée dans l'apologétique francophone. Là où le grec/hébreu d'origine porte le point décisif, la langue d'origine est donnée avec sa translittération. Les rendus de la TMN furent vérifiés directement sur le texte officiel de jw.org (Traduction du monde nouveau, révision 2013, édition d'étude).",
+  "divineNameNote": "Le nom divin de Dieu révélé à Moïse en Exode 3:14-15 est le Tétragramme, quatre consonnes hébraïques \u05d9\u05d4\u05d5\u05d4 (YHWH), vocalisé « Yahvé » (rendu « Jéhovah » par la Société Watch Tower et dans des ouvrages anciens). Exode 3:14 (BJ) : « Je suis celui qui est ». Ce nom est l'arrière-plan de plusieurs arguments ci-dessous, surtout les paroles du « JE SUIS » et les titres de l'AT appliqués à Jésus.",
+  "methodologyNote": "C'est une apologétique où l'exactitude est critique. Le texte français affiché est la BJ. Les translittérations grecques/hébraïques et les sigles manuscrits sont donnés là où ils portent le poids de l'argument. Les éléments dévotionnels ou traditionnels plutôt que directement probants sont explicitement étiquetés strength='supplementary'. Une courte liste de citations assorties de réserves de versification ou de notes textuelles est tenue dans le fichier markdown compagnon.",
+  "categories": [
+    "Adressé comme Dieu",
+    "Fait ce que Dieu seul fait",
+    "Revendique le nom/l'identité divine",
+    "Reçoit l'adoration",
+    "Titres de YHWH dans l'AT appliqués à Jésus",
+    "Complémentaire/traditionnel"
+  ],
+  "featured": [
+    "thomas-my-lord-my-god",
+    "john-1-1-word-was-god",
+    "forgives-sins",
+    "colossians-creator-sustainer",
+    "before-abraham-i-am"
+  ],
+  "featuredBlurb": "Les preuves les plus claires et les plus directes que Jésus est Dieu.",
+  "arguments": [
+    {
+      "id": "thomas-my-lord-my-god",
+      "title": "Thomas : « Mon Seigneur et mon Dieu »",
+      "shortClaim": "L'apôtre Thomas regarde le Jésus ressuscité et l'appelle « mon Seigneur et mon Dieu » — et Jésus accepte le titre au lieu de le corriger. (Un Juif fidèle n'appellerait jamais une créature « Dieu », pourtant Jésus loue Thomas pour cela.)",
+      "category": "Adressé comme Dieu",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 20:28",
+          "translationUsed": "BJ",
+          "text": "Thomas lui répondit : Mon Seigneur et mon Dieu !"
+        },
+        {
+          "citation": "Jean 20:29",
+          "translationUsed": "BJ",
+          "text": "Jésus lui dit : Parce que tu me vois, tu crois. Heureux ceux qui n'ont pas vu et qui ont cru."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f41 \u03ba\u03cd\u03c1\u03b9\u03cc\u03c2 \u03bc\u03bf\u03c5 \u03ba\u03b1\u1f76 \u1f41 \u03b8\u03b5\u03cc\u03c2 \u03bc\u03bf\u03c5",
+        "translit": "ho kyrios mou kai ho theos mou",
+        "note": "Les deux noms portent l'article défini (ho ... ho) et sont au nominatif d'adresse dirigé vers Jésus. « ho theos » est la manière standard, dans le NT, de nommer l'unique vrai Dieu. L'articulé « le Dieu de moi » ne peut se réduire à une simple exclamation ni à « un dieu »."
+      },
+      "nwtRebuttal": "La TMN garde « Mon Seigneur et mon Dieu ! » dans le texte. La Watch Tower soutient que Thomas poussait une exclamation d'étonnement (adressée au Père, sans appeler Jésus « Dieu »). Cela échoue sur le grec : le texte dit que Thomas « lui dit » (eipen auto), c'est-à-dire à Jésus ; et Jésus loue la confession de Thomas (« tu crois ») au lieu de reprendre un blasphème, ce qu'un monothéiste fidèle aurait été tenu de faire (cf. Actes 10:25-26 ; Apocalypse 19:10).",
+      "explanation": "C'est la confession culminante de l'Évangile de Jean, qui s'ouvrait en appelant le Verbe « Dieu » (Jean 1:1) et se clôt par un homme appelant Jésus « mon Dieu ». Jésus ne détourne ni ne corrige ; il bénit la foi derrière ces mots. Si appeler Jésus « Dieu » était de l'idolâtrie, Jésus avait le moment le plus clair possible pour le dire et fit le contraire."
+    },
+    {
+      "id": "john-1-1-word-was-god",
+      "title": "Jean 1:1 — « et le Verbe était Dieu »",
+      "shortClaim": "Jean dit « le Verbe était Dieu », et quelques versets plus loin nous dit qui est « le Verbe » : celui qui « s'est fait chair » et porte le nom de « Jésus Christ » (Jean 1:14,17) — de sorte que l'ouverture même de la Bible identifie Jésus comme Dieu. (Les Témoins de Jéhovah le rendent par « un dieu », un changement que la grammaire grecque n'appuie pas.)",
+      "category": "Adressé comme Dieu",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 1:1",
+          "translationUsed": "BJ",
+          "text": "Au commencement était le Verbe, et le Verbe était auprès de Dieu, et le Verbe était Dieu."
+        },
+        {
+          "citation": "Jean 1:14",
+          "translationUsed": "BJ",
+          "text": "Et le Verbe s'est fait chair et il a habité parmi nous, et nous avons vu sa gloire, gloire qu'il tient de son Père comme Fils unique, plein de grâce et de vérité."
+        },
+        {
+          "citation": "Jean 1:17",
+          "translationUsed": "BJ",
+          "text": "car la Loi fut donnée par Moïse ; la grâce et la vérité sont venues par Jésus Christ."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f10\u03bd \u1f00\u03c1\u03c7\u1fc7 \u1f26\u03bd \u1f41 \u03bb\u03cc\u03b3\u03bf\u03c2, \u03ba\u03b1\u1f76 \u1f41 \u03bb\u03cc\u03b3\u03bf\u03c2 \u1f26\u03bd \u03c0\u03c1\u1f78\u03c2 \u03c4\u1f78\u03bd \u03b8\u03b5\u03cc\u03bd, \u03ba\u03b1\u1f76 \u03b8\u03b5\u1f78\u03c2 \u1f26\u03bd \u1f41 \u03bb\u03cc\u03b3\u03bf\u03c2",
+        "translit": "en arch\u0113 \u0113n ho logos, kai ho logos \u0113n pros ton theon, kai theos \u0113n ho logos",
+        "note": "Dans la troisième proposition, « theos » (Dieu) est un prédicat nominal anarthre placé devant le verbe. Le grec ôte régulièrement l'article d'un nom prédicat antéposé au verbe tout en le gardant qualitatif/défini (règle de Colwell ; plus précisément, le prédicat antéposé est typiquement qualitatif, soulignant la nature). La construction souligne que le Verbe a la nature même de Dieu, non qu'il serait « un dieu ». Si Jean avait voulu dire « un dieu » il avait d'autres moyens ; s'il avait mis l'article sur les deux noms il aurait enseigné une identité sabellienne des personnes. Les plus anciens témoins manuscrits du texte de Jean 1 incluent le Papyrus 66 (P66, v. 200), le Papyrus 75 (P75, début du IIIe s.), le Codex Sinaiticus (\u2135 / 01, IVe s.) et le Codex Vaticanus (B / 03, IVe s.) ; aucun n'appuie un « un dieu » indéfini, et les traducteurs anciens (p. ex. latins, syriaques Peshitta) le rendirent par « Dieu »."
+      },
+      "nwtRebuttal": "La TMN lit : « et la Parole était un dieu ». La Watch Tower invoque l'absence de l'article grec devant « theos » pour justifier un « un dieu » indéfini. C'est sélectif : le même Évangile emploie à plusieurs reprises « theos » anarthre du Père (p. ex. Jean 1:6,12,13,18) sans que la TMN y traduise « un dieu ». Le rendu « un dieu » impose en outre un polythéisme (deux dieux, un grand et un moindre) à un auteur monothéiste juif, et il est rejeté par le consensus écrasant des grammairiens grecs.",
+      "explanation": "D'abord, qui est « le Verbe » ? Jean nous le dit dans le même passage : « le Verbe s'est fait chair et il a habité parmi nous » (Jean 1:14) — le Verbe devint un véritable être humain vivant parmi les gens. Jean nomme ensuite cette personne trois versets plus loin : « la grâce et la vérité sont venues par Jésus Christ » (Jean 1:17), reprenant la « grâce et vérité » même dont il venait de dire que le Verbe-fait-chair était plein (1:14). Ainsi le texte propre de Jean identifie le Verbe comme Jésus ; ce n'est pas une hypothèse injectée dans le verset. Cela posé, Jean 1:1 est le verset le plus contesté du débat. Trois propositions avancent dans l'ordre : l'éternité du Verbe (« au commencement était »), la distinction du Verbe d'avec le Père (« auprès de Dieu ») et la divinité du Verbe (« était Dieu »). La grammaire rend la troisième proposition qualitative : le Verbe — c'est-à-dire Jésus — partage la nature divine tout en demeurant personnellement distinct du Père — exactement trinitaire, non deux dieux séparés."
+    },
+    {
+      "id": "john-1-creator-made-flesh",
+      "title": "Jean 1:1-3,14 — le Verbe est Créateur et s'est fait chair",
+      "shortClaim": "Jean dit que Jésus (le Verbe) a fait tout ce qui a jamais été fait, puis s'est fait homme — et le Créateur de toutes choses ne peut être lui-même l'une des choses créées.",
+      "category": "Fait ce que Dieu seul fait",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 1:1-3",
+          "translationUsed": "BJ",
+          "text": "Au commencement était le Verbe, et le Verbe était auprès de Dieu, et le Verbe était Dieu. Il était au commencement auprès de Dieu. Tout fut par lui, et sans lui rien ne fut."
+        },
+        {
+          "citation": "Jean 1:14",
+          "translationUsed": "BJ",
+          "text": "Et le Verbe s'est fait chair et il a habité parmi nous, et nous avons vu sa gloire, gloire qu'il tient de son Père comme Fils unique, plein de grâce et de vérité."
+        }
+      ],
+      "nwtRebuttal": "La TMN rend Jean 1:3 « Toutes choses vinrent à l'existence par son intermédiaire, et en dehors de lui pas même une chose ne vint à l'existence. » Pour préserver l'idée de Jésus comme être créé, la théologie de la Watch Tower traite le Verbe comme la première création de Dieu qui servit ensuite d'agent de toute la création subséquente. Mais le verset 3 est global : « sans lui rien ne fut ». Si toute chose créée fut faite par le Verbe, le Verbe lui-même n'est pas parmi les choses créées — il est du côté Créateur de la ligne.",
+      "explanation": "L'Écriture réserve la création de « toutes choses » à Dieu seul (Isaïe 44:24, « moi, Yahvé, qui ai fait toutes choses... seul »). Jean attribue la création universelle au Verbe. Une créature ne peut être l'auteur de absolument tout ce qui fut fait ; donc le Verbe est Dieu incréé. Le verset 14 identifie ensuite ce Verbe-Créateur au Jésus incarné."
+    },
+    {
+      "id": "forgives-sins",
+      "title": "Jésus pardonne les péchés — ce que Dieu seul peut faire",
+      "shortClaim": "Jésus pardonne les péchés d'un homme de sa propre autorité, et les scribes qui observent objectent que Dieu seul peut pardonner les péchés — alors Jésus prouve son autorité en guérissant l'homme sur-le-champ. (Il répond à leur accusation non en niant la prétention mais en l'appuyant.)",
+      "category": "Fait ce que Dieu seul fait",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Marc 2:5-7",
+          "translationUsed": "BJ",
+          "text": "Jésus, voyant leur foi, dit au paralytique : Mon enfant, tes péchés sont remis. Or, il y avait là, dans l'assistance, quelques scribes qui pensaient en leurs cœurs : Qu'a-t-il à parler de la sorte ? Il blasphème ! Qui peut remettre les péchés sinon Dieu seul ?"
+        },
+        {
+          "citation": "Luc 5:20-21",
+          "translationUsed": "BJ",
+          "text": "Voyant leur foi, il dit : Homme, tes péchés te sont remis. Les scribes et les Pharisiens se mirent à raisonner : Qui est-il celui-là qui profère des blasphèmes ? Qui peut remettre les péchés sinon Dieu seul ?"
+        }
+      ],
+      "nwtRebuttal": "Le texte de la TMN est ici substantiellement le même (« tes péchés sont pardonnés »). La réponse de la Watch Tower est que Jésus pardonna les péchés seulement comme délégué/agent de Dieu (comme un homme peut annoncer le pardon que Dieu accorde). Mais les objecteurs du texte, qui connaissaient leur théologie, comprirent qu'il revendiquait une prérogative divine (« il blasphème »), et Jésus répondit à leur accusation non en niant la prétention mais en la validant par la guérison — « afin que vous sachiez que le Fils de l'homme a le pouvoir de remettre les péchés sur la terre ».",
+      "explanation": "Les scribes énoncent le principe à plat : pardonner les péchés (comme tels, non simplement déclarer un pardon humain) appartient à Dieu seul. Jésus ne dit pas « je ne fais que transmettre le message du Père ». Il affirme sa propre autorité puis accomplit un miracle public précisément pour prouver cette autorité. Il exerce une prérogative que l'Écriture réserve à Dieu."
+    },
+    {
+      "id": "makes-himself-god",
+      "title": "Accusé de se faire Dieu — il ne le nie pas",
+      "shortClaim": "Quand Jésus dit « le Père et moi, nous sommes un », ses auditeurs ramassent des pierres pour le tuer parce qu'il « se fait Dieu » — et il défend la prétention plutôt que de la nier. (Le narrateur de Jean 5:18 confirme qu'ils l'ont entendu se faire égal à Dieu.)",
+      "category": "Revendique le nom/l'identité divine",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 10:30-33",
+          "translationUsed": "BJ",
+          "text": "Moi et le Père nous sommes un. Les Juifs apportèrent de nouveau des pierres pour le lapider. Jésus leur dit : Je vous ai montré quantité de bonnes œuvres, venant du Père ; pour laquelle de ces œuvres me lapidez-vous ? Les Juifs lui répondirent : Ce n'est pas pour une bonne œuvre que nous te lapidons, mais pour un blasphème et parce que toi, n'étant qu'un homme, tu te fais Dieu."
+        },
+        {
+          "citation": "Jean 5:18",
+          "translationUsed": "BJ",
+          "text": "Aussi les Juifs n'en cherchaient que davantage à le tuer, puisque non seulement il violait le sabbat, mais encore il disait que Dieu était son propre Père, se faisant égal à Dieu."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f10\u03b3\u1f7c \u03ba\u03b1\u1f76 \u1f41 \u03c0\u03b1\u03c4\u1f74\u03c1 \u1f15\u03bd \u1f10\u03c3\u03bc\u03b5\u03bd",
+        "translit": "eg\u014d kai ho pat\u0113r hen esmen",
+        "note": "« hen » est neutre (« une seule chose/un en nature »), non le masculin « heis » (« une seule personne »). Le neutre prémunit contre le modalisme : le Père et le Fils sont un en être tout en demeurant deux personnes."
+      },
+      "nwtRebuttal": "La Watch Tower soutient que « le Père et moi, nous sommes un » signifie seulement un en dessein/accord (comme Jésus prie que ses disciples soient « un » en Jean 17:21-22), non un en nature. Mais les auditeurs comprirent une prétention à la divinité (« toi, n'étant qu'un homme, tu te fais Dieu »), et en Jean 5:18 le narrateur inspiré — non les adversaires — déclare que Jésus « se faisait égal à Dieu ». Jésus corrige l'accusation de n'être qu'« un homme » (en invoquant ses œuvres et son unité avec le Père), mais il ne rétracte jamais la divinité que ses adversaires ont entendue.",
+      "explanation": "Deux fois les auditeurs concluent que Jésus se prétend Dieu, et le narrateur confirme le sens en 5:18. Jésus avait toute occasion de dire « vous vous méprenez, je ne suis qu'une créature ». Il enracine au contraire la prétention plus profondément, pointant vers ses œuvres et son unité avec le Père. L'objection que « un » signifie seulement une unité de dessein ignore que nulle simple unité de dessein ne provoquerait une lapidation pour blasphème."
+    },
+    {
+      "id": "before-abraham-i-am",
+      "title": "« Avant qu'Abraham existât, JE SUIS »",
+      "shortClaim": "Jésus dit « avant qu'Abraham existât, JE SUIS », s'attribuant le nom même que Dieu employa de lui-même en parlant à Moïse en Exode 3:14 — une prétention à l'existence éternelle. (Ses auditeurs saisissent aussitôt la prétention et tentent de le lapider pour blasphème.)",
+      "category": "Revendique le nom/l'identité divine",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Jean 8:58",
+          "translationUsed": "BJ",
+          "text": "Jésus leur dit : En vérité, en vérité, je vous le dis, avant qu'Abraham existât, Je Suis."
+        },
+        {
+          "citation": "Jean 8:59",
+          "translationUsed": "BJ",
+          "text": "Ils ramassèrent alors des pierres pour les lui jeter ; mais Jésus se déroba et sortit du Temple."
+        },
+        {
+          "citation": "Exode 3:14",
+          "translationUsed": "BJ",
+          "text": "Dieu dit à Moïse : Je suis celui qui est. Et il dit : Voici ce que tu diras aux Israélites : Je suis m'a envoyé vers vous."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03c0\u03c1\u1f76\u03bd \u1f08\u03b2\u03c1\u03b1\u1f70\u03bc \u03b3\u03b5\u03bd\u03ad\u03c3\u03b8\u03b1\u03b9 \u1f10\u03b3\u1f7c \u03b5\u1f30\u03bc\u03af",
+        "translit": "prin Abraam genesthai eg\u014d eimi",
+        "note": "Jésus oppose la venue à l'existence d'Abraham (genesthai, un événement aoriste/passé) à son propre « eg\u014d eimi » intemporel (présent « JE SUIS »). La Septante d'Exode 3:14 emploie « eg\u014d eimi ho \u014dn » et Isaïe fait répéter à Dieu « eg\u014d eimi » (p. ex. Is 43:10). Le décalage grammatical (« avant que X vînt à être, JE SUIS », non « j'étais ») est délibéré et signale une existence éternelle, hors du temps."
+      },
+      "nwtRebuttal": "La TMN lit : « Avant qu'Abraham vienne à l'existence, j'ai été. » Cela rend le « eg\u014d eimi » au présent par un passé-continu (« j'ai été ») pour enseigner que Jésus existait simplement avant Abraham comme être créé, non qu'il porte le nom divin. Le procédé est contesté parce que (a) « eimi » est au présent, et (b) la réaction violente des auditeurs — ramasser des pierres — n'a de sens que s'ils ont entendu une prétention au « JE SUIS » divin, non une prétention à être simplement âgé.",
+      "explanation": "Jésus ne dit délibérément pas « avant Abraham, j'étais » ; il dit « JE SUIS », faisant écho à l'auto-nomination de Dieu en Exode 3:14 et aux paroles « je suis lui » d'Isaïe. La tentative immédiate de la foule de le lapider pour blasphème montre exactement comment ils l'ont compris. « J'ai été » émousse la force d'une prétention au présent à l'être intemporel."
+    },
+    {
+      "id": "colossians-creator-sustainer",
+      "title": "Colossiens 1:15-17 — toutes choses créées en lui et maintenues en lui",
+      "shortClaim": "Paul dit que Jésus a créé tout dans les cieux et sur la terre et maintient tout en existence — une œuvre qui appartient à Dieu seul. (La Traduction du monde nouveau insère le mot « autres » quatre fois pour en faire une créature, mais ce mot n'est pas dans le grec.)",
+      "category": "Fait ce que Dieu seul fait",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Colossiens 1:15-17",
+          "translationUsed": "BJ",
+          "text": "Il est l'Image du Dieu invisible, Premier-né de toute créature, car c'est en lui qu'ont été créées toutes choses, dans les cieux et sur la terre, les visibles et les invisibles, Trônes, Seigneuries, Principautés, Puissances ; tout a été créé par lui et pour lui. Il est avant toutes choses et tout subsiste en lui."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f10\u03bd \u03b1\u1f50\u03c4\u1ff7 \u1f10\u03ba\u03c4\u03af\u03c3\u03b8\u03b7 \u03c4\u1f70 \u03c0\u03ac\u03bd\u03c4\u03b1 ... \u03c4\u1f70 \u03c0\u03ac\u03bd\u03c4\u03b1 \u03b4\u03b9' \u03b1\u1f50\u03c4\u03bf\u1fe6 \u03ba\u03b1\u1f76 \u03b5\u1f30\u03c2 \u03b1\u1f50\u03c4\u1f78\u03bd \u1f14\u03ba\u03c4\u03b9\u03c3\u03c4\u03b1\u03b9",
+        "translit": "en aut\u014d ektisth\u0113 ta panta ... ta panta di' autou kai eis auton ektistai",
+        "note": "Le grec est « ta panta » (« toutes les choses / tout ») ; le mot « autre » (grec « heteros/allos ») est simplement absent du texte. « prototokos » (« premier-né », v.15) est un titre de rang/prééminence et d'héritage (cf. Psaume 89:28, où Dieu fait de David « premier-né, le très-haut sur les rois »), non un énoncé que le Fils serait né/créé."
+      },
+      "nwtRebuttal": "La TMN lit : « par son moyen toutes les AUTRES choses ont été créées... Toutes les AUTRES choses ont été créées par son intermédiaire... il est avant toutes les AUTRES choses. » (Les éditions antérieures de la TMN mettaient les insertions entre crochets « [autres] » ; la révision 2013 imprime « autres » sans crochets.) Le mot « autres » n'a aucun fondement dans le grec. Il est inséré pour faire de Jésus la première créature qui créa ensuite les « autres » choses restantes, protégeant la doctrine qu'il est une création. Le texte tel qu'écrit le place au-dessus de « toutes choses » comme Créateur et soutien.",
+      "explanation": "Retirez le mot inséré « autres » et le passage dit que le Christ a créé tout et maintient tout en existence — des prérogatives divines. « Premier-né de toute créature » signifie en contexte héritier suprême sur la création (le verset suivant l'explique : « CAR c'est en lui qu'ont été créées toutes choses »), non le premier élément fabriqué. Les quatre insertions d'« autres » sont l'exemple le plus clair d'une traduction faite pour coller à la doctrine plutôt que de suivre le grec."
+    },
+    {
+      "id": "titus-great-god-savior",
+      "title": "Tite 2:13 — « notre grand Dieu et Sauveur Jésus Christ » (Granville Sharp)",
+      "shortClaim": "Paul appelle Jésus Christ « notre grand Dieu et Sauveur » d'un seul souffle — un seul titre, une seule personne. (Une règle fixe de grammaire grecque, la règle de Granville Sharp, lie ici « Dieu » et « Sauveur » à la même personne ; la Traduction du monde nouveau les sépare par un « de » ajouté que le grec n'a pas.)",
+      "category": "Adressé comme Dieu",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Tite 2:13",
+          "translationUsed": "BJ",
+          "text": "en attendant la bienheureuse espérance et l'Apparition de la gloire de notre grand Dieu et Sauveur, le Christ Jésus,"
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03c4\u03bf\u1fe6 \u03bc\u03b5\u03b3\u03ac\u03bb\u03bf\u03c5 \u03b8\u03b5\u03bf\u1fe6 \u03ba\u03b1\u1f76 \u03c3\u03c9\u03c4\u1fc6\u03c1\u03bf\u03c2 \u1f21\u03bc\u1ff6\u03bd \u1f38\u03b7\u03c3\u03bf\u1fe6 \u03a7\u03c1\u03b9\u03c3\u03c4\u03bf\u1fe6",
+        "translit": "tou megalou theou kai s\u014dt\u0113ros h\u0113m\u014dn I\u0113sou Christou",
+        "note": "La règle de Granville Sharp : lorsqu'un seul article régit deux noms singuliers, personnels et non propres joints par « kai » (ici « theou kai s\u014dt\u0113ros »), les deux noms désignent la même personne. Il y a un seul article (« tou ») devant « Dieu », et aucun répété devant « Sauveur », de sorte que « grand Dieu et Sauveur » est un seul sujet = Jésus Christ."
+      },
+      "nwtRebuttal": "La TMN lit : « du grand Dieu et DE notre Sauveur, Jésus Christ. » En insérant un second « de » (impliquant un article/une préposition répétés), la TMN scinde l'unique syntagme en deux personnes — « le grand Dieu » (le Père) et séparément « notre Sauveur Jésus Christ ». Le grec a un seul article régissant les deux noms, ce qui, par la règle de Granville Sharp, désigne une seule personne. La division insérée est grammaticalement injustifiée.",
+      "explanation": "La construction de Granville Sharp (article-nom-kai-nom, les deux personnels et singuliers) identifie de façon constante les deux noms à une seule personne dans tout le NT. Ici elle identifie Jésus comme « notre grand Dieu et Sauveur ». La même construction apparaît en 2 Pierre 1:1 (argument suivant). Le « de » supplémentaire de la TMN est le procédé employé pour éviter la grammaire évidente."
+    },
+    {
+      "id": "2peter-god-and-savior",
+      "title": "2 Pierre 1:1 — « notre Dieu et Sauveur Jésus Christ » (Granville Sharp)",
+      "shortClaim": "Pierre ouvre sa lettre en appelant Jésus Christ « notre Dieu et Sauveur » sans détour. (C'est la même construction grecque à un seul article que Tite 2:13, et la Traduction du monde nouveau ajoute un second « le » pour briser l'unique titre en deux personnes.)",
+      "category": "Adressé comme Dieu",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "2 Pierre 1:1",
+          "translationUsed": "BJ",
+          "text": "Syméon Pierre, serviteur et apôtre de Jésus Christ, à ceux qui ont reçu par la justice de notre Dieu et Sauveur Jésus Christ une foi d'un aussi grand prix que la nôtre."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03c4\u03bf\u1fe6 \u03b8\u03b5\u03bf\u1fe6 \u1f21\u03bc\u1ff6\u03bd \u03ba\u03b1\u1f76 \u03c3\u03c9\u03c4\u1fc6\u03c1\u03bf\u03c2 \u1f38\u03b7\u03c3\u03bf\u1fe6 \u03a7\u03c1\u03b9\u03c3\u03c4\u03bf\u1fe6",
+        "translit": "tou theou h\u0113m\u014dn kai s\u014dt\u0113ros I\u0113sou Christou",
+        "note": "Un seul article « tou » régit à la fois « theou » (Dieu) et « s\u014dt\u0113ros » (Sauveur) ; par la règle de Granville Sharp ils nomment une seule personne, « Jésus Christ ». Notamment, en 2 Pierre 1:11 et 3:18, la construction identique « notre Seigneur et Sauveur Jésus Christ » est universellement reconnue comme désignant une seule personne — de sorte que la cohérence exige la même lecture en 1:1."
+      },
+      "nwtRebuttal": "La TMN lit : « par la justice de notre Dieu et DU Sauveur Jésus Christ », insérant un second article défini (« le/du ») devant « Sauveur » pour briser les deux titres en deux personnes. Le grec n'a qu'un seul article. La TMN n'ajoute pas « le » au parallèle 2 Pierre 1:11 / 3:18 (« notre Seigneur et Sauveur Jésus Christ »), ce qui expose l'incohérence : la même grammaire est lue comme une seule personne là-bas et deux personnes ici, seulement pour éviter d'appeler Jésus « Dieu ».",
+      "explanation": "Ce verset est une construction de Granville Sharp d'école, renforcée par le « notre Seigneur et Sauveur Jésus Christ » répété de Pierre lui-même plus loin dans la même lettre. Lire 1:1 autrement que 1:11/3:18 est un plaidoyer spécial. Pierre ouvre sa lettre en appelant Jésus « notre Dieu et Sauveur »."
+    },
+    {
+      "id": "philippians-form-of-god",
+      "title": "Philippiens 2:6-11 — de condition divine ; tout genou fléchira",
+      "shortClaim": "Paul dit que Jésus existait déjà « de condition divine » et « égal à Dieu » avant de se faire homme, et qu'un jour tout genou fléchira devant lui — l'adoration même qu'Isaïe 45:23 dit n'appartenir qu'au SEIGNEUR seul.",
+      "category": "Titres de YHWH dans l'AT appliqués à Jésus",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Philippiens 2:6-11",
+          "translationUsed": "BJ",
+          "text": "Lui, de condition divine, ne retint pas jalousement le rang qui l'égalait à Dieu. Mais il s'anéantit lui-même, prenant condition d'esclave, et devenant semblable aux hommes. S'étant comporté comme un homme, il s'humilia plus encore, obéissant jusqu'à la mort, et à la mort sur une croix. Aussi Dieu l'a-t-il exalté et lui a-t-il donné le Nom qui est au-dessus de tout nom, pour que tout, au nom de Jésus, s'agenouille, au plus haut des cieux, sur la terre et dans les enfers, et que toute langue proclame, de Jésus Christ, qu'il est Seigneur, à la gloire de Dieu le Père."
+        },
+        {
+          "citation": "Isaïe 45:23",
+          "translationUsed": "BJ",
+          "text": "Je le jure par moi-même, ce qui sort de ma bouche est la vérité, c'est une parole irrévocable : devant moi ploiera tout genou, par moi jurera toute langue."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f10\u03bd \u03bc\u03bf\u03c1\u03c6\u1fc7 \u03b8\u03b5\u03bf\u1fe6 ... \u03c4\u1f78 \u03b5\u1f36\u03bd\u03b1\u03b9 \u1f34\u03c3\u03b1 \u03b8\u03b5\u1ff7",
+        "translit": "en morph\u0113 theou ... to einai isa the\u014d",
+        "note": "« morph\u0113 theou » (« forme/condition de Dieu ») dénote la nature essentielle/le mode d'être de Dieu ; elle est mise en parallèle avec « morph\u0113 doulou » (« condition d'esclave »), qui fut sa véritable nature humaine, de sorte que « condition de Dieu » indique sa véritable nature divine. Paul applique Isaïe 45:23 — où YHWH jure que « tout genou » ploiera devant lui seul — au Jésus exalté."
+      },
+      "nwtRebuttal": "La TMN rend le v.6 : « lequel, bien qu'existant sous la forme de Dieu, n'a pas songé à une usurpation, c'est-à-dire pour qu'il soit égal à Dieu. » Cela inverse le sens : au lieu de « n'a pas regardé l'égalité avec Dieu comme une chose à saisir/à retenir » (il la possédait déjà mais ne l'exploita pas), la TMN implique que Jésus n'aspira jamais à une égalité qu'il ne possédait pas. Le point décisif pour le débat est les vv.10-11 : l'hommage qu'Isaïe 45:23 réserve à YHWH seul est ici dirigé vers Jésus, « à la gloire de Dieu le Père » — non en concurrence avec le Père mais en partageant sa gloire.",
+      "explanation": "Paul prend un oracle où YHWH déclare que tout genou ploiera devant lui seul, et l'applique à Jésus. Un monothéiste ne pouvait le faire que si Jésus est YHWH incarné. « Condition de Dieu » / « égal à Dieu » décrit son statut divin pré-incarné, qu'il ne retint pas mais voila en se faisant homme."
+    },
+    {
+      "id": "hebrews-throne-o-god",
+      "title": "Hébreux 1:8 — « Ton trône, ô Dieu, subsiste pour les siècles » (le Père s'adresse au Fils)",
+      "shortClaim": "En Hébreux 1, Dieu le Père parle à Jésus (le Fils) et l'appelle « Dieu » en face : « Ton trône, ô Dieu, subsiste pour les siècles. » (La Traduction du monde nouveau le réarrange en « Dieu est ton trône » pour éviter que le Père s'adresse au Fils comme à Dieu.)",
+      "category": "Adressé comme Dieu",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Hébreux 1:8",
+          "translationUsed": "BJ",
+          "text": "il dit au Fils : Ton trône, ô Dieu, subsiste dans les siècles des siècles, et : Le sceptre de ta royauté est un sceptre de droiture."
+        },
+        {
+          "citation": "Hébreux 1:9",
+          "translationUsed": "BJ",
+          "text": "Tu as aimé la justice et tu as haï l'impiété. C'est pourquoi, Dieu, ton Dieu t'a oint d'une huile d'allégresse de préférence à tes compagnons."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03c0\u03c1\u1f78\u03c2 \u03b4\u1f72 \u03c4\u1f78\u03bd \u03c5\u1f31\u03cc\u03bd\u00b7 \u1f41 \u03b8\u03c1\u03cc\u03bd\u03bf\u03c2 \u03c3\u03bf\u03c5 \u1f41 \u03b8\u03b5\u1f78\u03c2 \u03b5\u1f30\u03c2 \u03c4\u1f78\u03bd \u03b1\u1f30\u1ff6\u03bd\u03b1 \u03c4\u03bf\u1fe6 \u03b1\u1f30\u1ff6\u03bd\u03bf\u03c2",
+        "translit": "pros de ton huion; ho thronos sou ho theos eis ton ai\u014dna tou ai\u014dnos",
+        "note": "Citation du Psaume 45:6-7 (LXX 44:7-8). Le vocatif « ho theos » (« ô Dieu ») est adressé au Fils, comme l'encadrement « mais au Fils il dit » le rend explicite."
+      },
+      "nwtRebuttal": "La TMN lit : « Dieu est ton trône pour toujours et à jamais », faisant de « Dieu » le sujet (le trône du Fils est Dieu) plutôt qu'un vocatif adressé au Fils (« Ton trône, ô Dieu »). Cela évite que le Père appelle le Fils « Dieu ». Le rendu « Dieu est ton trône » est grammaticalement possible isolément mais tendu en contexte : tout l'argument de l'auteur en Hébreux 1 est la supériorité du Fils sur les anges à cause de qui il est, et la proposition suivante (« Dieu, ton Dieu, t'a oint ») distingue déjà le Fils de « ton Dieu », de sorte que le Fils adressé comme « ô Dieu » au v.8 et ayant un « Dieu » au v.9 reflète le schéma des deux natures/trinitaire, non un trône fait de Dieu.",
+      "explanation": "L'auteur introduit la citation par « mais au Fils il dit », puis les mots « Ton trône, ô Dieu ». Le Père s'adresse au Fils comme à Dieu tout en étant aussi le Dieu du Fils (v.9) — précisément la relation du Père et du Fils incarné. Le « Dieu est ton trône » de la TMN est une lecture minoritaire adoptée pour esquiver le vocatif."
+    },
+    {
+      "id": "isaiah-mighty-god",
+      "title": "Isaïe 9:6 — le Messie est appelé « Dieu Fort » (El Gibbor)",
+      "shortClaim": "Isaïe annonce le roi-enfant à venir et lui donne le titre de « Dieu Fort » — le titre exact qu'Isaïe emploie de YHWH lui-même un seul chapitre plus loin. (Les Témoins de Jéhovah accordent « un dieu fort » mais non la pleine divinité ; le titre hébreu identique l'exclut.)",
+      "category": "Titres de YHWH dans l'AT appliqués à Jésus",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Isaïe 9:5",
+          "translationUsed": "BJ",
+          "text": "Car un enfant nous est né, un fils nous a été donné, et la souveraineté repose sur son épaule, et on lui a donné ce nom : Conseiller-merveilleux, Dieu-Fort, Père-éternel, Prince-de-paix."
+        },
+        {
+          "citation": "Isaïe 10:21",
+          "translationUsed": "BJ",
+          "text": "Un reste reviendra, le reste de Jacob, vers le Dieu Fort."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Hébreu",
+        "text": "\u05d0\u05b5\u05dc \u05d2\u05b4\u05bc\u05d1\u05bc\u05d5\u05b9\u05e8",
+        "translit": "El Gibbor",
+        "note": "« El Gibbor » = « Dieu Fort ». La même expression exacte « El Gibbor » est appliquée à YHWH en Isaïe 10:21 (« le reste... reviendra vers le Dieu Fort »), de sorte qu'Isaïe n'emploie pas « Dieu » de façon lâche d'un simple héros — il emploie le titre divin identique du Messie et de YHWH. (Note : la numérotation hébraïque/BJ place le verset de l'enfant en Isaïe 9:5.)"
+      },
+      "nwtRebuttal": "La TMN garde « Dieu fort » en Isaïe 9:6. La Watch Tower concède que Jésus est « un dieu fort » mais non le « Dieu Tout-Puissant » (hébreu « El Shaddaï » / « Tout-Puissant »), réservant la divinité suprême au Père. La réponse est qu'« El Gibbor » est un titre qu'Isaïe applique à YHWH lui-même deux chapitres plus loin seulement (10:21) ; le même titre ne peut donc signifier un « puissant » moindre et non divin lorsqu'il est appliqué au Messie. Il y a un seul Dieu, et « Dieu Fort » est son titre.",
+      "explanation": "C'est un argument fort (non simplement complémentaire) parce que la TMN elle-même garde « Dieu fort », et Isaïe 10:21 emploie l'hébreu identique « El Gibbor » de YHWH. La tentative de graduer « Dieu Fort » comme une divinité moindre que « Dieu Tout-Puissant » échoue sur le fait qu'Isaïe emploie les mêmes mots du SEIGNEUR."
+    },
+    {
+      "id": "revelation-first-and-last",
+      "title": "Apocalypse — Jésus est « le Premier et le Dernier », « l'Alpha et l'Oméga »",
+      "shortClaim": "Le Jésus ressuscité se dit « le Premier et le Dernier » et « l'Alpha et l'Oméga » — des titres que le SEIGNEUR emploie en Isaïe précisément pour dire qu'aucun autre Dieu n'existe hors de lui. (Si nul Dieu n'existe hors du Premier et du Dernier, et que Jésus est le Premier et le Dernier, alors Jésus est cet unique Dieu.)",
+      "category": "Titres de YHWH dans l'AT appliqués à Jésus",
+      "strength": "scriptural",
+      "primaryReferences": [
+        {
+          "citation": "Apocalypse 1:17-18",
+          "translationUsed": "BJ",
+          "text": "À sa vue, je tombai à ses pieds, comme mort ; mais il posa sur moi sa main droite en disant : Ne crains pas, je suis le Premier et le Dernier, le Vivant ; je fus mort, et me voici vivant pour les siècles des siècles, tenant les clés de la Mort et de l'Hadès."
+        },
+        {
+          "citation": "Apocalypse 2:8",
+          "translationUsed": "BJ",
+          "text": "À l'Ange de l'Église de Smyrne, écris : Ainsi parle le Premier et le Dernier, celui qui était mort et qui a repris vie."
+        },
+        {
+          "citation": "Apocalypse 22:13",
+          "translationUsed": "BJ",
+          "text": "Je suis l'Alpha et l'Oméga, le Premier et le Dernier, le Principe et la Fin."
+        },
+        {
+          "citation": "Isaïe 44:6",
+          "translationUsed": "BJ",
+          "text": "Ainsi parle Yahvé, roi d'Israël, Yahvé Sabaot, son rédempteur : Je suis le premier et je suis le dernier, à part moi, pas de dieu."
+        },
+        {
+          "citation": "Isaïe 48:12",
+          "translationUsed": "BJ",
+          "text": "Écoute-moi, Jacob, Israël que j'ai appelé, c'est moi, moi qui suis le premier et c'est moi aussi le dernier."
+        }
+      ],
+      "nwtRebuttal": "La TMN garde ces titres dans le texte. La Watch Tower distingue le locuteur selon les versets (Père contre Fils). Mais Apocalypse 1:17-18 et 2:8 sont indéniablement prononcés par Jésus (« celui qui était mort et qui a repris vie »), et ils emploient « le Premier et le Dernier » — exactement l'auto-identification par laquelle YHWH exclut tous les autres dieux en Isaïe 44:6 (« à part moi, pas de dieu ») et 48:12. Celui qui mourut et ressuscita revendique un titre que YHWH dit lui appartenir à lui seul et à nul autre.",
+      "explanation": "En Isaïe, « le Premier et le Dernier » est un titre de divinité exclusive : YHWH l'emploie précisément pour dire qu'aucun autre dieu n'existe hors de lui. En Apocalypse, le Jésus ressuscité — identifié par sa mort et sa résurrection — revendique ce même titre. Si nul dieu n'existe hors du Premier et du Dernier, et que Jésus est le Premier et le Dernier, alors Jésus est cet unique Dieu."
+    },
+    {
+      "id": "worship-of-jesus",
+      "title": "Jésus accepte l'adoration — anges et apôtres la refusent",
+      "shortClaim": "Des gens se prosternent et adorent Jésus et il l'accepte, tandis que les saints anges et les apôtres refusent la même adoration et ordonnent qu'elle soit rendue à Dieu seul. (La Traduction du monde nouveau adoucit le mot en « hommage » seulement quand il est dirigé vers Jésus.)",
+      "category": "Reçoit l'adoration",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Matthieu 14:33",
+          "translationUsed": "BJ",
+          "text": "Ceux qui étaient dans la barque se prosternèrent devant lui, en disant : Vraiment, tu es Fils de Dieu !"
+        },
+        {
+          "citation": "Matthieu 28:9",
+          "translationUsed": "BJ",
+          "text": "Et voici que Jésus vint à leur rencontre : Je vous salue, dit-il. Et elles de s'approcher et d'étreindre ses pieds en se prosternant devant lui."
+        },
+        {
+          "citation": "Matthieu 28:17",
+          "translationUsed": "BJ",
+          "text": "Et à sa vue ils se prosternèrent ; d'aucuns cependant doutèrent."
+        },
+        {
+          "citation": "Jean 9:38",
+          "translationUsed": "BJ",
+          "text": "Il dit : Je crois, Seigneur, et il se prosterna devant lui."
+        },
+        {
+          "citation": "Hébreux 1:6",
+          "translationUsed": "BJ",
+          "text": "Et de nouveau, lorsqu'il introduit le Premier-né dans le monde, il dit : Que tous les anges de Dieu l'adorent."
+        },
+        {
+          "citation": "Apocalypse 19:10",
+          "translationUsed": "BJ",
+          "text": "Alors je me prosternai à ses pieds pour l'adorer, mais lui me dit : Non, attention, je suis un serviteur comme toi... C'est Dieu qu'il faut adorer."
+        },
+        {
+          "citation": "Apocalypse 22:8-9",
+          "translationUsed": "BJ",
+          "text": "C'est moi, Jean, qui voyais et entendais tout cela ; une fois l'entendu et vu, je tombai aux pieds de l'Ange... pour l'adorer. Mais lui me dit : Non, attention, je suis un serviteur comme toi... C'est Dieu qu'il faut adorer."
+        },
+        {
+          "citation": "Actes 10:25-26",
+          "translationUsed": "BJ",
+          "text": "Quand Pierre entra, Corneille vint à sa rencontre et, tombant à ses pieds, se prosterna. Mais Pierre le releva en disant : Relève-toi. Je ne suis qu'un homme, moi aussi."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03c0\u03c1\u03bf\u03c3\u03b5\u03ba\u03cd\u03bd\u03b7\u03c3\u03b1\u03bd / \u03c0\u03c1\u03bf\u03c3\u03ba\u03c5\u03bd\u03b5\u03af\u03c4\u03c9\u03c3\u03b1\u03bd",
+        "translit": "prosekyn\u0113san / proskyneit\u014dsan",
+        "note": "Le verbe « proskyne\u014d » peut signifier un hommage révérenciel en général, mais en Apocalypse 19:10 et 22:8-9 le même acte envers un ange est interdit avec l'ordre « Adore Dieu » (proskyn\u0113son). Le refus de l'ange montre que l'objet propre d'un tel hommage est Dieu seul — pourtant l'hommage identique est dirigé vers Jésus et accepté (et en Hébreux 1:6 Dieu ordonne aux anges de le rendre au Fils)."
+      },
+      "nwtRebuttal": "La TMN traduit de façon constante « proskyne\u014d » envers Jésus par « rendre hommage » (p. ex. Matthieu 14:33, 28:9,17) plutôt que « adorer », réservant « adorer » à Dieu. Mais le même verbe grec est employé de l'acte interdit envers les anges en Apocalypse 19:10 / 22:8-9, où il est qualifié d'illégitime et redirigé vers Dieu — de sorte que le mot lui-même marque l'adoration due à Dieu seul. En Hébreux 1:6, la TMN (2013) lit en réalité « que tous les anges de Dieu lui rendent hommage » (au Fils) — c'est-à-dire que Dieu ordonne aux anges de rendre au Fils l'hommage même que les anges refusent de recevoir.",
+      "explanation": "Le schéma est décisif : des créatures (les saints anges, l'apôtre Pierre) refusent l'hommage et ordonnent qu'il soit rendu à Dieu seul ; Jésus le reçoit sans reproche, et Dieu lui-même ordonne aux anges de le rendre au Fils. Traduire le mot par « hommage » seulement quand il est dirigé vers Jésus est une esquive lexicale, puisque le mot identique marque l'adoration interdite d'un ange ailleurs."
+    },
+    {
+      "id": "john-honour-the-son",
+      "title": "Jean 5:23 — honorer le Fils comme le Père",
+      "shortClaim": "Jésus exige que tous l'honorent exactement comme ils honorent le Père — ce que seule une personne divine pourrait à bon droit requérir. (Pour un monothéiste, rendre à une créature l'honneur dû à Dieu serait de l'idolâtrie.)",
+      "category": "Reçoit l'adoration",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Jean 5:22-23",
+          "translationUsed": "BJ",
+          "text": "Car le Père ne juge personne ; il a remis au Fils le jugement tout entier, afin que tous honorent le Fils comme ils honorent le Père. Qui n'honore pas le Fils n'honore pas le Père qui l'a envoyé."
+        }
+      ],
+      "nwtRebuttal": "Le texte de la TMN est essentiellement le même (« honorent le Fils tout comme ils honorent le Père »). La Watch Tower lit cela comme un honneur relatif délégué par le Père, non un honneur divin. Mais le critère est absolu — « comme (kath\u014ds, « de la même manière que ») ils honorent le Père » — et la sanction est sévère : ne pas honorer le Fils équivaut à ne pas honorer le Père. Seule une personne divine pourrait à bon droit exiger d'être honorée exactement comme Dieu le Père l'est.",
+      "explanation": "Pour un monothéiste, rendre à une créature le même honneur dû à Dieu est de l'idolâtrie. Pourtant Jésus exige un honneur précisément égal et rend l'honneur du Père conditionné à lui. Cela égale le Fils au Père comme l'objet propre de l'honneur divin."
+    },
+    {
+      "id": "john-seen-me-seen-father",
+      "title": "Jean 14:9 — « Qui m'a vu a vu le Père »",
+      "shortClaim": "Jésus dit à Philippe que quiconque l'a vu a vu le Père — se prétendant le Dieu invisible rendu visible. (Une simple créature ne pourrait dire que le regarder, c'est regarder Dieu.)",
+      "category": "Revendique le nom/l'identité divine",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Jean 14:9",
+          "translationUsed": "BJ",
+          "text": "Jésus lui dit : Voilà si longtemps que je suis avec vous, et tu ne me connais pas, Philippe ? Qui m'a vu a vu le Père. Comment peux-tu dire : Montre-nous le Père !"
+        }
+      ],
+      "nwtRebuttal": "La TMN lit de façon semblable (« Celui qui m'a vu a vu le Père »). La Watch Tower traite cela comme Jésus représentant/reflétant parfaitement le Père (comme une image ou un agent), non comme étant Dieu. Mais la force est plus grande que la représentation : voir le Fils, c'est voir le Père, parce que le Fils partage la nature du Père (cf. Jean 1:18 ; Colossiens 1:15, « l'Image du Dieu invisible »). Une simple créature ne pourrait dire que la voir, c'est voir Dieu.",
+      "explanation": "Philippe demande qu'on lui montre le Père ; Jésus répond que lui-même est la manifestation du Père. C'est plus qu'un prophète relayant les paroles de Dieu — c'est la prétention que le Dieu invisible est rendu visible dans la personne du Fils."
+    },
+    {
+      "id": "1john-true-god",
+      "title": "1 Jean 5:20 — « Celui-ci est le Dieu véritable et la Vie éternelle »",
+      "shortClaim": "Jean, ayant tout juste nommé Jésus Christ, dit « celui-ci est le Dieu véritable et la vie éternelle » — appelant très naturellement Jésus lui-même le vrai Dieu. (L'expression « vie éternelle » est un titre que Jean donne ailleurs au Fils.)",
+      "category": "Adressé comme Dieu",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "1 Jean 5:20",
+          "translationUsed": "BJ",
+          "text": "Nous savons que le Fils de Dieu est venu et qu'il nous a donné l'intelligence afin que nous connaissions le Véridique ; nous sommes dans le Véridique, dans son Fils Jésus Christ. Celui-ci est le Dieu véritable et la Vie éternelle."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03bf\u1f57\u03c4\u03cc\u03c2 \u1f10\u03c3\u03c4\u03b9\u03bd \u1f41 \u1f00\u03bb\u03b7\u03b8\u03b9\u03bd\u1f78\u03c2 \u03b8\u03b5\u1f78\u03c2 \u03ba\u03b1\u1f76 \u03b6\u03c9\u1f74 \u03b1\u1f30\u03ce\u03bd\u03b9\u03bf\u03c2",
+        "translit": "houtos estin ho al\u0113thinos theos kai z\u014d\u0113 ai\u014dnios",
+        "note": "« houtos » (« celui-ci ») renvoie le plus naturellement à l'antécédent le plus proche, « Jésus Christ », nommé immédiatement avant (« dans son Fils Jésus Christ »). « vie éternelle » est un titre que Jean applique à Jésus (Jean 1:4 ; 1 Jean 1:2, « la vie... s'est manifestée »), renforçant que « celui-ci » est le Fils."
+      },
+      "nwtRebuttal": "La TMN lit : « Nous sommes en union avec le vrai Dieu, par son Fils Jésus Christ. Celui-ci est le vrai Dieu et la vie éternelle. » La Watch Tower rapporte « celui-ci » au Père (le « vrai Dieu »), non à Jésus. La grammaire est débattue — « houtos » pourrait en principe désigner le Père — mais l'antécédent le plus proche et le plus naturel est « Jésus Christ », et « vie éternelle » est ailleurs un titre du Fils (Jean 1:4 ; 1 Jean 1:2), favorisant la référence au Christ.",
+      "explanation": "Cet argument est fort plutôt qu'imparable parce que l'antécédent de « celui-ci » est grammaticalement contestable. Mais la lecture naturelle pointe vers le Jésus Christ tout juste nommé, et le titre apposé « vie éternelle » est un titre que Jean applique au Fils, de sorte que le verset appelle très plausiblement Jésus « le Dieu véritable »."
+    },
+    {
+      "id": "micah-from-everlasting",
+      "title": "Michée 5:2 — le chef de Bethléem dont les origines sont « dès les jours de l'éternité »",
+      "shortClaim": "Michée annonce le Messie né à Bethléem dont les « origines » sont « dès les jours d'autrefois, dès les temps anciens » — pointant vers une existence plus ancienne que la création elle-même. (Le mot hébreu peut signifier « ancien » ou « éternel », de sorte que cela soutient mieux les arguments plus forts qu'il ne se tient seul.)",
+      "category": "Revendique le nom/l'identité divine",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Michée 5:1",
+          "translationUsed": "BJ",
+          "text": "Et toi, Bethléem Éphrata, le moindre des clans de Juda, c'est de toi que me naîtra celui qui doit régner sur Israël ; ses origines remontent au lointain passé, aux jours antiques."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Hébreu",
+        "text": "\u05de\u05b4\u05d9\u05de\u05b5\u05d9 \u05e2\u05d5\u05b9\u05dc\u05b8\u05dd",
+        "translit": "mimei olam",
+        "note": "« mimei olam » = « dès les jours de l'Antiquité/de l'éternité ». Le terme « olam » dénote un temps reculé ou éternel ; appliqué aux « origines » du Messie, il pointe vers une origine hors du temps créé ordinaire. (Matthieu 2:6 cite cette prophétie du Christ né à Bethléem.) Note : la numérotation hébraïque/BJ place ce verset en Michée 5:1."
+      },
+      "nwtRebuttal": "La TMN lit : « ses origines viennent des temps anciens, des jours d'il y a longtemps. » Cela présente l'« origine » du Messie comme simplement très ancienne (compatible avec Jésus comme première création de Dieu), non éternelle. L'hébreu « olam » peut signifier « ancien » ou « éternel » selon le contexte ; appliqué au chef qui est aussi désigné en termes divins ailleurs, le sens plus fort d'une préexistence éternelle convient. C'est pourquoi l'argument est coté « fort » plutôt que concluant à lui seul.",
+      "explanation": "À lui seul, l'hébreu peut porter « ancien » ou « éternel », de sorte que cela s'emploie mieux comme preuve corroborante de la préexistence extraordinaire du Messie que comme preuve autonome. Combiné à Jean 8:58 et au contexte messianique de Michée, il soutient une préexistence éternelle."
+    },
+    {
+      "id": "zechariah-pierced",
+      "title": "Zacharie 12:10 — « ils lèveront les yeux vers moi, celui qu'ils ont transpercé »",
+      "shortClaim": "Le SEIGNEUR, parlant à la première personne, dit « ils lèveront les yeux vers moi, celui qu'ils ont transpercé » — et l'Évangile de Jean applique ces mots exacts au Jésus crucifié. (Ainsi celui qui fut transpercé est identifié au SEIGNEUR qui parle.)",
+      "category": "Titres de YHWH dans l'AT appliqués à Jésus",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Zacharie 12:10",
+          "translationUsed": "BJ",
+          "text": "Je répandrai sur la maison de David et sur l'habitant de Jérusalem un esprit de grâce et de supplication, et ils regarderont vers moi. Celui qu'ils ont transpercé, ils feront une lamentation sur lui comme on se lamente sur un fils unique..."
+        },
+        {
+          "citation": "Jean 19:37",
+          "translationUsed": "BJ",
+          "text": "Et une autre Écriture dit encore : Ils regarderont celui qu'ils ont transpercé."
+        }
+      ],
+      "nwtRebuttal": "La TMN lit : « ils regarderont celui qu'ils ont transpercé. » La TMN de 2013 altère la première personne : elle fait parler YHWH (Jéhovah) mais rend la proposition « ils regarderont celui » plutôt que « vers moi », atténuant l'identification du transpercé au YHWH qui parle. L'hébreu a YHWH comme locuteur (« ils lèveront les yeux vers MOI, celui qu'ils ont transpercé »), et Jean 19:37 applique le transpercement à Jésus sur la croix, de sorte que le transpercé et le YHWH qui parle sont identifiés.",
+      "explanation": "YHWH est le locuteur qui dit « moi, celui qu'ils ont transpercé », puis la proposition passe à « se lamenteront sur lui », reflétant le mystère du Dieu-homme transpercé. Jean 19:37 l'applique explicitement au Jésus crucifié. Celui qu'Israël a transpercé est identifié au YHWH qui parle."
+    },
+    {
+      "id": "acts-pray-to-jesus",
+      "title": "Étienne prie Jésus — « Seigneur Jésus, reçois mon esprit »",
+      "shortClaim": "Mourant, Étienne prie directement Jésus — « Seigneur Jésus, reçois mon esprit » — avec les mots mêmes que Jésus avait adressés en priant au Père. (Confier son âme à la mort est un acte d'adoration dû à Dieu.)",
+      "category": "Reçoit l'adoration",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Actes 7:59",
+          "translationUsed": "BJ",
+          "text": "Et tandis qu'on le lapidait, Étienne faisait cette invocation : Seigneur Jésus, reçois mon esprit."
+        },
+        {
+          "citation": "Luc 23:46",
+          "translationUsed": "BJ",
+          "text": "Et Jésus, poussant un grand cri, dit : Père, en tes mains je remets mon esprit. Ayant dit cela, il expira."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f10\u03c0\u03b9\u03ba\u03b1\u03bb\u03bf\u03cd\u03bc\u03b5\u03bd\u03bf\u03bd \u03ba\u03b1\u1f76 \u03bb\u03ad\u03b3\u03bf\u03bd\u03c4\u03b1\u00b7 \u039a\u03cd\u03c1\u03b9\u03b5 \u1f38\u03b7\u03c3\u03bf\u1fe6, \u03b4\u03ad\u03be\u03b1\u03b9 \u03c4\u1f78 \u03c0\u03bd\u03b5\u1fe6\u03bc\u03ac \u03bc\u03bf\u03c5",
+        "translit": "epikaloumenon kai legonta; Kyrie I\u0113sou, dexai to pneuma mou",
+        "note": "« epikale\u014d » est un verbe employé pour invoquer/appeler Dieu dans la prière (cf. Actes 2:21, « invoquer le nom du Seigneur »). Étienne dirige cette invocation vers « Seigneur Jésus », reflétant la prière mourante de Jésus lui-même au Père en Luc 23:46 (« reçois mon esprit »). NOTE SUR LA VERSIFICATION : la Douay-Rheims (suivant la Vulgate) numérote cette proposition Actes 7:58, tandis que les versions grecques/modernes (et la citation courante) la placent en Actes 7:59 ; la formulation est identique, seul le numéro de verset diffère."
+      },
+      "nwtRebuttal": "Le texte de la TMN lit : « Seigneur Jésus, reçois mon esprit. » La Watch Tower ne nie pas les mots mais nie que ce soit une adoration — soutenant qu'Étienne s'adressait simplement au Jésus qu'il venait de voir en vision (Actes 7:55-56). La réponse est qu'Étienne confie son esprit qui s'en va à Jésus avec les mots mêmes que Jésus employa pour confier son esprit au Père, en employant le vocabulaire de l'invocation/prière (« epikale\u014d ») ; confier son âme à la mort est un acte de confiance religieuse dirigé vers Dieu.",
+      "explanation": "Étienne fait à Jésus exactement ce que Jésus fit au Père à la mort : il remet son esprit. La prière et le fait de confier son âme appartiennent à Dieu ; Étienne les dirige vers le Jésus ressuscité, le traitant comme le destinataire légitime de la prière d'un mourant."
+    },
+    {
+      "id": "emmanuel-god-with-us",
+      "title": "Matthieu 1:23 — Emmanuel, « Dieu avec nous »",
+      "shortClaim": "Matthieu dit que le fils de la vierge sera appelé Emmanuel, puis explique au lecteur que cela signifie « Dieu avec nous » — présentant Jésus comme Dieu venu être présent avec son peuple. (À lui seul un nom prouve peu, mais l'encadrement de Matthieu désigne Jésus lui-même comme cette présence.)",
+      "category": "Titres de YHWH dans l'AT appliqués à Jésus",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Matthieu 1:23",
+          "translationUsed": "BJ",
+          "text": "Voici que la vierge concevra et enfantera un fils, et on l'appellera du nom d'Emmanuel, ce qui se traduit : Dieu avec nous."
+        },
+        {
+          "citation": "Isaïe 7:14",
+          "translationUsed": "BJ",
+          "text": "C'est pourquoi le Seigneur lui-même vous donnera un signe : Voici, la jeune femme est enceinte et va enfanter un fils et elle lui donnera le nom d'Emmanuel."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Hébreu",
+        "text": "\u05e2\u05b4\u05de\u05b8\u05bc\u05e0\u05d5\u05bc \u05d0\u05b5\u05dc",
+        "translit": "Immanu El",
+        "note": "« Immanu El » = « avec nous (est) Dieu ». Matthieu donne la glose grecque « meth' h\u0113m\u014dn ho theos » (« Dieu avec nous »), glosant explicitement le nom par « ho theos » (Dieu). Le nom est donné à l'enfant qui est Jésus."
+      },
+      "nwtRebuttal": "Le texte de la TMN garde « Emmanuel, ce qui signifie : “Avec nous est Dieu.” » La Watch Tower traite le nom comme un nom théophore exprimant que Dieu est avec son peuple par cet enfant (comme des noms tels qu'« Élie » = « mon Dieu est Yah » ne font pas de leur porteur Dieu), non une prétention que l'enfant est Dieu. Le contre-argument est que Matthieu encadre uniquement cet enfant comme l'accomplissement du signe de la naissance virginale et interprète le nom pour le lecteur, et que l'élan de l'Évangile (se terminant en 28:20, « je suis avec vous ») présente Jésus lui-même comme Dieu présent avec son peuple.",
+      "explanation": "C'est une corroboration forte plutôt qu'une preuve décontextualisée : les noms théophores seuls ne divinisent pas leurs porteurs. Mais dans l'encadrement de Matthieu — naissance virginale, nom inspiré, et l'inclusion avec « je suis avec vous toujours » en 28:20 — le titre « Dieu avec nous » est présenté comme réalisé dans la personne de Jésus."
+    },
+    {
+      "id": "inri-yhwh-acrostic",
+      "title": "Le titulus de la croix et l'acrostiche YHWH (tradition dévotionnelle)",
+      "shortClaim": "Une tradition dévotionnelle — non une preuve — note que les mots hébreux de l'écriteau de Pilate sur la croix pourraient épeler le nom divin YHWH en acrostiche. (L'Évangile ne consigne jamais la formulation hébraïque, de sorte qu'il faut la traiter comme une méditation pieuse et jamais comme une preuve de débat.)",
+      "category": "Complémentaire/traditionnel",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Jean 19:19-20",
+          "translationUsed": "BJ",
+          "text": "Pilate rédigea aussi un écriteau et le fit placer sur la croix. Il y était écrit : Jésus le Nazaréen, le roi des Juifs. Cet écriteau, beaucoup de Juifs le lurent, parce que le lieu où Jésus avait été mis en croix était proche de la ville, et c'était écrit en hébreu, en latin et en grec."
+        },
+        {
+          "citation": "Exode 3:14-15",
+          "translationUsed": "BJ",
+          "text": "Dieu dit à Moïse : Je suis celui qui est... Yahvé, le Dieu de vos pères... C'est mon nom pour toujours, c'est ainsi que l'on m'invoquera de génération en génération."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Hébreu",
+        "text": "\u05d9\u05b5\u05e9\u05d5\u05bc\u05e2\u05b7 \u05d4\u05b7\u05e0\u05b8\u05bc\u05e6\u05b0\u05e8\u05b4\u05d9 \u05d5\u05bc\u05de\u05b6\u05dc\u05b6\u05da\u05b0 \u05d4\u05b7\u05d9\u05b0\u05d4\u05d5\u05bc\u05d3\u05b4\u05d9\u05dd",
+        "translit": "Yeshua HaNotzri W\u2019Melekh HaYehudim",
+        "note": "AFFIRMATION DÉVOTIONNELLE/TRADITIONNELLE, NON UNE PREUVE SCRIPTURAIRE. Une tradition tardive propose que la forme hébraïque de « Jésus le Nazaréen, et roi des Juifs » donne les initiales Yod-Hé-Vav-Hé, épelant \u05d9\u05d4\u05d5\u05d4 (YHWH), le Tétragramme d'Exode 3:14-15. L'Évangile ne consigne PAS la formulation hébraïque ni aucun acrostiche ; l'hébreu reconstruit et l'acrostiche sont une reconstruction dévotionnelle, et l'ordre des mots nécessaire pour produire exactement Y-H-V-H est lui-même débattu. À traiter comme une illustration pieuse, non comme une preuve."
+      },
+      "nwtRebuttal": "Ce n'est pas un différend de traduction et cela ne doit PAS être employé comme verset-preuve dans le débat. Un Témoin de Jéhovah (ou tout critique) peut à juste titre faire remarquer que l'Évangile ne consigne jamais la formulation hébraïque ni aucun acrostiche, et que l'acrostiche dépend d'un ordre des mots hébreu particulier reconstruit. Le présenter comme une preuve solide saperait la crédibilité des arguments plus forts, authentiquement scripturaires.",
+      "explanation": "Inclus pour l'exhaustivité et l'intérêt dévotionnel seulement, et clairement signalé comme tel. La valeur honnête ici est le fait réel et vérifié que YHWH (Exode 3:14-15) est le nom révélé de Dieu — qui sous-tend les arguments du « JE SUIS » (Jean 8:58) et du « Premier et Dernier » (Apocalypse/Isaïe) ci-dessus. L'acrostiche lui-même est une méditation traditionnelle, non une démonstration, et ne doit pas être survendu à un sceptique."
+    },
+    {
+      "id": "romans-9-5-god-over-all",
+      "title": "Romains 9:5 — le Christ, « qui est au-dessus de tout, Dieu béni éternellement »",
+      "shortClaim": "Énumérant les privilèges d'Israël, Paul culmine avec le Christ qui en est issu et l'appelle « Dieu au-dessus de tout, béni éternellement ». (Lu comme une seule phrase, comme le font la plupart des traductions, Paul appelle clairement Jésus Dieu ; la Traduction du monde nouveau rompt la phrase pour en faire une louange au Père.)",
+      "category": "Adressé comme Dieu",
+      "strength": "strong",
+      "primaryReferences": [
+        {
+          "citation": "Romains 9:5",
+          "translationUsed": "BJ",
+          "text": "et aussi les patriarches, et de qui le Christ est issu selon la chair, lequel est au-dessus de tout, Dieu béni éternellement ! Amen."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u1f41 \u1f64\u03bd \u1f10\u03c0\u1f76 \u03c0\u03ac\u03bd\u03c4\u03c9\u03bd \u03b8\u03b5\u1f78\u03c2 \u03b5\u1f50\u03bb\u03bf\u03b3\u03b7\u03c4\u1f78\u03c2 \u03b5\u1f30\u03c2 \u03c4\u03bf\u1f7a\u03c2 \u03b1\u1f30\u1ff6\u03bd\u03b1\u03c2",
+        "translit": "ho \u014dn epi pant\u014dn theos eulog\u0113tos eis tous ai\u014dnas",
+        "note": "La proposition relative « ho \u014dn epi pant\u014dn theos » (« qui est au-dessus de tout, Dieu ») continue le plus naturellement la phrase sur le Christ (« de qui est le Christ selon la chair, qui est... »). Le différend porte sur la PONCTUATION, non sur la formulation : le grec original n'avait pas de ponctuation, de sorte qu'un traducteur peut soit la garder comme une seule phrase prédiquant « Dieu au-dessus de tout » du Christ, soit insérer un point et lire « Dieu » comme commençant une doxologie séparée au Père. La grammaire favorise l'application au Christ : une doxologie à Dieu commence normalement par « béni » (eulog\u0113tos) en tête en grec, ce que cette proposition ne fait pas ; et le contraste « selon la chair... qui est au-dessus de tout, Dieu » convient au schéma de Paul appariant l'humanité du Christ à sa divinité (cf. Romains 1:3-4)."
+      },
+      "nwtRebuttal": "La TMN lit : « ...et de qui le Christ est issu selon la chair. Dieu, qui est au-dessus de tout, soit béni à jamais. Amen. » En plaçant un point après « chair », la TMN transforme « Dieu qui est au-dessus de tout » en une exclamation de louange séparée adressée au Père, de sorte qu'elle ne décrit plus le Christ. Le procédé est un choix de ponctuation, non une traduction de mots différents — le grec est le même ; la question est de savoir où la phrase se rompt, et la grammaire (l'ordre des mots d'une doxologie grecque) et le contexte favorisent une lecture du Christ.",
+      "explanation": "Ici Paul énumère les privilèges d'Israël et culmine avec le Messie qui en est issu « selon la chair » — puis ajoute « qui est au-dessus de tout, Dieu béni éternellement ». Lu comme une seule phrase (comme le font la BJ et la plupart des traductions), Paul appelle le Christ « Dieu au-dessus de tout ». La Watch Tower rompt la phrase pour que « Dieu » commence un nouvel élan de louange au Père. Puisque le grec le plus ancien n'avait pas de ponctuation, c'est un choix interprétatif réel ; mais deux choses favorisent la lecture de la BJ : les doxologies grecques à Dieu mettent caractéristiquement « béni » en tête (cette proposition met « qui est au-dessus de tout » en tête, décrivant le sujet précédent, le Christ), et Paul ailleurs apparie la descendance humaine du Christ à son statut divin (Romains 1:3-4). Coté « fort » plutôt que décisif précisément parce que la ponctuation est débattue — signalé dans les Réserves honnêtes."
+    }
+  ],
+  "uncertainCitations": [
+    {
+      "citation": "Actes 7:59 / 7:58",
+      "issue": "Différence de versification : la proposition « Seigneur Jésus, reçois mon esprit » est numérotée Actes 7:59 dans les Bibles grecques/modernes mais Actes 7:58 dans la Douay-Rheims (numérotation de la Vulgate). La formulation est identique ; seul le numéro de verset diffère. La donnée le signale explicitement."
+    },
+    {
+      "citation": "Isaïe 44:6",
+      "issue": "La source DRA automatisée originale renvoyait un jeton corrompu (« I am the brat ») pour « I am the first ». La formulation correcte connue est utilisée dans la donnée française (Bible de Jérusalem : « Je suis le premier et je suis le dernier, à part moi, pas de dieu ») ; le retour automatisé ne fut PAS tenu pour fiable pour ce verset."
+    },
+    {
+      "citation": "1 Jean 5:20 (antécédent de « houtos »)",
+      "issue": "Que « celui-ci est le Dieu véritable » renvoie à Jésus ou au Père est grammaticalement contestable ; coté « fort », non un verset-preuve décisif. Expliqué dans l'argument."
+    },
+    {
+      "citation": "Michée 5:2 (« olam »)",
+      "issue": "L'hébreu « mimei olam » peut signifier « depuis les temps anciens » ou « depuis l'éternité » ; la lecture de la préexistence éternelle est défendable mais non linguistiquement forcée. Coté « fort »."
+    },
+    {
+      "citation": "Matthieu 1:23 (Emmanuel)",
+      "issue": "Les noms théophores ne divinisent pas par eux-mêmes leur porteur ; la lecture de l'identité divine dépend de l'encadrement de Matthieu. Coté « fort », non concluant."
+    },
+    {
+      "citation": "INRI / acrostiche YHWH (Jean 19:19-20)",
+      "issue": "DÉVOTIONNEL/TRADITIONNEL SEULEMENT. L'Évangile ne consigne ni titulus hébreu ni acrostiche ; la reconstruction hébraïque et l'ordre exact des lettres Y-H-V-H sont débattus. Explicitement étiqueté strength='supplementary' et signalé comme ne devant pas servir de preuve de débat."
+    },
+    {
+      "citation": "NWT Colossiens 1:16-17 crochets",
+      "issue": "Le mot inséré « autres » est confirmé présent dans la TMN actuelle (2013) sans crochets ; les éditions antérieures de la TMN l'imprimaient entre crochets « [autres] ». Les deux sont notés dans l'argument."
+    },
+    {
+      "citation": "Romains 9:5 (ponctuation)",
+      "issue": "Que « qui est au-dessus de tout, Dieu béni éternellement » décrive le Christ ou commence une doxologie séparée au Père est une affaire de PONCTUATION (absente du grec original), non de formulation. La BJ et la plupart des traductions l'appliquent au Christ ; la TMN la re-ponctue en louange au Père. Coté « fort », non décisif ; l'ordre des mots grec et l'appariement chair/divinité de Paul favorisent l'application au Christ."
+    }
+  ]
 }

@@ -1,4 +1,177 @@
 {
-  "title": "",
-  "arguments": []
+  "title": "Sources et méthode",
+  "subtitle": "Comment ce site traite l'Écriture : la traduction affichée, les langues d'origine, les manuscrits derrière les versets phares, les deux règles de grammaire grecque qui reviennent, et un examen honnête de la méthode de la Traduction du monde nouveau.",
+  "displayTranslation": "Bible de Jérusalem (BJ)",
+  "displayTranslationNote": "L'Écriture affichée sur ce site en français est la Bible de Jérusalem (BJ), une traduction catholique reconnue et largement citée dans l'apologétique de langue française. Là où le grec ou l'hébreu tranche un différend, la langue d'origine est donnée avec sa translittération plutôt que de s'appuyer sur une seule version française.",
+  "divineNameNote": "Le nom divin est le Tétragramme, quatre consonnes hébraïques \u05d9\u05d4\u05d5\u05d4 (YHWH), vocalisé « Yahvé » (rendu « Jéhovah » par la Société Watch Tower), révélé en Exode 3:14-15 (« JE SUIS CELUI QUI SUIS »). Il est l'arrière-plan des arguments du « JE SUIS » (Jean 8:58) et du « Premier et Dernier » (Apocalypse / Isaïe) présentés ailleurs sur le site.",
+  "methodologyNote": "Cette page est l'appareil critique derrière les arguments, non un ensemble de versets-preuves ; aussi chaque élément est-il marqué « complémentaire ». Elle indique quelle traduction est affichée et pourquoi, la base en langue originale, les plus anciens témoins manuscrits et ce qu'ils prouvent (et ne prouvent pas), les deux règles récurrentes de grammaire grecque, et les faits documentés sur le comité de la Traduction du monde nouveau et ses 237 insertions de « Jéhovah » dans le Nouveau Testament. Les points faciles à exagérer dans le débat (règle de Colwell ; ce qu'un manuscrit « prouve » ; les sources « J ») sont signalés dans les « Réserves honnêtes » afin d'être employés avec exactitude.",
+  "categories": [
+    "Traductions utilisées",
+    "Témoignage des manuscrits",
+    "Outils de grammaire grecque",
+    "À propos de la Traduction du monde nouveau"
+  ],
+  "arguments": [
+    {
+      "id": "src-display-translation",
+      "title": "Pourquoi la Bible de Jérusalem (BJ) pour les versets affichés",
+      "shortClaim": "Le site affiche la Bible de Jérusalem parce qu'elle est catholique, reconnue et vérifiable — et il s'en remet aux langues d'origine là où elles tranchent un différend.",
+      "category": "Traductions utilisées",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Bible de Jérusalem (BJ), traduction catholique française",
+          "translationUsed": "N/A — ouvrage de référence",
+          "text": "Traduction catholique française de référence, établie sous la direction de l'École biblique de Jérusalem."
+        }
+      ],
+      "explanation": "Tout verset français cité sur ce site est tiré de la Bible de Jérusalem (BJ). Trois raisons : c'est une traduction catholique reconnue ; elle est largement diffusée et citée, donc vérifiable par tous ; et l'usage d'une seule traduction cohérente maintient le texte affiché neutre plutôt que d'importer une formulation moderne contestée dans l'argument lui-même. Là où le poids réel d'un point repose sur le grec ou l'hébreu, le site donne la langue d'origine avec une translittération au lieu de s'appuyer sur une seule version française — ainsi le dossier ne tient ni ne tombe sur un choix de traduction."
+    },
+    {
+      "id": "src-original-languages",
+      "title": "La base en langue originale : grec du NT, hébreu de l'AT, et la Septante",
+      "shortClaim": "Les différends se tranchent dans les langues où les Écritures ont été écrites : le grec koinè pour le Nouveau Testament, l'hébreu (massorétique) pour l'Ancien, avec l'ancienne Septante grecque là où elle concerne un texte.",
+      "category": "Traductions utilisées",
+      "strength": "supplementary",
+      "explanation": "Le Nouveau Testament a été écrit en grec koinè (commun) ; l'Ancien Testament en hébreu, avec de petites portions araméennes, conservé dans le Texte massorétique. La Septante (LXX) — l'ancienne traduction grecque de l'Ancien Testament utilisée par beaucoup d'auteurs du Nouveau Testament — importe à certains versets précis, par exemple Proverbes 8:22 (où la LXX lit « créé ») et les formulations que citent les évangélistes. Lorsque ce site cite un mot grec ou hébreu, il désigne la couche où le différend se décide réellement, sous toute traduction française."
+    },
+    {
+      "id": "src-manuscripts",
+      "title": "Les plus anciens manuscrits derrière Jean 1:1 et Jean 8:58",
+      "shortClaim": "Les plus anciens témoins grecs attestent le texte des versets phares ; aucun n'appuie un « un dieu » indéfini.",
+      "category": "Témoignage des manuscrits",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Jean 1:1",
+          "translationUsed": "BJ",
+          "text": "Au commencement était le Verbe, et le Verbe était auprès de Dieu, et le Verbe était Dieu."
+        },
+        {
+          "citation": "Jean 8:58",
+          "translationUsed": "BJ",
+          "text": "Jésus leur dit : En vérité, en vérité, je vous le dis, avant qu'Abraham existât, Je Suis."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "P66 \u00b7 P75 \u00b7 \u2135 (01) \u00b7 B (03)",
+        "translit": "Papyrus 66, Papyrus 75, Codex Sinaiticus, Codex Vaticanus",
+        "note": "Le Papyrus 66 (P66, v. 200) et le Papyrus 75 (P75, début du IIIe siècle) comptent parmi les plus anciens témoins du texte de Jean ; le Codex Sinaiticus (\u2135 / 01) et le Codex Vaticanus (B / 03) sont des codex de la Bible entière du IVe siècle. Ils assurent la FORMULATION de Jean 1:1 et de Jean 8:58 ; les versions anciennes (latine, syriaque Peshitta) rendent Jean 1:1 par « Dieu », non « un dieu ». Notez la limite honnête : les manuscrits fixent le texte, non son interprétation — le grec de Jean 1:1 est anarthre dans ces témoins de toute façon, de sorte que le sens est porté par la grammaire et le contexte, non par les papyrus seuls."
+      },
+      "explanation": "Quand un Témoin de Jéhovah dit que la divinité du Christ est une invention tardive, le dossier manuscrit est un correctif utile : le texte qui appelle le Verbe « Dieu » (Jean 1:1) et où Jésus dit « JE SUIS » (Jean 8:58) est présent dans nos plus anciennes copies de Jean — le Papyrus 66 vers l'an 200, le Papyrus 75 peu après, et les grands codex du IVe siècle, le Sinaiticus et le Vaticanus. Les premières traductions en latin et en syriaque lisent « Dieu », non « un dieu ». Soyez précis cependant : les manuscrits établissent ce que le texte DIT, non comment l'interpréter. Ils écartent toute prétention selon laquelle « le Verbe était Dieu » aurait été inséré plus tard ; le sens du grec se décide ensuite par les points de grammaire ci-dessous."
+    },
+    {
+      "id": "src-granville-sharp",
+      "title": "La règle de Granville Sharp",
+      "shortClaim": "Une règle fixe de la grammaire grecque lie « Dieu » et « Sauveur » à une seule personne — Jésus — en Tite 2:13 et 2 Pierre 1:1.",
+      "category": "Outils de grammaire grecque",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Tite 2:13",
+          "translationUsed": "BJ",
+          "text": "en attendant la bienheureuse espérance et l'Apparition de la gloire de notre grand Dieu et Sauveur, le Christ Jésus,"
+        },
+        {
+          "citation": "2 Pierre 1:1",
+          "translationUsed": "BJ",
+          "text": "...dans la justice de notre Dieu et Sauveur Jésus Christ."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03c4\u03bf\u1fe6 \u03bc\u03b5\u03b3\u03ac\u03bb\u03bf\u03c5 \u03b8\u03b5\u03bf\u1fe6 \u03ba\u03b1\u1f76 \u03c3\u03c9\u03c4\u1fc6\u03c1\u03bf\u03c2 \u1f21\u03bc\u1ff6\u03bd",
+        "translit": "tou megalou theou kai sōtēros hēmōn",
+        "note": "La règle de Granville Sharp : lorsqu'UN SEUL article régit deux noms singuliers, personnels et non propres joints par « kai » (et), les deux noms désignent la MÊME personne. En Tite 2:13 et 2 Pierre 1:1, un seul article régit « Dieu » et « Sauveur », de sorte que les deux titres retombent sur un seul sujet, Jésus Christ. La TMN rompt la construction en insérant un second « de »/« le » devant « Sauveur » pour la scinder en deux personnes — une opération que le grec n'autorise pas."
+      },
+      "explanation": "Cette règle apparaît sur le site en Tite 2:13 et 2 Pierre 1:1. Elle est simple et bien établie : en grec, lorsqu'un seul article couvre deux noms personnels singuliers joints par « et », ils désignent une seule et même personne. Ainsi « notre grand Dieu et Sauveur Jésus Christ » est un seul sujet, Jésus — appelé à la fois Dieu et Sauveur. La Traduction du monde nouveau évite cela en insérant un mot supplémentaire pour disjoindre les deux titres en deux personnes ; l'article unique du grec ne le permet pas, et la TMN n'applique pas la même scission au parallèle « notre Seigneur et Sauveur Jésus Christ » plus loin dans 2 Pierre."
+    },
+    {
+      "id": "src-colwell-anarthrous",
+      "title": "Le prédicat nominal anarthre (Jean 1:1) et la remarque de Colwell",
+      "shortClaim": "Le « theos » sans article placé devant le verbe en Jean 1:1 est qualitatif — le Verbe a la nature de Dieu — et non un « un dieu » indéfini.",
+      "category": "Outils de grammaire grecque",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Jean 1:1",
+          "translationUsed": "BJ",
+          "text": "Au commencement était le Verbe, et le Verbe était auprès de Dieu, et le Verbe était Dieu."
+        }
+      ],
+      "originalLanguage": {
+        "language": "Grec",
+        "text": "\u03ba\u03b1\u1f76 \u03b8\u03b5\u1f78\u03c2 \u1f26\u03bd \u1f41 \u03bb\u03cc\u03b3\u03bf\u03c2",
+        "translit": "kai theos ēn ho logos",
+        "note": "Dans la troisième proposition, « theos » (Dieu) est un prédicat nominal SANS article, placé devant le verbe « ēn » (était). Un nom prédicat anarthre antéposé au verbe est, en grec, régulièrement QUALITATIF — il souligne la nature/le genre — plutôt qu'indéfini. La règle de Colwell (1933) observait que les noms prédicats définis placés devant le verbe perdent habituellement l'article ; la formulation moderne plus précise (Harner, Wallace) est que de tels noms sont typiquement qualitatifs. Dans un cas comme dans l'autre, « un dieu » (indéfini) n'est pas appuyé : la proposition dit que le Verbe est de la nature même de Dieu tout en demeurant personnellement distinct de « le Dieu » (le Père) de la proposition précédente."
+      },
+      "explanation": "Jean 1:1 comporte trois propositions : le Verbe existait « au commencement », le Verbe était « auprès de Dieu » (donc distinct du Père), et « le Verbe était Dieu ». Dans cette troisième proposition, le mot grec pour Dieu n'a pas d'article et précède le verbe. Cette construction, en grec, souligne normalement la NATURE — le Verbe est du même genre que Dieu — et non « un dieu » parmi d'autres. C'est le cœur grammatical du différend ; aussi faut-il l'énoncer avec soin : elle ne dit pas que le Verbe est le Père (les deux articles le feraient, ce qui serait du modalisme), et elle ne dit pas que le Verbe est une divinité inférieure (« un dieu » indéfini) ; elle dit que le Verbe partage l'unique nature divine tout en étant personnellement distinct. Voir la réserve sur la règle de Colwell ci-dessous."
+    },
+    {
+      "id": "src-nwt-committee",
+      "title": "Le comité anonyme de la Traduction du monde nouveau",
+      "shortClaim": "Les traducteurs de la TMN ont demandé à rester anonymes et la Watch Tower l'a respecté, de sorte que leur identité et leurs compétences ne peuvent être vérifiées.",
+      "category": "À propos de la Traduction du monde nouveau",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Watch Tower, Comment raisonner à partir des Écritures (et l'article « Traduction du monde nouveau », Watchtower Online Library, wol.jw.org)",
+          "translationUsed": "N/A — ouvrage de référence",
+          "text": "Le Comité de traduction de la Bible du monde nouveau a demandé l'anonymat lorsqu'il a cédé les droits de publication à la Société Watch Tower, et la Société déclare avoir respecté cette demande."
+        }
+      ],
+      "explanation": "Selon l'aveu même de la Watch Tower, le Comité de traduction de la Bible du monde nouveau a demandé que ses membres restent anonymes, et la Société a accepté. Le point pour le débat n'est pas que l'anonymat prouve l'erreur — il ne le fait pas — mais qu'il supprime la responsabilité : un lecteur ne peut vérifier qui a traduit le texte ni quelles qualifications en grec et en hébreu les traducteurs possédaient. Les grandes traductions de la Bible (par exemple la RSV, la NASB et l'ESV) publient leurs comités. Lorsqu'un Témoin invoque les rendus de la TMN sur les versets contestés, il est juste de demander quelle érudition les soutient."
+    },
+    {
+      "id": "src-237-jehovah",
+      "title": "Les 237 insertions de « Jéhovah » là où le grec lit « Seigneur »",
+      "shortClaim": "La TMN insère « Jéhovah » dans le Nouveau Testament 237 fois — selon le propre décompte de la Watch Tower — là où le grec conservé dit « Kyrios » (Seigneur), sans aucun appui des manuscrits grecs.",
+      "category": "À propos de la Traduction du monde nouveau",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Traduction du monde nouveau, Appendice A4, « Le nom divin dans les Écritures grecques chrétiennes » (jw.org)",
+          "translationUsed": "N/A — ouvrage de référence",
+          "text": "L'appendice même de la TMN déclare qu'elle emploie le nom Jéhovah 237 fois dans les Écritures grecques chrétiennes (le Nouveau Testament)."
+        }
+      ],
+      "explanation": "La TMN place le nom divin « Jéhovah » dans le texte du Nouveau Testament 237 fois. Ce chiffre n'est pas une estimation de critique — c'est le PROPRE décompte de la Watch Tower, indiqué dans l'Appendice A4 de la TMN. La difficulté est qu'aucun manuscrit grec conservé du Nouveau Testament ne contient le Tétragramme (YHWH) à ces endroits ; le grec lit « Kyrios » (Seigneur). La TMN défend ces insertions en invoquant des citations de l'Ancien Testament et des traductions hébraïques tardives (ses sources de référence « J »), non le témoignage des manuscrits grecs. Décider à l'avance où le Nouveau Testament « devrait » dire « Jéhovah » est en soi un choix doctrinal, et cela peut masquer les endroits où le Nouveau Testament applique « Seigneur » (Kyrios, le mot même de l'Ancien Testament grec pour YHWH) directement à Jésus."
+    },
+    {
+      "id": "src-divine-name",
+      "title": "Le nom divin : YHWH / le Tétragramme",
+      "shortClaim": "Le nom révélé en Exode 3:14-15 est YHWH (« JE SUIS CELUI QUI SUIS »), l'arrière-plan des arguments du « JE SUIS » et du « Premier et Dernier ».",
+      "category": "À propos de la Traduction du monde nouveau",
+      "strength": "supplementary",
+      "primaryReferences": [
+        {
+          "citation": "Exode 3:14",
+          "translationUsed": "BJ",
+          "text": "Dieu dit à Moïse : « Je suis celui qui est. » Et il dit : « Voici ce que tu diras aux Israélites : Je suis m'a envoyé vers vous. »"
+        }
+      ],
+      "originalLanguage": {
+        "language": "Hébreu",
+        "text": "\u05d9\u05d4\u05d5\u05d4",
+        "translit": "YHWH (Yahweh; rendered 'Jehovah' by the Watch Tower)",
+        "note": "Le Tétragramme, quatre consonnes hébraïques, est le nom propre de Dieu révélé à Moïse. « Jéhovah » est une vocalisation latinisée tardive combinant les consonnes YHWH avec les voyelles d'« Adonaï » (Seigneur). Ce nom sous-tend la parole du « JE SUIS » de Jean 8:58 et le titre de « Premier et Dernier » qu'Isaïe réserve à YHWH et que l'Apocalypse applique à Jésus."
+      },
+      "explanation": "Les deux camps de ce débat tiennent au nom divin ; aussi vaut-il la peine de l'énoncer clairement. En Exode 3:14-15, Dieu se nomme lui-même par les quatre lettres hébraïques YHWH, expliquées comme « JE SUIS CELUI QUI SUIS ». « Jéhovah » est une manière tardive de vocaliser ces consonnes. Ce nom est la clé de plusieurs arguments du site : lorsque Jésus dit « avant qu'Abraham existât, JE SUIS » (Jean 8:58) et lorsqu'il se dit « le Premier et le Dernier » (Apocalypse 1:17, un titre que YHWH se réserve à lui-même en Isaïe 44:6), il s'attribue l'identité du Dieu qui porte ce nom."
+    }
+  ],
+  "uncertainCitations": [
+    {
+      "citation": "La règle de Colwell (Jean 1:1)",
+      "issue": "Fréquemment MAL ÉNONCÉE dans l'apologétique populaire. La règle de Colwell concerne les noms prédicats DÉFINIS et ne prouve pas à elle seule que « theos » en Jean 1:1 est défini. Le point solide et défendable est la force QUALITATIVE d'un prédicat nominal anarthre antéposé au verbe (Harner, Wallace). Énoncez-le ainsi ; ne prétendez pas que « la règle de Colwell prouve que le Verbe est Dieu »."
+    },
+    {
+      "citation": "Les 237 insertions / les sources « J »",
+      "issue": "Le chiffre de 237 est celui de la Watch Tower elle-même (Appendice A4 de la TMN) et est cité comme tel. Mais aucun manuscrit grec conservé du Nouveau Testament ne contient le Tétragramme à ces endroits ; l'affirmation que le NT lisait « à l'origine » « Jéhovah » repose sur des traductions hébraïques tardives (les sources « J »), non sur des manuscrits grecs. Présentez les 237 comme des INSERTIONS documentées, non comme des leçons originales retrouvées."
+    },
+    {
+      "citation": "Le témoignage des manuscrits (ce qu'il prouve)",
+      "issue": "Les manuscrits établissent la FORMULATION d'un texte, non son interprétation. P66, P75, le Sinaiticus (\u2135/01) et le Vaticanus (B/03) assurent le grec de Jean 1:1 et de Jean 8:58, mais le sens dépend encore de la grammaire et du contexte. Évitez de prétendre qu'un papyrus « réfute “un dieu” » ; il assure le texte que l'argument grammatical interprète ensuite."
+    }
+  ]
 }
