@@ -1,0 +1,111 @@
+import type { UiStrings } from './types'
+
+// English chrome strings. Every value here is copied VERBATIM from the current
+// JSX literals, so externalizing a literal to this table is a render no-op: the
+// English UI stays byte-identical to today. Do not paraphrase these.
+export const en: UiStrings = {
+  htmlLang: 'en',
+  nav: {
+    brand: 'Ave Christus Rex',
+    primaryLabel: 'Primary',
+    searchDesktopLabel: 'Search (Cmd or Ctrl + K)',
+    searchMobileLabel: 'Search',
+    openMenu: 'Open navigation menu',
+    closeMenu: 'Close navigation menu',
+    toLightTheme: 'Switch to light theme',
+    toDarkTheme: 'Switch to dark theme',
+    comingSoonShort: 'Soon',
+    languageLabel: 'Language',
+  },
+  search: {
+    dialogLabel: 'Search the site',
+    closeLabel: 'Close search',
+    inputLabel: 'Search query',
+    placeholder: 'Search topics, arguments, scripture (e.g. John 1:1)',
+    escLabel: 'Close search (Escape)',
+    emptyTitle: 'Find any argument, topic, or verse.',
+    emptyHintPrefix: 'Try ',
+    exampleCitation: 'John 20:28',
+    exampleWord: 'forgives sin',
+    exampleTopic: 'watch tower',
+    noResultsFor: (q) => `No results for “${q}”.`,
+    noResultsHint: 'Try a different word, a book name, or a verse like “Colossians 1:16”.',
+    topicBadge: 'Topic',
+    topicComingSoonBadge: 'Topic · coming soon',
+    navHintMove: 'to navigate',
+    navHintOpen: 'to open',
+    navHintClose: 'to close',
+  },
+  filterBar: {
+    jumpLabel: 'Jump to section',
+    groupLabel: 'Filter arguments by strength',
+    all: 'All',
+    scriptural: 'Scriptural',
+    strong: 'Strong',
+    supplementary: 'Supplementary',
+  },
+  strengthBadge: {
+    scriptural: { label: 'Scriptural', description: 'Direct scriptural proof' },
+    strong: { label: 'Strong', description: 'Strong supporting argument' },
+    supplementary: { label: 'Supplementary', description: 'Supplementary or traditional note' },
+  },
+  argumentCard: {
+    copyAria: (title) => `Copy argument "${title}" with its references`,
+    copyTitle: 'Copy argument text',
+    linkAria: (title) => `Copy a link to argument "${title}"`,
+    linkTitle: 'Copy link to this argument',
+    copiedLive: 'Copied to clipboard',
+    copiedBadge: 'Copied',
+    nwtRebuttalTitle: 'New World Translation — the dispute',
+  },
+  originalLanguage: { fallbackLabel: 'Original language' },
+  callout: {
+    pleaseNote: 'Please note',
+    displayTranslation: 'Display translation',
+    displayTranslationWith: (name) => `Display translation — ${name}`,
+    divineName: 'On the divine name',
+    methodology: 'Methodology',
+  },
+  sectionHeader: { argument: 'argument', arguments: 'arguments' },
+  topicPage: {
+    backHome: '← Back to home',
+    allTopics: '← All topics',
+    topicNotFoundTitle: 'Topic not found',
+    topicNotFoundBody: "We couldn't find that topic.",
+    comingSoonBadge: 'Coming soon',
+    comingSoonBody: 'This section is in preparation and will be published soon.',
+    strongestTitle: 'Strongest arguments',
+    strongestBlurb: 'The clearest and most direct evidence.',
+    honestCaveats: (n) => `Honest caveats (${n})`,
+    honestCaveatsBody:
+      'Points of versification, translation uncertainty, or devotional (non-probative) claims, flagged for honest debate.',
+  },
+  home: {
+    eyebrow: 'Veritas',
+    brand: 'Ave Christus Rex',
+    tagline: 'Hail Christ the King',
+    intro:
+      'A source-cited case for the truths of the Catholic Christian faith — beginning with the divinity of Jesus Christ. Each claim is paired with its Scripture, the original language where it matters, and the disputed translation it answers.',
+    topicsHeading: 'Topics',
+    live: 'Live',
+    comingSoon: 'Coming soon',
+    explore: 'Explore the case →',
+  },
+  layout: {
+    skipToContent: 'Skip to content',
+    footerBrand: 'Ave Christus Rex',
+    footerTagline: 'Hail Christ the King — a sourced case for the divinity of Christ.',
+    footerNote: 'Every claim is cited; honest caveats are flagged. For civil, evidence-based study.',
+  },
+  notFound: {
+    code: '404',
+    title: 'Page not found',
+    body: "The page you were looking for isn't here.",
+    backHome: '← Back to home',
+  },
+  meta: {
+    title: 'Ave Christus Rex',
+    description:
+      'Ave Christus Rex — a source-cited case for the divinity of Jesus Christ and the truth of the Catholic Christian faith.',
+  },
+}

@@ -1,0 +1,111 @@
+import type { UiStrings } from './types'
+
+// French chrome strings. Faithful French translations of every UiStrings key.
+// The TypeScript type guarantees completeness — a missing key fails typecheck.
+export const fr: UiStrings = {
+  htmlLang: 'fr',
+  nav: {
+    brand: 'Ave Christus Rex',
+    primaryLabel: 'Principal',
+    searchDesktopLabel: 'Rechercher (Cmd ou Ctrl + K)',
+    searchMobileLabel: 'Rechercher',
+    openMenu: 'Ouvrir le menu de navigation',
+    closeMenu: 'Fermer le menu de navigation',
+    toLightTheme: 'Passer au thème clair',
+    toDarkTheme: 'Passer au thème sombre',
+    comingSoonShort: 'Bientôt',
+    languageLabel: 'Langue',
+  },
+  search: {
+    dialogLabel: 'Rechercher sur le site',
+    closeLabel: 'Fermer la recherche',
+    inputLabel: 'Requête de recherche',
+    placeholder: 'Rechercher sujets, arguments, Écriture (p. ex. Jean 1:1)',
+    escLabel: 'Fermer la recherche (Échap)',
+    emptyTitle: 'Trouvez un argument, un sujet ou un verset.',
+    emptyHintPrefix: 'Essayez ',
+    exampleCitation: 'Jean 20:28',
+    exampleWord: 'pardonne les péchés',
+    exampleTopic: 'tour de garde',
+    noResultsFor: (q) => `Aucun résultat pour « ${q} ».`,
+    noResultsHint: 'Essayez un autre mot, un nom de livre ou un verset comme « Colossiens 1:16 ».',
+    topicBadge: 'Sujet',
+    topicComingSoonBadge: 'Sujet · à venir',
+    navHintMove: 'pour naviguer',
+    navHintOpen: 'pour ouvrir',
+    navHintClose: 'pour fermer',
+  },
+  filterBar: {
+    jumpLabel: 'Aller à la section',
+    groupLabel: 'Filtrer les arguments par force',
+    all: 'Tous',
+    scriptural: 'Scripturaire',
+    strong: 'Fort',
+    supplementary: 'Complémentaire',
+  },
+  strengthBadge: {
+    scriptural: { label: 'Scripturaire', description: 'Preuve scripturaire directe' },
+    strong: { label: 'Fort', description: 'Argument de soutien solide' },
+    supplementary: { label: 'Complémentaire', description: 'Note complémentaire ou traditionnelle' },
+  },
+  argumentCard: {
+    copyAria: (title) => `Copier l'argument « ${title} » avec ses références`,
+    copyTitle: "Copier le texte de l'argument",
+    linkAria: (title) => `Copier un lien vers l'argument « ${title} »`,
+    linkTitle: 'Copier le lien vers cet argument',
+    copiedLive: 'Copié dans le presse-papiers',
+    copiedBadge: 'Copié',
+    nwtRebuttalTitle: 'Traduction du monde nouveau (TMN) — le différend',
+  },
+  originalLanguage: { fallbackLabel: "Langue d'origine" },
+  callout: {
+    pleaseNote: 'À noter',
+    displayTranslation: 'Traduction affichée',
+    displayTranslationWith: (name) => `Traduction affichée — ${name}`,
+    divineName: 'Sur le nom divin',
+    methodology: 'Méthodologie',
+  },
+  sectionHeader: { argument: 'argument', arguments: 'arguments' },
+  topicPage: {
+    backHome: "← Retour à l'accueil",
+    allTopics: '← Tous les sujets',
+    topicNotFoundTitle: 'Sujet introuvable',
+    topicNotFoundBody: "Nous n'avons pas trouvé ce sujet.",
+    comingSoonBadge: 'À venir',
+    comingSoonBody: 'Cette section est en préparation et sera publiée bientôt.',
+    strongestTitle: 'Arguments les plus forts',
+    strongestBlurb: 'Les preuves les plus claires et les plus directes.',
+    honestCaveats: (n) => `Réserves honnêtes (${n})`,
+    honestCaveatsBody:
+      'Points de versification, incertitudes de traduction ou affirmations dévotionnelles (non probantes), signalés pour un débat honnête.',
+  },
+  home: {
+    eyebrow: 'Veritas',
+    brand: 'Ave Christus Rex',
+    tagline: 'Salut au Christ Roi',
+    intro:
+      "Un plaidoyer sourcé pour les vérités de la foi catholique — en commençant par la divinité de Jésus-Christ. Chaque affirmation est accompagnée de son Écriture, de la langue d'origine quand elle importe, et de la traduction contestée à laquelle elle répond.",
+    topicsHeading: 'Sujets',
+    live: 'En ligne',
+    comingSoon: 'À venir',
+    explore: 'Découvrir le dossier →',
+  },
+  layout: {
+    skipToContent: 'Aller au contenu',
+    footerBrand: 'Ave Christus Rex',
+    footerTagline: 'Salut au Christ Roi — un dossier sourcé sur la divinité du Christ.',
+    footerNote:
+      'Chaque affirmation est citée ; les réserves honnêtes sont signalées. Pour une étude civile et fondée sur les preuves.',
+  },
+  notFound: {
+    code: '404',
+    title: 'Page introuvable',
+    body: "La page que vous cherchiez n'est pas ici.",
+    backHome: "← Retour à l'accueil",
+  },
+  meta: {
+    title: 'Ave Christus Rex',
+    description:
+      'Ave Christus Rex — un plaidoyer sourcé pour la divinité de Jésus-Christ et la vérité de la foi catholique.',
+  },
+}
