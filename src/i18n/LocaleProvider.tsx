@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 import Home from '../pages/Home'
 import TopicPage from '../pages/TopicPage'
 import NotFound from '../pages/NotFound'
-import { DEFAULT_LOCALE, resolveLocaleFromPath, type LocaleCode } from './locales'
+import { DEFAULT_LOCALE, nonDefaultCodes, resolveLocaleFromPath, type LocaleCode } from './locales'
 import { useDocumentMeta } from './useDocumentMeta'
 
 /**
@@ -48,15 +48,35 @@ export default function LocaleRouter() {
     return <Navigate replace to={`${rest}${location.hash}`} />
   }
 
+  // The page routes, identical for every locale. They are mounted once at the
+  // root (the default locale is unprefixed) and once under each non-default
+  // locale's URL prefix (e.g. `/fr`), so `/fr`, `/fr/`, and `/fr/topic/:id` all
+  // match the same tree instead of falling through to the `*` NotFound. The
+  // prefixed branch uses an index route so the BARE `/fr` (no trailing slash)
+  // resolves to Home just like the trailing-slash `/fr/`.
   return (
     <LocaleProvider value={locale}>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/topic/:topicId" element={<TopicPage />} />
-          <Route path="*" element={<NotFound />} />
+          {pageRoutes()}
+          {nonDefaultCodes().map((code) => (
+            <Route key={code} path={code}>
+              {pageRoutes()}
+            </Route>
+          ))}
         </Route>
       </Routes>
     </LocaleProvider>
+  )
+}
+
+/** The locale-agnostic page routes, rendered once per locale branch. */
+function pageRoutes() {
+  return (
+    <>
+      <Route index element={<Home />} />
+      <Route path="topic/:topicId" element={<TopicPage />} />
+      <Route path="*" element={<NotFound />} />
+    </>
   )
 }
